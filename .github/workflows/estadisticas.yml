@@ -1,0 +1,33 @@
+name: Estadisticas Instagram
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  leer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Leer la API de Instagram
+        env:
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          IG_USER: "17841430322145064"
+        run: python leer_estadisticas.py
+
+      - name: Guardar los datos
+        run: |
+          git config user.name "hoymegusto-bot"
+          git config user.email "actions@github.com"
+          git add datos/estadisticas.json
+          git diff --staged --quiet || git commit -m "Estadisticas $(date -u +%F)"
+          git push
