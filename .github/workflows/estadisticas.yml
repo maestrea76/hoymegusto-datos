@@ -21,13 +21,13 @@ jobs:
       - name: Leer la API de Instagram
         env:
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          IG_USER: "17841430322145064"
+          IG_USER: "28152713647716895"
         run: python leer_estadisticas.py
 
       - name: Guardar los datos
         run: |
           git config user.name "hoymegusto-bot"
-          git config user.email "actions@github.com"
+          git config user.email "estadisticas@github.com"
           git add datos/estadisticas.json
           git diff --staged --quiet || git commit -m "Estadisticas $(date -u +%F)"
           git push
