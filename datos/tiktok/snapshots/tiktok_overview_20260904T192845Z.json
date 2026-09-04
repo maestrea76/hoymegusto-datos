@@ -1,0 +1,3727 @@
+{
+  "imported_at": "20260904T192845Z",
+  "account": "@hoymegusto",
+  "source": "TikTok Studio Overview.csv (official)",
+  "kind": "account_overview_daily",
+  "schema_note": "Overview lacks video_id, avg_watch, followers_net. Need Videos export for per-post rows.",
+  "date_range": [
+    "2025-09-04",
+    "2026-09-03"
+  ],
+  "totals": {
+    "views": 2450,
+    "likes": 19,
+    "comments": 0,
+    "shares": 1,
+    "profile_views": 9
+  },
+  "nonzero_days": [
+    {
+      "fecha": "2026-08-30",
+      "video_id": null,
+      "views": 23,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 0
+    },
+    {
+      "fecha": "2026-08-31",
+      "video_id": null,
+      "views": 8,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 0
+    },
+    {
+      "fecha": "2026-09-01",
+      "video_id": null,
+      "views": 295,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 0
+    },
+    {
+      "fecha": "2026-09-02",
+      "video_id": null,
+      "views": 1574,
+      "likes": 17,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 7
+    },
+    {
+      "fecha": "2026-09-03",
+      "video_id": null,
+      "views": 550,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 2
+    }
+  ],
+  "rows": [
+    {
+      "fecha": "2025-09-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-09-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-10-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-11-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2025-12-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-01-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-02-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-03-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-04-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-05-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-06-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-30",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-07-31",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-01",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-02",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-03",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-04",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-05",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-06",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-07",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-08",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-09",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-10",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-11",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-12",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-13",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-14",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-15",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-16",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-17",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-18",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-19",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-20",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-21",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-22",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-23",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-24",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-25",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-26",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-27",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-28",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-29",
+      "video_id": null,
+      "views": 0,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-30",
+      "video_id": null,
+      "views": 23,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-08-31",
+      "video_id": null,
+      "views": 8,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-09-01",
+      "video_id": null,
+      "views": 295,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-09-02",
+      "video_id": null,
+      "views": 1574,
+      "likes": 17,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    },
+    {
+      "fecha": "2026-09-03",
+      "video_id": null,
+      "views": 550,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null
+    }
+  ]
+}
