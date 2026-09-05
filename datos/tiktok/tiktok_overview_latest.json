@@ -1,12 +1,12 @@
 {
-  "imported_at": "20260905T213907Z",
+  "imported_at": "20260905T213928Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Overview.csv (official)",
   "kind": "account_overview_daily",
   "schema_note": "Overview lacks video_id, avg_watch, followers_net. Need Videos export for per-post rows.",
   "date_range": [
-    "2025-07-07",
-    "2025-09-04"
+    "2026-07-07",
+    "2026-09-04"
   ],
   "totals": {
     "views": 2463,
@@ -17,7 +17,7 @@
   },
   "nonzero_days": [
     {
-      "fecha": "2025-08-30",
+      "fecha": "2026-08-30",
       "video_id": null,
       "views": 23,
       "likes": 0,
@@ -28,7 +28,7 @@
       "profile_views": 0
     },
     {
-      "fecha": "2025-08-31",
+      "fecha": "2026-08-31",
       "video_id": null,
       "views": 8,
       "likes": 0,
@@ -39,7 +39,7 @@
       "profile_views": 0
     },
     {
-      "fecha": "2025-09-01",
+      "fecha": "2026-09-01",
       "video_id": null,
       "views": 295,
       "likes": 2,
@@ -50,7 +50,7 @@
       "profile_views": 0
     },
     {
-      "fecha": "2025-09-02",
+      "fecha": "2026-09-02",
       "video_id": null,
       "views": 1574,
       "likes": 17,
@@ -61,7 +61,7 @@
       "profile_views": 7
     },
     {
-      "fecha": "2025-09-03",
+      "fecha": "2026-09-03",
       "video_id": null,
       "views": 550,
       "likes": 0,
@@ -72,7 +72,7 @@
       "profile_views": 2
     },
     {
-      "fecha": "2025-09-04",
+      "fecha": "2026-09-04",
       "video_id": null,
       "views": 13,
       "likes": 0,
@@ -85,7 +85,7 @@
   ],
   "rows": [
     {
-      "fecha": "2025-07-07",
+      "fecha": "2026-07-07",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -95,7 +95,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-08",
+      "fecha": "2026-07-08",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -105,7 +105,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-09",
+      "fecha": "2026-07-09",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -115,7 +115,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-10",
+      "fecha": "2026-07-10",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -125,7 +125,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-11",
+      "fecha": "2026-07-11",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -135,7 +135,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-12",
+      "fecha": "2026-07-12",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -145,7 +145,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-13",
+      "fecha": "2026-07-13",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -155,7 +155,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-14",
+      "fecha": "2026-07-14",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -165,7 +165,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-15",
+      "fecha": "2026-07-15",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -175,7 +175,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-16",
+      "fecha": "2026-07-16",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -185,7 +185,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-17",
+      "fecha": "2026-07-17",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -195,7 +195,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-18",
+      "fecha": "2026-07-18",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -205,7 +205,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-19",
+      "fecha": "2026-07-19",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -215,7 +215,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-20",
+      "fecha": "2026-07-20",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -225,7 +225,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-21",
+      "fecha": "2026-07-21",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -235,7 +235,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-22",
+      "fecha": "2026-07-22",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -245,7 +245,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-23",
+      "fecha": "2026-07-23",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -255,7 +255,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-24",
+      "fecha": "2026-07-24",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -265,7 +265,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-25",
+      "fecha": "2026-07-25",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -275,7 +275,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-26",
+      "fecha": "2026-07-26",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -285,7 +285,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-27",
+      "fecha": "2026-07-27",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -295,7 +295,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-28",
+      "fecha": "2026-07-28",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -305,7 +305,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-29",
+      "fecha": "2026-07-29",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -315,7 +315,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-30",
+      "fecha": "2026-07-30",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -325,7 +325,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-07-31",
+      "fecha": "2026-07-31",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -335,7 +335,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-01",
+      "fecha": "2026-08-01",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -345,7 +345,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-02",
+      "fecha": "2026-08-02",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -355,7 +355,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-03",
+      "fecha": "2026-08-03",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -365,7 +365,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-04",
+      "fecha": "2026-08-04",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -375,7 +375,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-05",
+      "fecha": "2026-08-05",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -385,7 +385,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-06",
+      "fecha": "2026-08-06",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -395,7 +395,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-07",
+      "fecha": "2026-08-07",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -405,7 +405,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-08",
+      "fecha": "2026-08-08",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -415,7 +415,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-09",
+      "fecha": "2026-08-09",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -425,7 +425,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-10",
+      "fecha": "2026-08-10",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -435,7 +435,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-11",
+      "fecha": "2026-08-11",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -445,7 +445,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-12",
+      "fecha": "2026-08-12",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -455,7 +455,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-13",
+      "fecha": "2026-08-13",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -465,7 +465,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-14",
+      "fecha": "2026-08-14",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -475,7 +475,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-15",
+      "fecha": "2026-08-15",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -485,7 +485,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-16",
+      "fecha": "2026-08-16",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -495,7 +495,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-17",
+      "fecha": "2026-08-17",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -505,7 +505,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-18",
+      "fecha": "2026-08-18",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -515,7 +515,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-19",
+      "fecha": "2026-08-19",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -525,7 +525,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-20",
+      "fecha": "2026-08-20",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -535,7 +535,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-21",
+      "fecha": "2026-08-21",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -545,7 +545,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-22",
+      "fecha": "2026-08-22",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -555,7 +555,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-23",
+      "fecha": "2026-08-23",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -565,7 +565,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-24",
+      "fecha": "2026-08-24",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -575,7 +575,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-25",
+      "fecha": "2026-08-25",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -585,7 +585,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-26",
+      "fecha": "2026-08-26",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -595,7 +595,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-27",
+      "fecha": "2026-08-27",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -605,7 +605,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-28",
+      "fecha": "2026-08-28",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -615,7 +615,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-29",
+      "fecha": "2026-08-29",
       "video_id": null,
       "views": 0,
       "likes": 0,
@@ -625,7 +625,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-30",
+      "fecha": "2026-08-30",
       "video_id": null,
       "views": 23,
       "likes": 0,
@@ -635,7 +635,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-08-31",
+      "fecha": "2026-08-31",
       "video_id": null,
       "views": 8,
       "likes": 0,
@@ -645,7 +645,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-09-01",
+      "fecha": "2026-09-01",
       "video_id": null,
       "views": 295,
       "likes": 2,
@@ -655,7 +655,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-09-02",
+      "fecha": "2026-09-02",
       "video_id": null,
       "views": 1574,
       "likes": 17,
@@ -665,7 +665,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-09-03",
+      "fecha": "2026-09-03",
       "video_id": null,
       "views": 550,
       "likes": 0,
@@ -675,7 +675,7 @@
       "followers_net": null
     },
     {
-      "fecha": "2025-09-04",
+      "fecha": "2026-09-04",
       "video_id": null,
       "views": 13,
       "likes": 0,
