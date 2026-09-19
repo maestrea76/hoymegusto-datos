@@ -1,0 +1,41 @@
+name: Diagnostico semanal
+
+# El jefe revisa el panel cada martes a las 10:00 Europe/Madrid.
+# Este job corre a las 09:00 Madrid (CEST=07:00 UTC, CET=08:00 UTC)
+# para que el JSON ya esté en main a las 10:00.
+on:
+  schedule:
+    - cron: "0 7 * * 2"
+    - cron: "0 8 * * 2"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  diagnosticar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Generar briefing
+        env:
+          REQUIRE_MADRID_HOUR: ${{ github.event_name == 'schedule' && '9' || '' }}
+        run: python diagnostico_semanal.py
+
+      - name: Guardar
+        run: |
+          git config user.name "hoymegusto-bot"
+          git config user.email "estadisticas@github.com"
+          git add datos/diagnostico_semanal.json
+          if git diff --staged --quiet; then
+            echo "Sin cambios"
+            exit 0
+          fi
+          git commit -m "Diagnostico semanal $(date -u +%G-W%V)"
+          git pull --rebase origin main
+          git push

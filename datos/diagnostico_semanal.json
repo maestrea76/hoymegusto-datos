@@ -1,0 +1,116 @@
+{
+  "generado": "2026-09-19T19:03:56.659578+02:00",
+  "semana": "2026-W38",
+  "revision": {
+    "cuando": "martes 10:00 Europe/Madrid",
+    "proxima": "2026-09-22T10:00:00+02:00",
+    "siguiente_ciclo": "2026-09-29T10:00:00+02:00"
+  },
+  "headline": "Cero clics al enlace",
+  "lead": "119 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1.",
+  "sev": "bad",
+  "pills": [
+    [
+      "Conversión",
+      "bad"
+    ],
+    [
+      "Views→perfil TT",
+      "bad"
+    ],
+    [
+      "Distribución IG",
+      "bad"
+    ],
+    [
+      "Viral",
+      "bad"
+    ]
+  ],
+  "problemas": [
+    {
+      "sev": "bad",
+      "t": "Cero clics al enlace",
+      "d": "119 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1."
+    },
+    {
+      "sev": "bad",
+      "t": "TikTok no lleva al perfil",
+      "d": "Views→perfil 0.25% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
+    },
+    {
+      "sev": "bad",
+      "t": "El algoritmo no empuja en Instagram",
+      "d": "14 de 20 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
+    },
+    {
+      "sev": "warn",
+      "t": "No hay bucle viral",
+      "d": "1 guardados y 4 compartidos (0.09% save). En belleza manda el save; se comparte la pega, no el elogio."
+    },
+    {
+      "sev": "warn",
+      "t": "No leas el pico de TikTok como orgánico",
+      "d": "2 piezas promo y 7 de núcleo. Mediana orgánica 276 views. Las decisiones de formato salen del núcleo."
+    },
+    {
+      "sev": "warn",
+      "t": "Falta el primer comentario",
+      "d": "20 de 20 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+    },
+    {
+      "sev": "ns",
+      "t": "Meta no manda views/day",
+      "d": "views no vino en serie_diaria (solo ['reach'])"
+    }
+  ],
+  "acciones": [
+    {
+      "k": "01 · Clics + 1er comentario",
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Hoy el 1er comentario falla en todas."
+    },
+    {
+      "k": "02 · Formato",
+      "t": "Repite el gancho de «Ronda los trece euros. Ese es todo el drama.» (3 shares). La pega va en el segundo 1–3."
+    },
+    {
+      "k": "03 · Cadencia TT",
+      "t": "Objetivo ~2/día. El núcleo orgánico es la referencia; promo y outlier se etiquetan aparte."
+    }
+  ],
+  "kpis": {
+    "followers_ig": 11.0,
+    "delta_7d": null,
+    "delta_7d_nota": "serie <7d",
+    "delta_30d": null,
+    "delta_30d_nota": "serie <30d",
+    "website_clicks": 0.0,
+    "profile_views": 119.0,
+    "views_ig_piezas": 1074.0,
+    "tt_views": 12217.0,
+    "tt_profile_views": 31.0,
+    "tt_views_perfil": 0.0025374478186134075,
+    "ig_bajo_50": "14/20",
+    "primer_comentario_ok": "0/20",
+    "cola_pendientes": 16,
+    "cola_publicados": 7,
+    "tt_cadencia_7d": "3/14",
+    "ig_carruseles_7d": 0,
+    "ig_reels_7d": 6,
+    "mejor_reel": {
+      "title": "Un bote de estos no es barato. Y la marca no te dice lo molesto.",
+      "views": 311.0,
+      "avg": 11.2
+    }
+  },
+  "fuentes": {
+    "estadisticas": true,
+    "serie_cuenta": true,
+    "cola": true,
+    "tiktok": true,
+    "overview": true,
+    "tt_generado": "2026-09-19T16:42:15+00:00",
+    "tt_content_import": "20260919T164215Z"
+  },
+  "regla": "no inventar nulls; umbrales fijos; promo ≠ orgánico; manda API/CSV no la parrilla"
+}
