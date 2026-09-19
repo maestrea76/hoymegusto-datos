@@ -1,10 +1,10 @@
 {
-  "generado": "2026-09-19T16:26:48.066217+00:00",
+  "generado": "2026-09-19T17:05:04.335487+00:00",
   "actualizado": "2026-09-19",
   "fuente": "02-canonicos Drive + product_log (solo conteos)",
   "conteos": {
-    "pendientes": 16,
-    "publicados": 7
+    "pendientes": 15,
+    "publicados": 8
   },
   "siguientes": [
     {
@@ -81,7 +81,7 @@
     },
     {
       "nombre": "belif Aqua Bomb (carrusel)",
-      "estado": "producido",
+      "estado": "usado",
       "fecha": "2026-09-19",
       "canal": "IG"
     },
