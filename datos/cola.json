@@ -1,0 +1,120 @@
+{
+  "actualizado": "2026-09-19",
+  "fuente": "02-canonicos Drive + product_log (solo conteos)",
+  "conteos": {
+    "pendientes": 16,
+    "publicados": 7
+  },
+  "siguientes": [
+    {
+      "nombre": "Fenty Beauty",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "belif Aqua Bomb",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Erborian CC Red Correct",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "BIODANCE Collagen Mask",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "dear klairs Freshly Juiced",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "MADARA",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Huda Beauty",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Kerastase Therapiste",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Vichy Liftactiv",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Real Techniques",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "medicube Triple Collagen",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "First Aid Beauty",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "TT"
+    },
+    {
+      "nombre": "belif Aqua Bomb (carrusel)",
+      "estado": "producido",
+      "fecha": "2026-09-19",
+      "canal": "IG"
+    },
+    {
+      "nombre": "BIODANCE Collagen Mask (carrusel)",
+      "estado": "usado",
+      "fecha": "2026-09-19",
+      "canal": "IG"
+    },
+    {
+      "nombre": "First Aid Beauty",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "IG"
+    },
+    {
+      "nombre": "Vichy Liftactiv",
+      "estado": "listo",
+      "fecha": "2026-09-12",
+      "canal": "IG"
+    },
+    {
+      "nombre": "Real Techniques",
+      "estado": "listo",
+      "fecha": "2026-09-18",
+      "canal": "IG"
+    }
+  ],
+  "_schema": {
+    "estado": [
+      "listo",
+      "producido",
+      "usado"
+    ],
+    "nota": "Repo publico: cero codigos de producto Amazon. Actualizar al crear packs y al archivar tras publish."
+  }
+}
