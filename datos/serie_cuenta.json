@@ -1,0 +1,217 @@
+{
+  "generado": "2026-09-18T20:26:08.085222+00:00",
+  "fuente": "instagram_graph",
+  "dias": [
+    {
+      "fecha": "2026-08-20",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-21",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-22",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-23",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-24",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-25",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-26",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-27",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-28",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-29",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-08-30",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 49
+    },
+    {
+      "fecha": "2026-08-31",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 253
+    },
+    {
+      "fecha": "2026-09-01",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 539
+    },
+    {
+      "fecha": "2026-09-02",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 495
+    },
+    {
+      "fecha": "2026-09-03",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 10
+    },
+    {
+      "fecha": "2026-09-04",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 26
+    },
+    {
+      "fecha": "2026-09-05",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 214
+    },
+    {
+      "fecha": "2026-09-06",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 5
+    },
+    {
+      "fecha": "2026-09-07",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 4
+    },
+    {
+      "fecha": "2026-09-08",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 1
+    },
+    {
+      "fecha": "2026-09-09",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 0
+    },
+    {
+      "fecha": "2026-09-10",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 1
+    },
+    {
+      "fecha": "2026-09-11",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 125
+    },
+    {
+      "fecha": "2026-09-12",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 136
+    },
+    {
+      "fecha": "2026-09-13",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 33
+    },
+    {
+      "fecha": "2026-09-14",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 9
+    },
+    {
+      "fecha": "2026-09-15",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 3
+    },
+    {
+      "fecha": "2026-09-16",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 3
+    },
+    {
+      "fecha": "2026-09-17",
+      "followers_count": null,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": 4
+    },
+    {
+      "fecha": "2026-09-18",
+      "followers_count": 11,
+      "profile_views": null,
+      "website_clicks": null,
+      "reach": null
+    }
+  ],
+  "nota": "Seed inicial desde estadisticas.json reach; profile_views/website_clicks diarios se rellenan cuando Meta los dé en serie_perfil_clicks."
+}
