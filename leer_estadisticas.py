@@ -1,10 +1,9 @@
 """Lee las estadisticas de @hoymegusto en la API de Instagram y las deja en datos/estadisticas.json.
 
-Corre en GitHub Actions, que si tiene salida hacia graph.instagram.com.
-El token vive en el secreto IG_TOKEN y nunca se escribe en el fichero de salida.
+Tambien mantiene datos/serie_cuenta.json: una fila por dia (fecha, followers_count,
+profile_views, website_clicks, reach). No inventa follows_and_unfollows ni cifras.
 
-Cada bloque de metricas se pide por separado y, si Meta lo rechaza, el error se guarda
-en el JSON en vez de tumbar la ejecucion. Asi vemos que acepta y que no sin adivinar.
+Corre en GitHub Actions. El token vive en IG_TOKEN y nunca se escribe en la salida.
 """
 
 import datetime
@@ -18,6 +17,8 @@ import urllib.request
 API = "https://graph.instagram.com/v23.0"
 TOKEN = os.environ["IG_TOKEN"]
 USER = os.environ["IG_USER"]
+SERIE_PATH = os.path.join("datos", "serie_cuenta.json")
+ESTADISTICAS_PATH = os.path.join("datos", "estadisticas.json")
 
 
 def get(path, **params):
@@ -50,6 +51,62 @@ def valores(respuesta):
     return fuera
 
 
+def serie_a_mapa(data_list, metric_name):
+    """De data[] de insights period=day -> {YYYY-MM-DD: value} para una metrica."""
+    out = {}
+    for fila in data_list or []:
+        if fila.get("name") != metric_name:
+            continue
+        for v in fila.get("values") or []:
+            end = v.get("end_time") or ""
+            # end_time tipo 2026-09-17T07:00:00+0000 -> fecha calendario UTC
+            fecha = end[:10]
+            if len(fecha) == 10:
+                out[fecha] = v.get("value")
+    return out
+
+
+def cargar_serie():
+    if not os.path.exists(SERIE_PATH):
+        return {"generado": None, "fuente": "instagram_graph", "dias": []}
+    with open(SERIE_PATH, encoding="utf-8") as f:
+        data = json.load(f)
+    if not isinstance(data, dict):
+        return {"generado": None, "fuente": "instagram_graph", "dias": []}
+    data.setdefault("fuente", "instagram_graph")
+    data.setdefault("dias", [])
+    if not isinstance(data["dias"], list):
+        data["dias"] = []
+    return data
+
+
+def upsert_dia(dias, fila):
+    """Fusiona por fecha; no borra campos ya rellenados con None nuevos."""
+    fecha = fila["fecha"]
+    for i, old in enumerate(dias):
+        if old.get("fecha") == fecha:
+            merged = dict(old)
+            for k, v in fila.items():
+                if v is None and merged.get(k) is not None:
+                    continue
+                merged[k] = v
+            dias[i] = merged
+            return
+    dias.append(fila)
+
+
+def primer_comentario_ok(comentarios, username):
+    """True si hay al menos un comentario del propio username (regla primer comentario)."""
+    if not isinstance(comentarios, list) or not username:
+        return False
+    uname = username.lstrip("@").lower()
+    for c in comentarios:
+        u = (c.get("username") or "").lstrip("@").lower()
+        if u and u == uname:
+            return True
+    return False
+
+
 # ---------- la cuenta ----------
 cuenta = get(
     USER,
@@ -64,7 +121,9 @@ hasta = int(datetime.datetime.combine(hoy, datetime.time()).timestamp())
 
 cuenta_insights = {}
 cuenta_errores = {}
+metric_errores = {}
 
+# Serie diaria: reach + views (views a menudo falla; se registra por metrica).
 bloques = [
     ("serie_diaria", {"metric": "reach,views", "period": "day", "since": desde, "until": hasta}),
     (
@@ -72,6 +131,15 @@ bloques = [
         {
             "metric": "profile_views,website_clicks,accounts_engaged,total_interactions,likes,comments,saves,shares,replies,follows_and_unfollows",
             "metric_type": "total_value",
+            "period": "day",
+            "since": desde, "until": hasta,
+        },
+    ),
+    # Intento de serie diaria para clicks/visitas (si Meta lo rechaza, queda en errores y nulls).
+    (
+        "serie_perfil_clicks",
+        {
+            "metric": "profile_views,website_clicks",
             "period": "day",
             "since": desde,
             "until": hasta,
@@ -84,7 +152,16 @@ for nombre, params in bloques:
     if "error" in r:
         cuenta_errores[nombre] = r["error"]
     else:
-        cuenta_insights[nombre] = r.get("data", r)
+        data = r.get("data", r)
+        cuenta_insights[nombre] = data
+        if nombre == "serie_diaria" and isinstance(data, list):
+            names = {fila.get("name") for fila in data}
+            if "views" not in names:
+                metric_errores["views_day"] = {
+                    "message": "views no vino en serie_diaria (solo {})".format(
+                        sorted(n for n in names if n)
+                    )
+                }
     time.sleep(1)
 
 # ---------- las publicaciones ----------
@@ -96,20 +173,19 @@ media = get(
 
 BASE = "views,reach,likes,comments,shares,saved,total_interactions"
 REELS = BASE + ",ig_reels_avg_watch_time,ig_reels_video_view_total_time"
+username = (cuenta.get("username") if isinstance(cuenta, dict) else None) or ""
 
 publicaciones = []
 for m in media.get("data", []):
     metricas = REELS if m.get("media_product_type") == "REELS" else BASE
     ins = get("{}/insights".format(m["id"]), metric=metricas)
     if "error" in ins and metricas == REELS:
-        # Si el bloque de reels lo rechaza, reintenta con las metricas basicas.
         m["insights_error_reels"] = ins["error"]
         ins = get("{}/insights".format(m["id"]), metric=BASE)
     m["insights"] = valores(ins)
     if "error" in ins:
         m["insights_error"] = ins["error"]
 
-    # Tiempo medio de visionado en segundos, que es como lo leemos en la app.
     avg = m["insights"].get("ig_reels_avg_watch_time")
     if isinstance(avg, (int, float)):
         m["insights"]["segundos_medios"] = round(avg / 1000.0, 1)
@@ -122,27 +198,72 @@ for m in media.get("data", []):
     )
     if "error" in comentarios:
         m["comentarios_error"] = comentarios["error"]
+        m["primer_comentario_ok"] = False
     else:
         m["comentarios"] = comentarios.get("data", [])
+        m["primer_comentario_ok"] = primer_comentario_ok(m["comentarios"], username)
 
     publicaciones.append(m)
     time.sleep(1)
 
+ahora = datetime.datetime.now(datetime.timezone.utc)
 salida = {
-    "generado": datetime.datetime.now(datetime.timezone.utc).isoformat(),
+    "generado": ahora.isoformat(),
     "cuenta": cuenta,
     "cuenta_insights": cuenta_insights,
     "cuenta_insights_errores": cuenta_errores,
+    "metric_errores": metric_errores,
     "publicaciones": publicaciones,
 }
 
 os.makedirs("datos", exist_ok=True)
-with open("datos/estadisticas.json", "w", encoding="utf-8") as f:
+with open(ESTADISTICAS_PATH, "w", encoding="utf-8") as f:
     json.dump(salida, f, ensure_ascii=False, indent=2)
+
+# ---------- serie_cuenta.json (append/upsert por dia) ----------
+serie = cargar_serie()
+reach_map = serie_a_mapa(cuenta_insights.get("serie_diaria"), "reach")
+pv_map = serie_a_mapa(cuenta_insights.get("serie_perfil_clicks"), "profile_views")
+wc_map = serie_a_mapa(cuenta_insights.get("serie_perfil_clicks"), "website_clicks")
+
+fechas = set(reach_map) | set(pv_map) | set(wc_map)
+fecha_run = ahora.date().isoformat()
+fechas.add(fecha_run)
+
+followers_hoy = None
+if isinstance(cuenta, dict) and isinstance(cuenta.get("followers_count"), int):
+    followers_hoy = cuenta["followers_count"]
+
+for fecha in sorted(fechas):
+    fila = {
+        "fecha": fecha,
+        "followers_count": followers_hoy if fecha == fecha_run else None,
+        "profile_views": pv_map.get(fecha),
+        "website_clicks": wc_map.get(fecha),
+        "reach": reach_map.get(fecha),
+    }
+    # No inventar: si no hay ningun dato util (todo null salvo fecha), igual upsert
+    # para poder rellenar reach historico; followers solo el dia del run.
+    upsert_dia(serie["dias"], fila)
+
+serie["dias"].sort(key=lambda d: d.get("fecha") or "")
+serie["generado"] = ahora.isoformat()
+# TT omitido: Overview oficial no trae followers netos diarios fiables.
+
+with open(SERIE_PATH, "w", encoding="utf-8") as f:
+    json.dump(serie, f, ensure_ascii=False, indent=2)
 
 print(json.dumps(cuenta, ensure_ascii=False))
 print("bloques de cuenta que funcionan:", list(cuenta_insights))
 print("bloques de cuenta que fallan:", list(cuenta_errores))
+print("metric_errores:", metric_errores)
 print("{} publicaciones".format(len(publicaciones)))
+print("serie_cuenta dias:", len(serie["dias"]))
 for p in publicaciones:
-    print(" ", p["timestamp"][:10], json.dumps(p.get("insights", {}), ensure_ascii=False))
+    print(
+        " ",
+        p["timestamp"][:10],
+        "primer_comentario_ok=",
+        p.get("primer_comentario_ok"),
+        json.dumps(p.get("insights", {}), ensure_ascii=False),
+    )
