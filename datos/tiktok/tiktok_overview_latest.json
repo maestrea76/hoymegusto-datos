@@ -1,19 +1,19 @@
 {
-  "imported_at": "20260918T172922Z",
+  "imported_at": "20260919T163744Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Overview.csv (official)",
   "kind": "account_overview_daily",
   "schema_note": "Overview lacks video_id, avg_watch, followers_net, and publish hour. Spanish dates without year → 2026. Do not infer per-video or time-of-day.",
   "date_range": [
-    "2026-08-20",
-    "2026-09-16"
+    "2026-08-21",
+    "2026-09-17"
   ],
   "totals": {
-    "views": 11951,
-    "likes": 269,
+    "views": 12217,
+    "likes": 270,
     "comments": 0,
     "shares": 4,
-    "profile_views": 27
+    "profile_views": 31
   },
   "nonzero_days": [
     {
@@ -213,20 +213,20 @@
       "avg_watch": null,
       "followers_net": null,
       "profile_views": 0
-    }
-  ],
-  "rows": [
+    },
     {
-      "fecha": "2026-08-20",
+      "fecha": "2026-09-17",
       "video_id": null,
-      "views": 0,
-      "likes": 0,
+      "views": 266,
+      "likes": 1,
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
       "followers_net": null,
-      "profile_views": 0
-    },
+      "profile_views": 4
+    }
+  ],
+  "rows": [
     {
       "fecha": "2026-08-21",
       "video_id": null,
@@ -523,6 +523,17 @@
       "avg_watch": null,
       "followers_net": null,
       "profile_views": 0
+    },
+    {
+      "fecha": "2026-09-17",
+      "video_id": null,
+      "views": 266,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "profile_views": 4
     }
   ]
 }
