@@ -1,10 +1,10 @@
 {
-  "generado": "2026-09-19T17:05:04.335487+00:00",
-  "actualizado": "2026-09-19",
-  "fuente": "02-canonicos Drive + product_log (solo conteos)",
+  "generado": "2026-09-21T19:59:30.730912+00:00",
+  "actualizado": "2026-09-21",
+  "fuente": "02-canonicos Drive + product_log + Content TT 2026-09-19 (solo conteos)",
   "conteos": {
-    "pendientes": 15,
-    "publicados": 8
+    "pendientes": 14,
+    "publicados": 12
   },
   "siguientes": [
     {
@@ -80,18 +80,6 @@
       "canal": "TT"
     },
     {
-      "nombre": "belif Aqua Bomb (carrusel)",
-      "estado": "usado",
-      "fecha": "2026-09-19",
-      "canal": "IG"
-    },
-    {
-      "nombre": "BIODANCE Collagen Mask (carrusel)",
-      "estado": "usado",
-      "fecha": "2026-09-19",
-      "canal": "IG"
-    },
-    {
       "nombre": "First Aid Beauty",
       "estado": "listo",
       "fecha": "2026-09-18",
@@ -104,10 +92,40 @@
       "canal": "IG"
     },
     {
-      "nombre": "Real Techniques",
-      "estado": "listo",
-      "fecha": "2026-09-18",
+      "nombre": "belif Aqua Bomb (carrusel)",
+      "estado": "usado",
+      "fecha": "2026-09-19",
       "canal": "IG"
+    },
+    {
+      "nombre": "BIODANCE Collagen Mask (carrusel)",
+      "estado": "usado",
+      "fecha": "2026-09-19",
+      "canal": "IG"
+    },
+    {
+      "nombre": "Real Techniques (IG)",
+      "estado": "usado",
+      "fecha": "2026-09-19",
+      "canal": "IG"
+    },
+    {
+      "nombre": "SKIN1004 SPF (TT reuse)",
+      "estado": "usado",
+      "fecha": "2026-09-21",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Beauty of Joseon Centella+VitaC (TT reuse)",
+      "estado": "usado",
+      "fecha": "2026-09-21",
+      "canal": "TT"
+    },
+    {
+      "nombre": "COSRX Snail 96 (TT reuse)",
+      "estado": "usado",
+      "fecha": "2026-09-21",
+      "canal": "TT"
     }
   ],
   "_schema": {
