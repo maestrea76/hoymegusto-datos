@@ -95,16 +95,93 @@ def upsert_dia(dias, fila):
     dias.append(fila)
 
 
+def comment_username(c):
+    """Username del autor: top-level o from.username (Graph IG)."""
+    if not isinstance(c, dict):
+        return ""
+    u = c.get("username")
+    if not u and isinstance(c.get("from"), dict):
+        u = c["from"].get("username")
+    return (u or "").lstrip("@").lower()
+
+
 def primer_comentario_ok(comentarios, username):
     """True si hay al menos un comentario del propio username (regla primer comentario)."""
     if not isinstance(comentarios, list) or not username:
         return False
     uname = username.lstrip("@").lower()
     for c in comentarios:
-        u = (c.get("username") or "").lstrip("@").lower()
+        u = comment_username(c)
         if u and u == uname:
             return True
     return False
+
+
+def get_url(url):
+    """GET a una URL absoluta (p. ej. paging.next). Enmascara errores como get()."""
+    try:
+        with urllib.request.urlopen(url, timeout=30) as r:
+            return json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        try:
+            return {"error": json.loads(e.read().decode())}
+        except Exception:
+            return {"error": {"message": "HTTP {}".format(e.code)}}
+    except Exception as e:
+        return {"error": {"message": str(e)}}
+
+
+def listar_comentarios(media_id):
+    """Lista comentarios con paginación y fallback de fields.
+
+    Si comments_count > 0 pero data sale vacío, suele ser permiso/app mode
+    (instagram_business_manage_comments / Live) o field username restringido.
+    No inventamos True: devolvemos lista vacía y meta de diagnóstico.
+    """
+    field_sets = [
+        "id,text,username,timestamp,like_count,from",
+        "id,text,timestamp,like_count,from{id,username}",
+        "id,text,timestamp,like_count",
+    ]
+    last_error = None
+    last_raw = None
+    for fields in field_sets:
+        items = []
+        resp = get("{}/comments".format(media_id), fields=fields, limit=50)
+        last_raw = resp
+        if "error" in resp:
+            last_error = resp["error"]
+            continue
+        page = resp
+        pages = 0
+        while isinstance(page, dict) and pages < 10:
+            pages += 1
+            items.extend(page.get("data") or [])
+            nxt = (page.get("paging") or {}).get("next")
+            if not nxt:
+                break
+            page = get_url(nxt)
+            if "error" in page:
+                last_error = page["error"]
+                break
+            last_raw = page
+        meta = {
+            "fields": fields,
+            "pages": pages,
+            "n": len(items),
+            "has_paging": bool((resp.get("paging") or {}).get("next") or (resp.get("paging") or {}).get("cursors")),
+        }
+        if items:
+            return items, None, meta
+        # data vacío: probar siguiente field set (username restringido a veces vacía data)
+        continue
+    return [], last_error, {
+        "fields": field_sets[-1],
+        "pages": 0,
+        "n": 0,
+        "has_paging": bool(((last_raw or {}).get("paging") or {}).get("cursors")),
+        "raw_keys": sorted((last_raw or {}).keys()) if isinstance(last_raw, dict) else [],
+    }
 
 
 # ---------- la cuenta ----------
@@ -193,15 +270,23 @@ for m in media.get("data", []):
     if isinstance(total, (int, float)):
         m["insights"]["segundos_totales"] = round(total / 1000.0, 1)
 
-    comentarios = get(
-        "{}/comments".format(m["id"]), fields="id,text,username,timestamp,like_count", limit=50
-    )
-    if "error" in comentarios:
-        m["comentarios_error"] = comentarios["error"]
+    comentarios, comentarios_err, comentarios_meta = listar_comentarios(m["id"])
+    m["comentarios"] = comentarios
+    if comentarios_meta:
+        m["comentarios_meta"] = comentarios_meta
+    if comentarios_err:
+        m["comentarios_error"] = comentarios_err
         m["primer_comentario_ok"] = False
     else:
-        m["comentarios"] = comentarios.get("data", [])
-        m["primer_comentario_ok"] = primer_comentario_ok(m["comentarios"], username)
+        m["primer_comentario_ok"] = primer_comentario_ok(comentarios, username)
+        # Evidencia: comments_count > 0 pero /comments vacío → lectura API, no ausencia real
+        cc = m.get("comments_count")
+        if not comentarios and isinstance(cc, int) and cc > 0:
+            m["comentarios_discrepancia"] = {
+                "comments_count": cc,
+                "comentarios_n": 0,
+                "nota": "API devolvió data vacía con comments_count>0; no marcar true sin autor",
+            }
 
     publicaciones.append(m)
     time.sleep(1)

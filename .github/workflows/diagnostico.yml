@@ -1,8 +1,9 @@
 name: Diagnostico semanal
 
 # El jefe revisa el panel cada martes a las 10:00 Europe/Madrid.
-# Este job corre a las 09:00 Madrid (CEST=07:00 UTC, CET=08:00 UTC)
-# para que el JSON ya esté en main a las 10:00.
+# Cron en UTC: 09:00 Madrid CEST = 07:00 UTC; en CET (invierno) = 08:00 UTC.
+# GitHub Actions atrasa a menudo 1–3 h el schedule (ver estadisticas.yml ~18:00→20:00 UTC),
+# así que NO filtramos por hora Madrid en el script: si el cron dispara, generamos.
 on:
   schedule:
     - cron: "0 7 * * 2"
@@ -23,8 +24,6 @@ jobs:
           python-version: "3.12"
 
       - name: Generar briefing
-        env:
-          REQUIRE_MADRID_HOUR: ${{ github.event_name == 'schedule' && '9' || '' }}
         run: python diagnostico_semanal.py
 
       - name: Guardar

@@ -399,14 +399,21 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
 
 
 def main():
+    # Opcional: REQUIRE_MADRID_HOUR="9" o "9-12" (rango para retrasos de Actions).
+    # El workflow ya no lo envía: el cron martes UTC basta.
     hour = os.environ.get("REQUIRE_MADRID_HOUR", "").strip()
     now = dt.datetime.now(MADRID)
     if hour:
-        if now.hour != int(hour):
-            print(f"skip: ahora {now.isoformat()} no es las {hour}:00 Madrid")
-            return 0
         if now.weekday() != 1:
             print(f"skip: hoy no es martes ({now.isoformat()})")
+            return 0
+        if "-" in hour:
+            lo, hi = hour.split("-", 1)
+            allowed = range(int(lo), int(hi) + 1)
+        else:
+            allowed = (int(hour),)
+        if now.hour not in allowed:
+            print(f"skip: ahora {now.isoformat()} fuera de horas Madrid {hour}")
             return 0
 
     ig = load(DATOS / "estadisticas.json")
