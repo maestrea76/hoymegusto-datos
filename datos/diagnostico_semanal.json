@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-22T10:27:05.827843+02:00",
+  "generado": "2026-09-22T10:28:40.121355+02:00",
   "semana": "2026-W39",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
@@ -36,7 +36,7 @@
     {
       "sev": "bad",
       "t": "El algoritmo no empuja en Instagram",
-      "d": "20 de 26 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
+      "d": "21 de 27 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
     },
     {
       "sev": "warn",
@@ -46,7 +46,7 @@
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "26 de 26 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "27 de 27 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     },
     {
       "sev": "ns",
@@ -69,27 +69,27 @@
     }
   ],
   "kpis": {
-    "followers_ig": 12.0,
+    "followers_ig": 15.0,
     "delta_7d": null,
     "delta_7d_nota": "serie <7d",
     "delta_30d": null,
     "delta_30d_nota": "serie <30d",
     "website_clicks": 1.0,
-    "profile_views": 131.0,
-    "views_ig_piezas": 1210.0,
+    "profile_views": 149.0,
+    "views_ig_piezas": 1331.0,
     "tt_views": 12217.0,
     "tt_profile_views": 31.0,
     "tt_views_perfil": 0.0025374478186134075,
-    "ig_bajo_50": "20/26",
-    "primer_comentario_ok": "0/26",
+    "ig_bajo_50": "21/27",
+    "primer_comentario_ok": "0/27",
     "cola_pendientes": 14,
     "cola_publicados": 12,
     "tt_cadencia_7d": "2/14",
     "ig_carruseles_7d": 0,
-    "ig_reels_7d": 8,
+    "ig_reels_7d": 9,
     "mejor_reel": {
       "title": "Un bote de estos no es barato. Y la marca no te dice lo molesto.",
-      "views": 312.0,
+      "views": 313.0,
       "avg": 11.2
     }
   },
