@@ -1,0 +1,55 @@
+{
+  "imported_at": "20260925T200610Z",
+  "account": "@hoymegusto",
+  "source": "TikTok Studio Viewers.csv (official)",
+  "kind": "account_viewers_daily",
+  "schema_note": "Una fila por día: total_viewers, new_viewers, returning_viewers (new+returning=total). Espectadores únicos: NO sumar entre días. Ojo: total_viewers crece cada día y el 24-sep (871) supera las views diarias del Overview (507), así que probablemente es una ventana móvil/acumulada de TikTok y no únicos del día. Sin totales del periodo para no inventar.",
+  "date_range": [
+    "2026-09-18",
+    "2026-09-24"
+  ],
+  "rows": [
+    {
+      "fecha": "2026-09-18",
+      "total_viewers": 244,
+      "new_viewers": 144,
+      "returning_viewers": 100
+    },
+    {
+      "fecha": "2026-09-19",
+      "total_viewers": 458,
+      "new_viewers": 326,
+      "returning_viewers": 132
+    },
+    {
+      "fecha": "2026-09-20",
+      "total_viewers": 623,
+      "new_viewers": 487,
+      "returning_viewers": 136
+    },
+    {
+      "fecha": "2026-09-21",
+      "total_viewers": 624,
+      "new_viewers": 427,
+      "returning_viewers": 197
+    },
+    {
+      "fecha": "2026-09-22",
+      "total_viewers": 738,
+      "new_viewers": 474,
+      "returning_viewers": 264
+    },
+    {
+      "fecha": "2026-09-23",
+      "total_viewers": 816,
+      "new_viewers": 557,
+      "returning_viewers": 259
+    },
+    {
+      "fecha": "2026-09-24",
+      "total_viewers": 871,
+      "new_viewers": 606,
+      "returning_viewers": 265
+    }
+  ]
+}

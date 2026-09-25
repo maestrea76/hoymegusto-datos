@@ -1,0 +1,80 @@
+{
+  "imported_at": "20260925T200610Z",
+  "account": "@hoymegusto",
+  "source": "TikTok Studio FollowerHistory/FollowerActivity/FollowerGender/FollowerTopTerritories.csv (official)",
+  "kind": "account_followers",
+  "schema_note": "history: una fila por día con followers (total al cierre) y followers_net (columna \"Difference in followers from previous day\"; el 18-sep el CSV dice 0). No hay ganados/perdidos por separado. breakdown: activity/gender/top_territories llegaron solo con cabecera (sin filas) → vacio=true, sin datos inventados.",
+  "date_range": [
+    "2026-09-18",
+    "2026-09-24"
+  ],
+  "totals": {
+    "followers_inicio": 15,
+    "followers_fin": 51,
+    "followers_net": 36
+  },
+  "history": [
+    {
+      "fecha": "2026-09-18",
+      "followers": 15,
+      "followers_net": 0
+    },
+    {
+      "fecha": "2026-09-19",
+      "followers": 36,
+      "followers_net": 21
+    },
+    {
+      "fecha": "2026-09-20",
+      "followers": 44,
+      "followers_net": 8
+    },
+    {
+      "fecha": "2026-09-21",
+      "followers": 50,
+      "followers_net": 6
+    },
+    {
+      "fecha": "2026-09-22",
+      "followers": 51,
+      "followers_net": 1
+    },
+    {
+      "fecha": "2026-09-23",
+      "followers": 52,
+      "followers_net": 1
+    },
+    {
+      "fecha": "2026-09-24",
+      "followers": 51,
+      "followers_net": -1
+    }
+  ],
+  "breakdown": {
+    "activity": {
+      "columns": [
+        "Date",
+        "Hour",
+        "Active followers"
+      ],
+      "rows": [],
+      "vacio": true
+    },
+    "gender": {
+      "columns": [
+        "Gender",
+        "Distribution"
+      ],
+      "rows": [],
+      "vacio": true
+    },
+    "top_territories": {
+      "columns": [
+        "Top territories",
+        "Distribution"
+      ],
+      "rows": [],
+      "vacio": true
+    }
+  }
+}
