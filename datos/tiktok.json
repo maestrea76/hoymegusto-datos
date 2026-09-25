@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-21T20:07:33+00:00",
+  "generado": "2026-09-25T20:06:10+00:00",
   "videos": [
     {
       "fecha": "2026-09-06",
@@ -44,7 +44,7 @@
       "video_id": "7686900441174543638",
       "title": "El SPF que deja glow… y del que nadie te cuenta la pega SKIN1004 Madagascar Cent",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7686900441174543638",
-      "views": 1137,
+      "views": 1138,
       "likes": 22,
       "comments": 0,
       "shares": 1,
@@ -55,8 +55,8 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20260921",
-      "fuente_csv": "Content_20260921T200733Z.csv"
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
     },
     {
       "fecha": "2026-09-11",
@@ -99,7 +99,7 @@
     {
       "fecha": "2026-09-14",
       "video_id": "7685484523550805270",
-      "title": "La esencia caracol más famosa en serum… y la pega honesta: me da cosita ponerme ",
+      "title": "La esencia caracol más famosa en serum… y la pega honesta: me da cosita ponerme",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7685484523550805270",
       "views": 793,
       "likes": 1,
@@ -112,8 +112,27 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20260921",
-      "fuente_csv": "Content_20260921T200733Z.csv"
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-15",
+      "video_id": "7685869740853562646",
+      "title": "Boquilla alisadora compatible dorada para Dyson Airwrap HS01/HS05/HS08 · Menos d",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685869740853562646",
+      "views": 789,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
     },
     {
       "fecha": "2026-09-07",
@@ -124,25 +143,6 @@
       "likes": 3,
       "comments": 0,
       "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20260921",
-      "fuente_csv": "Content_20260921T200733Z.csv"
-    },
-    {
-      "fecha": "2026-09-15",
-      "video_id": "7685869740853562646",
-      "title": "Boquilla alisadora compatible dorada para Dyson Airwrap HS01/HS05/HS08 · Menos d",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685869740853562646",
-      "views": 784,
-      "likes": 3,
-      "comments": 0,
-      "shares": 0,
       "avg_watch": null,
       "followers_net": null,
       "interpretacion": "ok",
@@ -173,12 +173,12 @@
       "fuente_csv": "Content_20260921T200733Z.csv"
     },
     {
-      "fecha": "2026-09-12",
-      "video_id": "7684532095703665942",
-      "title": "El sérum PDRN de moda… no es magia en un frasco Hidrata y da glow si lo usas con",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684532095703665942",
-      "views": 278,
-      "likes": 2,
+      "fecha": "2026-09-22",
+      "video_id": "7688441495715761430",
+      "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Setting Powder, 20 g, Coffee Cake",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688441495715761430",
+      "views": 777,
+      "likes": 4,
       "comments": 0,
       "shares": 1,
       "avg_watch": null,
@@ -186,17 +186,55 @@
       "interpretacion": "ok",
       "promo": false,
       "promo_eur_oral": null,
-      "etiqueta": "nucleo",
+      "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20260921",
-      "fuente_csv": "Content_20260921T200733Z.csv"
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-20",
+      "video_id": "7687694159959870742",
+      "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml — menos de 27 €. «Como hidrat",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687694159959870742",
+      "views": 746,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-23",
+      "video_id": "7688673826850311446",
+      "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moisturizer, 50 ml — menos de 43 €.",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688673826850311446",
+      "views": 665,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
     },
     {
       "fecha": "2026-09-13",
       "video_id": "7685051792983493890",
       "title": "Anti-frizz térmico para teñido… y la pega con sonrisa Kérastase Chroma Absolu Ch",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7685051792983493890",
-      "views": 280,
+      "views": 286,
       "likes": 1,
       "comments": 0,
       "shares": 1,
@@ -207,16 +245,35 @@
       "promo_eur_oral": null,
       "etiqueta": "nucleo",
       "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-03",
+      "video_id": "7681382323928976662",
+      "title": "Cerave Loción Hidratante #cuidadopersonal",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7681382323928976662",
+      "views": 278,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
       "export_time": "20260921",
       "fuente_csv": "Content_20260921T200733Z.csv"
     },
     {
-      "fecha": "2026-09-07",
-      "video_id": "7682909153349717270",
-      "title": "Lo recomienda todo el mundo, y justo por eso desconfías 🧴 Las reseñas repiten lo",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7682909153349717270",
-      "views": 277,
-      "likes": 4,
+      "fecha": "2026-09-12",
+      "video_id": "7684532095703665942",
+      "title": "El sérum PDRN de moda… no es magia en un frasco Hidrata y da glow si lo usas con",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684532095703665942",
+      "views": 278,
+      "likes": 2,
       "comments": 0,
       "shares": 1,
       "avg_watch": null,
@@ -249,14 +306,14 @@
       "fuente_csv": "Content_20260921T200733Z.csv"
     },
     {
-      "fecha": "2026-09-03",
-      "video_id": "7681382323928976662",
-      "title": "Cerave Loción Hidratante #cuidadopersonal",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7681382323928976662",
-      "views": 278,
-      "likes": 1,
+      "fecha": "2026-09-07",
+      "video_id": "7682909153349717270",
+      "title": "Lo recomienda todo el mundo, y justo por eso desconfías 🧴 Las reseñas repiten lo",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7682909153349717270",
+      "views": 277,
+      "likes": 4,
       "comments": 0,
-      "shares": 0,
+      "shares": 1,
       "avg_watch": null,
       "followers_net": null,
       "interpretacion": "ok",
@@ -285,20 +342,156 @@
       "nota": null,
       "export_time": "20260921",
       "fuente_csv": "Content_20260921T200733Z.csv"
+    },
+    {
+      "fecha": "2026-09-19",
+      "video_id": "7687293755723910422",
+      "title": "belif Aqua Bomb Cream Daily Moisturizer, 50 ml — menos de 35 €. Pega: GLORIA (co",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687293755723910422",
+      "views": 274,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-21",
+      "video_id": "7688098501951032598",
+      "title": "BIODANCE Pore Perfecting Collagen Peptide Cream, 50 ml — menos de 27 €. ¿Tú lo d",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688098501951032598",
+      "views": 274,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-17",
+      "video_id": "7686591669722074390",
+      "title": "Sérum de cuero cabelludo ‘defensa total’… con truco de dosis Kérastase Spécifiqu",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7686591669722074390",
+      "views": 272,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-21",
+      "video_id": "7688038139155336470",
+      "title": "Real Techniques Blends Set, colección de 10 brochas con neceser — menos de 32 €.",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688038139155336470",
+      "views": 266,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-23",
+      "video_id": "7688822548259228950",
+      "title": "La belleza natural no se negocia. #belleza #chicas #maquillaje",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688822548259228950",
+      "views": 258,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-20",
+      "video_id": "7687511852741381398",
+      "title": "BIODANCE Pore Perfecting Collagen Peptide Cream, 50 ml — menos de 27 €. «Funcion",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687511852741381398",
+      "views": 256,
+      "likes": 2,
+      "comments": 0,
+      "shares": 2,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
+    },
+    {
+      "fecha": "2026-09-21",
+      "video_id": "7687890955764124950",
+      "title": "Fenty Beauty BY RIHANNA Stunna Lipstick, 40 g — menos de 50 €. «Color increíble,",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687890955764124950",
+      "views": 256,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20260925",
+      "fuente_csv": "Content_20260925T200610Z.csv"
     }
   ],
   "fuentes": {
-    "content": "20260921T200733Z",
-    "overview": "20260919T163744Z"
+    "content": "20260925T200610Z",
+    "overview": "20260925T200610Z",
+    "viewers": "20260925T200610Z",
+    "followers": "20260925T200610Z",
+    "content_prev": "20260921T200733Z"
   },
   "summary": {
-    "n": 15,
-    "n_ok": 15,
-    "median_ok": 784,
-    "median_nucleo_organic": 277.5,
+    "n": 25,
+    "n_ok": 25,
+    "median_ok": 286,
+    "median_nucleo_organic": 274,
     "nucleo_range": [
-      274,
-      280
+      256,
+      286
     ],
     "promos": [
       {
@@ -317,7 +510,7 @@
     "outliers": [
       {
         "video_id": "7686900441174543638",
-        "views": 1137,
+        "views": 1138,
         "title": "El SPF que deja glow… y del que nadie te cuenta la"
       },
       {
@@ -336,23 +529,59 @@
         "title": "La esencia caracol más famosa en serum… y la pega "
       },
       {
+        "video_id": "7685869740853562646",
+        "views": 789,
+        "title": "Boquilla alisadora compatible dorada para Dyson Ai"
+      },
+      {
         "video_id": "7682800281070865686",
         "views": 786,
         "title": "El limpiador que TODO el mundo recomienda… y del q"
       },
       {
-        "video_id": "7685869740853562646",
-        "views": 784,
-        "title": "Boquilla alisadora compatible dorada para Dyson Ai"
-      },
-      {
         "video_id": "7684660907296820502",
         "views": 783,
         "title": "Centella + Vita C en pack doble… y la pega que nad"
+      },
+      {
+        "video_id": "7688441495715761430",
+        "views": 777,
+        "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Sett"
+      },
+      {
+        "video_id": "7687694159959870742",
+        "views": 746,
+        "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml"
+      },
+      {
+        "video_id": "7688673826850311446",
+        "views": 665,
+        "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moistu"
       }
     ]
   },
   "regla": "<50 views = n/s; no scrapers; histórico por snapshot",
-  "content_import": "20260921T200733Z",
-  "overview_import": "20260919T163744Z"
+  "content_import": "20260925T200610Z",
+  "overview_import": "20260925T200610Z",
+  "viewers_import": "20260925T200610Z",
+  "followers_import": "20260925T200610Z",
+  "overview_semana": {
+    "date_range": [
+      "2026-09-18",
+      "2026-09-24"
+    ],
+    "views": 5507,
+    "profile_views": 23,
+    "ratio_perfil_pct": 0.42,
+    "likes": 65,
+    "comments": 0,
+    "shares": 2,
+    "followers_net": 36,
+    "followers_inicio": 15,
+    "followers_fin": 51,
+    "videos_publicados": 10,
+    "videos_planificados": 14,
+    "fuente": "Overview.csv + FollowerHistory.csv + Content.csv (official)"
+  },
+  "merge_note": "videos = Content 20260925T200610Z (14) + 11 solo presentes en Content 20260921T200733Z (números y fuente_csv originales). 4 coinciden → números nuevos. summary sobre la lista fusionada. El snapshot/latest de content reflejan solo el CSV nuevo."
 }
