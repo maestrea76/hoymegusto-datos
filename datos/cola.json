@@ -1,131 +1,107 @@
 {
-  "generado": "2026-09-21T19:59:30.730912+00:00",
-  "actualizado": "2026-09-21",
-  "fuente": "02-canonicos Drive + product_log + Content TT 2026-09-19 (solo conteos)",
+  "generado": "2026-09-25T20:13:43.139415+00:00",
+  "actualizado": "2026-09-25",
+  "fuente": "02-canonicos Drive (14 packs TT W39 + 2 carruseles IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
   "conteos": {
-    "pendientes": 14,
-    "publicados": 12
+    "pendientes": 16,
+    "publicados": 28
   },
   "siguientes": [
     {
-      "nombre": "Fenty Beauty",
+      "nombre": "LANEIGE Lip Sleeping Mask",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "belif Aqua Bomb",
+      "nombre": "CLIO Kill Lash Superproof",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Erborian CC Red Correct",
+      "nombre": "Clinique Even Better",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "BIODANCE Collagen Mask",
+      "nombre": "Benefit Roller Lash",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "dear klairs Freshly Juiced",
+      "nombre": "Dior Addict Max Lip Bar",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "MADARA",
+      "nombre": "TIRTIR Mask Fit Red",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Huda Beauty",
+      "nombre": "Estée Lauder Double Wear",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Kerastase Therapiste",
+      "nombre": "NARS Radiant Creamy Concealer",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Vichy Liftactiv",
+      "nombre": "Urban Decay All Nighter Setting Spray",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Real Techniques",
+      "nombre": "Lancôme Teint Idole Ultra Wear",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "medicube Triple Collagen",
+      "nombre": "Too Faced Better Than Sex",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "First Aid Beauty",
+      "nombre": "MISSHA M Perfect Cover BB",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "First Aid Beauty",
+      "nombre": "rom&nd Volume Hack Trio",
       "estado": "listo",
-      "fecha": "2026-09-18",
+      "fecha": "2026-09-25",
+      "canal": "TT"
+    },
+    {
+      "nombre": "MAC Studio Waterweight",
+      "estado": "listo",
+      "fecha": "2026-09-25",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Clinique Even Better (carrusel)",
+      "estado": "listo",
+      "fecha": "2026-09-25",
       "canal": "IG"
     },
     {
-      "nombre": "Vichy Liftactiv",
+      "nombre": "CLIO Kill Lash Superproof (carrusel)",
       "estado": "listo",
-      "fecha": "2026-09-12",
+      "fecha": "2026-09-25",
       "canal": "IG"
-    },
-    {
-      "nombre": "belif Aqua Bomb (carrusel)",
-      "estado": "usado",
-      "fecha": "2026-09-19",
-      "canal": "IG"
-    },
-    {
-      "nombre": "BIODANCE Collagen Mask (carrusel)",
-      "estado": "usado",
-      "fecha": "2026-09-19",
-      "canal": "IG"
-    },
-    {
-      "nombre": "Real Techniques (IG)",
-      "estado": "usado",
-      "fecha": "2026-09-19",
-      "canal": "IG"
-    },
-    {
-      "nombre": "SKIN1004 SPF (TT reuse)",
-      "estado": "usado",
-      "fecha": "2026-09-21",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Beauty of Joseon Centella+VitaC (TT reuse)",
-      "estado": "usado",
-      "fecha": "2026-09-21",
-      "canal": "TT"
-    },
-    {
-      "nombre": "COSRX Snail 96 (TT reuse)",
-      "estado": "usado",
-      "fecha": "2026-09-21",
-      "canal": "TT"
     }
   ],
   "_schema": {
