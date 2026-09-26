@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-09-25",
-  "fuente": "02-canonicos Drive (14 packs TT W39 + 2 carruseles IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
+  "actualizado": "2026-09-26",
+  "fuente": "02-canonicos Drive (12 packs TT W39 + 2 carruseles IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
   "conteos": {
-    "pendientes": 16,
-    "publicados": 28
+    "pendientes": 14,
+    "publicados": 30
   },
   "siguientes": [
     {
@@ -15,18 +15,6 @@
     },
     {
       "nombre": "CLIO Kill Lash Superproof",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Clinique Even Better",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Benefit Roller Lash",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
