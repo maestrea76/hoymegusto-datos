@@ -253,10 +253,16 @@ DIAS_BACKFILL = 29      # Meta: consultas de insights de cuenta hasta 30 dias at
 DIAS_REFRESCO = 3       # los ultimos dias se re-piden siempre (Meta ajusta cifras ~48h)
 
 
+VERSION_TV = 2          # v1 usaba since=medianoche exacta y Meta sumaba 2 dias por ventana
+
+
 def ventana_dia(fecha):
+    # Meta incluye todo dia cuyo end_time cae en [since, until]. Con since en la medianoche
+    # exacta entraban 2 dias (comprobado: la suma diaria era el doble de totales_30d).
+    # since = medianoche + 1 s deja solo el dia que termina en `fin`.
     fin = datetime.datetime.combine(fecha, datetime.time(), tzinfo=PT)
     ini = datetime.datetime.combine(fecha - datetime.timedelta(days=1), datetime.time(), tzinfo=PT)
-    return int(ini.timestamp()), int(fin.timestamp())
+    return int(ini.timestamp()) + 1, int(fin.timestamp())
 
 
 def metrica_total_dia(metrica, fecha):
@@ -285,7 +291,10 @@ serie_previa = {}
 if os.path.exists(SERIE_PATH):
     try:
         with open(SERIE_PATH, encoding="utf-8") as f:
-            for d in (json.load(f) or {}).get("dias", []):
+            _s = json.load(f) or {}
+        # Solo se reaprovechan valores calculados con la version actual de la ventana.
+        if (_s.get("metricas_diarias") or {}).get("version_tv") == VERSION_TV:
+            for d in _s.get("dias", []):
                 if isinstance(d, dict) and d.get("fecha"):
                     serie_previa[d["fecha"]] = d
     except Exception:
@@ -383,6 +392,13 @@ with open(ESTADISTICAS_PATH, "w", encoding="utf-8") as f:
 
 # ---------- serie_cuenta.json (append/upsert por dia) ----------
 serie = cargar_serie()
+if (serie.get("metricas_diarias") or {}).get("version_tv") != VERSION_TV:
+    # Valores diarios total_value de una version anterior (ventana erronea): se descartan
+    # para que no sobrevivan si el recalculo falla. reach/followers no se tocan.
+    for d in serie["dias"]:
+        for k in METRICAS_DIARIAS_TV:
+            if k in d:
+                d[k] = None
 reach_map = serie_a_mapa(cuenta_insights.get("serie_diaria"), "reach")
 fechas = set(reach_map) | set(diarias_tv) | set(diarias_tv_motivos)
 fecha_run = ahora.date().isoformat()
@@ -417,6 +433,7 @@ serie["metricas_diarias"] = {
     "reach": "insights period=day (serie temporal)",
     "views,website_clicks,profile_views": "insights metric_type=total_value period=day, una llamada por metrica y dia",
     "convencion_fecha": "fecha D = dia Meta America/Los_Angeles que termina en D (end_time de Meta)",
+    "version_tv": VERSION_TV,
 }
 # TT omitido: Overview oficial no trae followers netos diarios fiables.
 
