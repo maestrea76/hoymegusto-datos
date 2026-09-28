@@ -1,7 +1,8 @@
 """Lee las estadisticas de @hoymegusto en la API de Instagram y las deja en datos/estadisticas.json.
 
 Tambien mantiene datos/serie_cuenta.json: una fila por dia (fecha, followers_count,
-profile_views, website_clicks, reach). No inventa follows_and_unfollows ni cifras.
+profile_views, website_clicks, views, reach). No inventa follows_and_unfollows ni cifras.
+Si una metrica diaria no esta disponible queda null y el motivo en motivos_null.
 
 Corre en GitHub Actions. El token vive en IG_TOKEN y nunca se escribe en la salida.
 """
@@ -10,6 +11,7 @@ import datetime
 import json
 import os
 import time
+from zoneinfo import ZoneInfo
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -87,9 +89,18 @@ def upsert_dia(dias, fila):
         if old.get("fecha") == fecha:
             merged = dict(old)
             for k, v in fila.items():
+                if k == "motivos_null":
+                    continue
                 if v is None and merged.get(k) is not None:
                     continue
                 merged[k] = v
+            motivos = dict(old.get("motivos_null") or {})
+            motivos.update(fila.get("motivos_null") or {})
+            motivos = {k: m for k, m in motivos.items() if merged.get(k) is None}
+            if motivos:
+                merged["motivos_null"] = motivos
+            else:
+                merged.pop("motivos_null", None)
             dias[i] = merged
             return
     dias.append(fila)
@@ -200,9 +211,11 @@ cuenta_insights = {}
 cuenta_errores = {}
 metric_errores = {}
 
-# Serie diaria: reach + views (views a menudo falla; se registra por metrica).
+# Serie diaria de reach (period=day, serie temporal). OJO: views/profile_views/website_clicks
+# a nivel cuenta SOLO existen con metric_type=total_value; pedidas como serie period=day Meta
+# las omite en silencio (views desaparecia de "reach,views" y serie_perfil_clicks venia vacio).
 bloques = [
-    ("serie_diaria", {"metric": "reach,views", "period": "day", "since": desde, "until": hasta}),
+    ("serie_diaria", {"metric": "reach", "period": "day", "since": desde, "until": hasta}),
     (
         "totales_30d",
         {
@@ -210,16 +223,6 @@ bloques = [
             "metric_type": "total_value",
             "period": "day",
             "since": desde, "until": hasta,
-        },
-    ),
-    # Intento de serie diaria para clicks/visitas (si Meta lo rechaza, queda en errores y nulls).
-    (
-        "serie_perfil_clicks",
-        {
-            "metric": "profile_views,website_clicks",
-            "period": "day",
-            "since": desde,
-            "until": hasta,
         },
     ),
 ]
@@ -231,15 +234,88 @@ for nombre, params in bloques:
     else:
         data = r.get("data", r)
         cuenta_insights[nombre] = data
-        if nombre == "serie_diaria" and isinstance(data, list):
-            names = {fila.get("name") for fila in data}
-            if "views" not in names:
-                metric_errores["views_day"] = {
-                    "message": "views no vino en serie_diaria (solo {})".format(
-                        sorted(n for n in names if n)
-                    )
+        if isinstance(data, list):
+            pedidas = params["metric"].split(",")
+            vinieron = {fila.get("name") for fila in data}
+            faltan = [m for m in pedidas if m not in vinieron]
+            if faltan:
+                metric_errores[nombre] = {
+                    "message": "la API no devolvio {} (sin error explicito)".format(faltan)
                 }
     time.sleep(1)
+
+# ---------- serie diaria total_value (una llamada por metrica y dia) ----------
+# Convencion de fecha = la de reach en serie_cuenta: fecha D = dia Meta (America/Los_Angeles)
+# que termina en D (end_time D T07/08:00Z). Ventana: [D-1 00:00 PT, D 00:00 PT).
+PT = ZoneInfo("America/Los_Angeles")
+METRICAS_DIARIAS_TV = ["views", "website_clicks", "profile_views"]
+DIAS_BACKFILL = 29      # Meta: consultas de insights de cuenta hasta 30 dias atras por ventana
+DIAS_REFRESCO = 3       # los ultimos dias se re-piden siempre (Meta ajusta cifras ~48h)
+
+
+def ventana_dia(fecha):
+    fin = datetime.datetime.combine(fecha, datetime.time(), tzinfo=PT)
+    ini = datetime.datetime.combine(fecha - datetime.timedelta(days=1), datetime.time(), tzinfo=PT)
+    return int(ini.timestamp()), int(fin.timestamp())
+
+
+def metrica_total_dia(metrica, fecha):
+    """Devuelve (valor, motivo). valor None => motivo explica por que."""
+    ini, fin = ventana_dia(fecha)
+    r = get(
+        "{}/insights".format(USER),
+        metric=metrica, metric_type="total_value", period="day", since=ini, until=fin,
+    )
+    if "error" in r:
+        e = r["error"]
+        e = e.get("error", e) if isinstance(e, dict) else {"message": str(e)}
+        return None, "API error code={} subcode={}: {}".format(
+            e.get("code"), e.get("error_subcode"), e.get("message")
+        )
+    for fila in r.get("data") or []:
+        if fila.get("name") == metrica:
+            tv = fila.get("total_value")
+            if isinstance(tv, dict) and tv.get("value") is not None:
+                return tv.get("value"), None
+            return None, "la API devolvio {} sin total_value".format(metrica)
+    return None, "la API no devolvio {} (data vacia, sin error)".format(metrica)
+
+
+serie_previa = {}
+if os.path.exists(SERIE_PATH):
+    try:
+        with open(SERIE_PATH, encoding="utf-8") as f:
+            for d in (json.load(f) or {}).get("dias", []):
+                if isinstance(d, dict) and d.get("fecha"):
+                    serie_previa[d["fecha"]] = d
+    except Exception:
+        serie_previa = {}
+
+fecha_hoy_utc = datetime.datetime.now(datetime.timezone.utc).date()
+diarias_tv = {}          # {fecha_iso: {metrica: valor}}
+diarias_tv_motivos = {}  # {fecha_iso: {metrica: motivo}}
+metrica_bloqueada = {}   # permiso/token (code 10/190): no insistir cada dia con la misma metrica
+llamadas_tv = 0
+for delta in range(DIAS_BACKFILL, -1, -1):
+    fecha = fecha_hoy_utc - datetime.timedelta(days=delta)
+    iso = fecha.isoformat()
+    previa = serie_previa.get(iso, {})
+    for metrica in METRICAS_DIARIAS_TV:
+        if delta >= DIAS_REFRESCO and previa.get(metrica) is not None:
+            continue
+        if metrica in metrica_bloqueada:
+            diarias_tv_motivos.setdefault(iso, {})[metrica] = metrica_bloqueada[metrica]
+            continue
+        valor, motivo = metrica_total_dia(metrica, fecha)
+        llamadas_tv += 1
+        if motivo is None:
+            diarias_tv.setdefault(iso, {})[metrica] = valor
+        else:
+            diarias_tv_motivos.setdefault(iso, {})[metrica] = motivo
+            metric_errores.setdefault("diaria_" + metrica, {"message": motivo, "fecha": iso})
+            if motivo.startswith("API error code=10 ") or motivo.startswith("API error code=190 "):
+                metrica_bloqueada[metrica] = motivo
+        time.sleep(0.3)
 
 # ---------- las publicaciones ----------
 media = get(
@@ -308,10 +384,7 @@ with open(ESTADISTICAS_PATH, "w", encoding="utf-8") as f:
 # ---------- serie_cuenta.json (append/upsert por dia) ----------
 serie = cargar_serie()
 reach_map = serie_a_mapa(cuenta_insights.get("serie_diaria"), "reach")
-pv_map = serie_a_mapa(cuenta_insights.get("serie_perfil_clicks"), "profile_views")
-wc_map = serie_a_mapa(cuenta_insights.get("serie_perfil_clicks"), "website_clicks")
-
-fechas = set(reach_map) | set(pv_map) | set(wc_map)
+fechas = set(reach_map) | set(diarias_tv) | set(diarias_tv_motivos)
 fecha_run = ahora.date().isoformat()
 fechas.add(fecha_run)
 
@@ -320,19 +393,31 @@ if isinstance(cuenta, dict) and isinstance(cuenta.get("followers_count"), int):
     followers_hoy = cuenta["followers_count"]
 
 for fecha in sorted(fechas):
+    tv = diarias_tv.get(fecha, {})
     fila = {
         "fecha": fecha,
         "followers_count": followers_hoy if fecha == fecha_run else None,
-        "profile_views": pv_map.get(fecha),
-        "website_clicks": wc_map.get(fecha),
+        "profile_views": tv.get("profile_views"),
+        "website_clicks": tv.get("website_clicks"),
+        "views": tv.get("views"),
         "reach": reach_map.get(fecha),
     }
+    motivos = dict(diarias_tv_motivos.get(fecha, {}))
+    if motivos:
+        fila["motivos_null"] = motivos
     # No inventar: si no hay ningun dato util (todo null salvo fecha), igual upsert
     # para poder rellenar reach historico; followers solo el dia del run.
     upsert_dia(serie["dias"], fila)
 
 serie["dias"].sort(key=lambda d: d.get("fecha") or "")
+for d in serie["dias"]:
+    d.setdefault("views", None)
 serie["generado"] = ahora.isoformat()
+serie["metricas_diarias"] = {
+    "reach": "insights period=day (serie temporal)",
+    "views,website_clicks,profile_views": "insights metric_type=total_value period=day, una llamada por metrica y dia",
+    "convencion_fecha": "fecha D = dia Meta America/Los_Angeles que termina en D (end_time de Meta)",
+}
 # TT omitido: Overview oficial no trae followers netos diarios fiables.
 
 with open(SERIE_PATH, "w", encoding="utf-8") as f:
@@ -343,7 +428,9 @@ print("bloques de cuenta que funcionan:", list(cuenta_insights))
 print("bloques de cuenta que fallan:", list(cuenta_errores))
 print("metric_errores:", metric_errores)
 print("{} publicaciones".format(len(publicaciones)))
-print("serie_cuenta dias:", len(serie["dias"]))
+print("serie_cuenta dias:", len(serie["dias"]), "llamadas total_value diarias:", llamadas_tv)
+for d in serie["dias"][-5:]:
+    print("  serie", json.dumps(d, ensure_ascii=False))
 for p in publicaciones:
     print(
         " ",
