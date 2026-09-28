@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-09-27",
-  "fuente": "02-canonicos Drive (10 packs TT W39 + 1 carrusel IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
+  "actualizado": "2026-09-28",
+  "fuente": "02-canonicos Drive (9 packs TT W39 + 1 carrusel IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
   "conteos": {
-    "pendientes": 11,
-    "publicados": 33
+    "pendientes": 10,
+    "publicados": 34
   },
   "siguientes": [
     {
@@ -39,12 +39,6 @@
     },
     {
       "nombre": "Lancôme Teint Idole Ultra Wear",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Too Faced Better Than Sex",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
