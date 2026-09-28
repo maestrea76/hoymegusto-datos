@@ -245,21 +245,22 @@ for nombre, params in bloques:
     time.sleep(1)
 
 # ---------- serie diaria total_value (una llamada por metrica y dia) ----------
-# Convencion de fecha = la de reach en serie_cuenta: fecha D = dia Meta (America/Los_Angeles)
-# que termina en D (end_time D T07/08:00Z). Ventana: [D-1 00:00 PT, D 00:00 PT).
+# Convencion de fecha = la de reach en serie_cuenta (fecha = end_time[:10] de Meta).
+# Comprobado con los datos: el valor con end_time D T07:00Z es el dia calendario PT D
+# (America/Los_Angeles): la cuenta tuvo reach>0 el primer dia con posts (08-30 PT).
 PT = ZoneInfo("America/Los_Angeles")
 METRICAS_DIARIAS_TV = ["views", "website_clicks", "profile_views"]
 DIAS_BACKFILL = 29      # Meta: consultas de insights de cuenta hasta 30 dias atras por ventana
 DIAS_REFRESCO = 3       # los ultimos dias se re-piden siempre (Meta ajusta cifras ~48h)
 
 
-VERSION_TV = 2          # v1 usaba since=medianoche exacta y Meta sumaba 2 dias por ventana
+VERSION_TV = 3          # v1: ventana de 2 dias; v2: guardaba el dia PT en curso (parcial)
 
 
 def ventana_dia(fecha):
     # Meta incluye todo dia cuyo end_time cae en [since, until]. Con since en la medianoche
     # exacta entraban 2 dias (comprobado: la suma diaria era el doble de totales_30d).
-    # since = medianoche + 1 s deja solo el dia que termina en `fin`.
+    # since = medianoche + 1 s deja solo el dia con end_time `fin` (= dia PT `fecha`).
     fin = datetime.datetime.combine(fecha, datetime.time(), tzinfo=PT)
     ini = datetime.datetime.combine(fecha - datetime.timedelta(days=1), datetime.time(), tzinfo=PT)
     return int(ini.timestamp()) + 1, int(fin.timestamp())
@@ -300,17 +301,25 @@ if os.path.exists(SERIE_PATH):
     except Exception:
         serie_previa = {}
 
+fecha_hoy_pt = datetime.datetime.now(PT).date()   # dia PT en curso: aun incompleto
 fecha_hoy_utc = datetime.datetime.now(datetime.timezone.utc).date()
 diarias_tv = {}          # {fecha_iso: {metrica: valor}}
 diarias_tv_motivos = {}  # {fecha_iso: {metrica: motivo}}
 metrica_bloqueada = {}   # permiso/token (code 10/190): no insistir cada dia con la misma metrica
 llamadas_tv = 0
-for delta in range(DIAS_BACKFILL, -1, -1):
-    fecha = fecha_hoy_utc - datetime.timedelta(days=delta)
+for fecha in sorted({fecha_hoy_pt, fecha_hoy_utc}):
+    if fecha >= fecha_hoy_pt:
+        # No se guarda un parcial como si fuera el dia completo; se rellena en el siguiente run.
+        diarias_tv_motivos[fecha.isoformat()] = {
+            m: "dia en curso en America/Los_Angeles (Meta): se completa en el siguiente run"
+            for m in METRICAS_DIARIAS_TV
+        }
+for delta in range(DIAS_BACKFILL, 0, -1):
+    fecha = fecha_hoy_pt - datetime.timedelta(days=delta)
     iso = fecha.isoformat()
     previa = serie_previa.get(iso, {})
     for metrica in METRICAS_DIARIAS_TV:
-        if delta >= DIAS_REFRESCO and previa.get(metrica) is not None:
+        if delta > DIAS_REFRESCO and previa.get(metrica) is not None:
             continue
         if metrica in metrica_bloqueada:
             diarias_tv_motivos.setdefault(iso, {})[metrica] = metrica_bloqueada[metrica]
@@ -432,7 +441,7 @@ serie["generado"] = ahora.isoformat()
 serie["metricas_diarias"] = {
     "reach": "insights period=day (serie temporal)",
     "views,website_clicks,profile_views": "insights metric_type=total_value period=day, una llamada por metrica y dia",
-    "convencion_fecha": "fecha D = dia Meta America/Los_Angeles que termina en D (end_time de Meta)",
+    "convencion_fecha": "fecha D = end_time[:10] de Meta = dia calendario America/Los_Angeles D; el dia PT en curso queda null (motivos_null)",
     "version_tv": VERSION_TV,
 }
 # TT omitido: Overview oficial no trae followers netos diarios fiables.
