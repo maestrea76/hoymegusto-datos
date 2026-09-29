@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-29T10:14:01.404950+02:00",
+  "generado": "2026-09-29T10:19:40.825259+02:00",
   "semana": "2026-W40",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
@@ -51,13 +51,13 @@
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "36 de 36 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "24 de 36 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     }
   ],
   "acciones": [
     {
       "k": "01 · Clics + 1er comentario",
-      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Hoy el 1er comentario falla en todas."
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 24 de 36 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
     },
     {
       "k": "02 · Formato",
@@ -81,7 +81,9 @@
     "tt_profile_views": 85.0,
     "tt_views_perfil": 0.0041346434478062065,
     "ig_bajo_50": "26/36",
-    "primer_comentario_ok": "0/36",
+    "primer_comentario_ok": "12/36",
+    "primer_comentario_texto_nota": "12 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
+    "primer_comentario_cc_ausente": 0,
     "cola_pendientes": 10,
     "cola_publicados": 34,
     "tt_cadencia_7d": "5/14",
