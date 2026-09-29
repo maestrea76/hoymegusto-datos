@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-09-28",
-  "fuente": "02-canonicos Drive (9 packs TT W39 + 1 carrusel IG W39, pendientes de publicar) + product_log (solo conteos). Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
+  "actualizado": "2026-09-29",
+  "fuente": "02-canonicos Drive (9 packs TT W39 pendientes) + product_log (solo conteos). Carrusel IG CLIO archivado 2026-09-29. Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
   "conteos": {
-    "pendientes": 10,
-    "publicados": 34
+    "pendientes": 9,
+    "publicados": 35
   },
   "siguientes": [
     {
@@ -60,12 +60,6 @@
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
-    },
-    {
-      "nombre": "CLIO Kill Lash Superproof (carrusel)",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "IG"
     }
   ],
   "_schema": {
