@@ -1,73 +1,38 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
   "actualizado": "2026-09-29",
-  "fuente": "02-canonicos Drive (9 packs TT W39 pendientes) + product_log (solo conteos). Carrusel IG CLIO archivado 2026-09-29. Todo lo anterior ya archivado en 01-semanas *-PUBLICADO y listado en la web.",
+  "fuente": "02-canonicos Drive: 9 packs TT W39 pendientes (no se rehacen) + 14 packs TT W40 nuevos (lote viernes 02/10, cobertura 04/10\u201310/10). product_log solo conteos. Cero c\u00f3digos de producto.",
   "conteos": {
-    "pendientes": 9,
+    "pendientes": 23,
     "publicados": 35
   },
   "siguientes": [
-    {
-      "nombre": "LANEIGE Lip Sleeping Mask",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Dior Addict Max Lip Bar",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "TIRTIR Mask Fit Red",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Estée Lauder Double Wear",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "NARS Radiant Creamy Concealer",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Lancôme Teint Idole Ultra Wear",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "MISSHA M Perfect Cover BB",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "rom&nd Volume Hack Trio",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "MAC Studio Waterweight",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    }
+    {"nombre": "LANEIGE Lip Sleeping Mask", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "Dior Addict Max Lip Bar", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "TIRTIR Mask Fit Red", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "Est\u00e9e Lauder Double Wear", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "NARS Radiant Creamy Concealer", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "Lanc\u00f4me Teint Idole Ultra Wear", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "MISSHA M Perfect Cover BB", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "rom&nd Volume Hack Trio", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "MAC Studio Waterweight", "estado": "listo", "fecha": "2026-09-25", "canal": "TT"},
+    {"nombre": "La Roche-Posay Mela B3 S\u00e9rum", "estado": "listo", "fecha": "2026-10-04", "canal": "TT"},
+    {"nombre": "Wonderskin Lip Tint", "estado": "listo", "fecha": "2026-10-04", "canal": "TT"},
+    {"nombre": "K18 Leave-In Molecular Repair Hair Mask", "estado": "listo", "fecha": "2026-10-05", "canal": "TT"},
+    {"nombre": "Revlon One-Step Dryer & Volumiser", "estado": "listo", "fecha": "2026-10-05", "canal": "TT"},
+    {"nombre": "ISDIN Fusion Water Magic Repair SPF 50", "estado": "listo", "fecha": "2026-10-06", "canal": "TT"},
+    {"nombre": "Karseell Maca Care System Mascarilla", "estado": "listo", "fecha": "2026-10-06", "canal": "TT"},
+    {"nombre": "Remington Keratin Therapy S8593", "estado": "listo", "fecha": "2026-10-07", "canal": "TT"},
+    {"nombre": "Remescar Bolsas y Ojeras", "estado": "listo", "fecha": "2026-10-07", "canal": "TT"},
+    {"nombre": "Tosowoong Real Collagen Fit Peel-Off Mask", "estado": "listo", "fecha": "2026-10-08", "canal": "TT"},
+    {"nombre": "Plantur 39 Champ\u00fa Cafe\u00edna + T\u00f3nico", "estado": "listo", "fecha": "2026-10-08", "canal": "TT"},
+    {"nombre": "Freshly Hair Growth & Density Treatment", "estado": "listo", "fecha": "2026-10-09", "canal": "TT"},
+    {"nombre": "celimax The Vita-A Retinal Shot Dual Cream", "estado": "listo", "fecha": "2026-10-09", "canal": "TT"},
+    {"nombre": "MartiDerm The Originals Proteos Hydra Plus SP", "estado": "listo", "fecha": "2026-10-10", "canal": "TT"},
+    {"nombre": "d'Alba White Truffle Intensive Eye Patch", "estado": "listo", "fecha": "2026-10-10", "canal": "TT"}
   ],
   "_schema": {
-    "estado": [
-      "listo",
-      "producido",
-      "usado"
-    ],
+    "estado": ["listo", "producido", "usado"],
     "nota": "Repo publico: cero codigos de producto Amazon. Actualizar al crear packs y al archivar tras publish."
   }
 }
