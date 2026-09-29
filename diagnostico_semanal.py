@@ -90,6 +90,25 @@ def title_from_caption(c):
     return line[:72] + ("…" if len(line) > 72 else "")
 
 
+
+def _comments_count_ausente(post):
+    """True si el media no trae comments_count numérico. No se inventa."""
+    if "comments_count" not in post:
+        return True
+    cc = post.get("comments_count")
+    return isinstance(cc, bool) or not isinstance(cc, int)
+
+
+def _primer_por_comments_count(post):
+    """OK solo si comments_count > 0. Lista GET vacía o prefijo no cuentan.
+
+    comments_count ausente o no entero -> False (no inventar).
+    """
+    if _comments_count_ausente(post):
+        return False
+    return post.get("comments_count") > 0
+
+
 def parse_posts(ig):
     posts = []
     for p in ig.get("publicaciones") or []:
@@ -111,7 +130,9 @@ def parse_posts(ig):
                 "shares": shares,
                 "saved": saved,
                 "avg": avg,
-                "primer": p.get("primer_comentario_ok"),
+                "primer": _primer_por_comments_count(p),
+                "cc_ausente": _comments_count_ausente(p),
+                "texto_verificado": isinstance(p.get("comentarios"), list) and len(p.get("comentarios") or []) > 0,
             }
         )
     return posts
@@ -246,6 +267,18 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
         )
 
     sin_prim = sum(1 for p in posts if p.get("primer") is False)
+    cc_ausente = sum(1 for p in posts if p.get("cc_ausente"))
+    if cc_ausente:
+        items.append(
+            {
+                "sev": "ns",
+                "t": "comments_count ausente",
+                "d": (
+                    f"{cc_ausente} de {len(posts)} pubs sin comments_count; "
+                    "primer_comentario_ok queda false. No se inventa el conteo."
+                ),
+            }
+        )
     if sin_prim:
         items.append(
             {
@@ -306,7 +339,10 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
     if sin_prim:
         acciones[0] = {
             "k": "01 · Clics + 1er comentario",
-            "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Hoy el 1er comentario falla en todas.",
+            "t": (
+                "Story de enlace en cada pub Y primer comentario obligatorio en Graph. "
+                "Falta en {} de {} (OK = comments_count>0; un GET vacío no cuenta como fallo)."
+            ).format(sin_prim, len(posts)),
         }
 
     dias = (serie or {}).get("dias") or []
@@ -372,6 +408,13 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             "primer_comentario_ok": f"{sum(1 for p in posts if p.get('primer') is True)}/{len(posts)}"
             if posts
             else None,
+            "primer_comentario_texto_nota": (
+                "{} posts con comments_count>0 cuyo texto no se pudo leer "
+                "(GET /comments vacío). El OK no depende del texto."
+            ).format(sum(1 for p in posts if p.get("primer") and not p.get("texto_verificado")))
+            if any(p.get("primer") and not p.get("texto_verificado") for p in posts)
+            else None,
+            "primer_comentario_cc_ausente": sum(1 for p in posts if p.get("cc_ausente")) if posts else None,
             "cola_pendientes": conteos.get("pendientes"),
             "cola_publicados": conteos.get("publicados"),
             "tt_cadencia_7d": f"{len(tt_week)}/14",

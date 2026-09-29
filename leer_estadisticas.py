@@ -146,8 +146,9 @@ def listar_comentarios(media_id):
     """Lista comentarios con paginación y fallback de fields.
 
     Si comments_count > 0 pero data sale vacío, suele ser permiso/app mode
-    (instagram_business_manage_comments / Live) o field username restringido.
-    No inventamos True: devolvemos lista vacía y meta de diagnóstico.
+    (instagram_business_manage_comments / Live): Graph devuelve [] sin
+    comments-read aunque el comentario exista. Aquí no se decide el OK;
+    el llamador usa comments_count del media. No inventamos textos.
     """
     field_sets = [
         "id,text,username,timestamp,like_count,from",
@@ -370,17 +371,31 @@ for m in media.get("data", []):
         m["comentarios_meta"] = comentarios_meta
     if comentarios_err:
         m["comentarios_error"] = comentarios_err
+
+    # Regla 29/09/2026: primer_comentario_ok sigue a comments_count del media.
+    # POST que publicó deja comments_count>0. GET /comments vacío (sin
+    # comments-read) no es fallo y no hace falta el prefijo "Ficha y precio".
+    # Si comments_count no viene, queda false: no se inventa el conteo.
+    cc = m.get("comments_count")
+    if isinstance(cc, bool) or not isinstance(cc, int):
         m["primer_comentario_ok"] = False
+        m["primer_comentario_nota"] = "comments_count ausente; no se marca OK"
+    elif cc > 0:
+        m["primer_comentario_ok"] = True
     else:
-        m["primer_comentario_ok"] = primer_comentario_ok(comentarios, username)
-        # Evidencia: comments_count > 0 pero /comments vacío → lectura API, no ausencia real
-        cc = m.get("comments_count")
-        if not comentarios and isinstance(cc, int) and cc > 0:
-            m["comentarios_discrepancia"] = {
-                "comments_count": cc,
-                "comentarios_n": 0,
-                "nota": "API devolvió data vacía con comments_count>0; no marcar true sin autor",
-            }
+        m["primer_comentario_ok"] = False
+
+    texto_ok = (not comentarios_err) and primer_comentario_ok(comentarios, username)
+    if m["primer_comentario_ok"] and not texto_ok:
+        m["primer_comentario_texto"] = (
+            "no verificado: GET /comments vacío o sin texto del autor; OK por comments_count>0"
+        )
+    if not comentarios and isinstance(cc, int) and not isinstance(cc, bool) and cc > 0:
+        m["comentarios_discrepancia"] = {
+            "comments_count": cc,
+            "comentarios_n": 0,
+            "nota": "GET /comments vacío con comments_count>0; OK por comments_count, texto no verificado",
+        }
 
     publicaciones.append(m)
     time.sleep(1)
