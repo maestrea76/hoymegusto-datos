@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-09-30",
-  "fuente": "02-canonicos Drive: 7 packs TT W39 pendientes (rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10–10/10). product_log solo conteos. Cero códigos de producto.",
+  "actualizado": "2026-10-01",
+  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10–10/10). product_log solo conteos. Cero códigos de producto.",
   "conteos": {
-    "pendientes": 21,
-    "publicados": 37
+    "pendientes": 20,
+    "publicados": 38
   },
   "siguientes": [
     {
@@ -21,12 +21,6 @@
     },
     {
       "nombre": "Estée Lauder Double Wear",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "NARS Radiant Creamy Concealer",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
