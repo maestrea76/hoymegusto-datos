@@ -1,9 +1,9 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
   "actualizado": "2026-10-02",
-  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10\u201310/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados). product_log solo conteos. Cero c\u00f3digos de producto.",
+  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10\u201310/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, 02/10, cobertura 11/10\u201317/10, no publicados). product_log no se duplica: ambos ya est\u00e1n por TikTok. Cero c\u00f3digos de producto.",
   "conteos": {
-    "pendientes": 22,
+    "pendientes": 24,
     "publicados": 38
   },
   "siguientes": [
@@ -137,6 +137,18 @@
       "nombre": "d'Alba White Truffle Intensive Eye Patch",
       "estado": "listo",
       "fecha": "2026-10-04",
+      "canal": "IG"
+    },
+    {
+      "nombre": "Karseell Maca Care System Mascarilla",
+      "estado": "listo",
+      "fecha": "2026-10-11",
+      "canal": "IG"
+    },
+    {
+      "nombre": "MartiDerm The Originals Proteos Hydra Plus SP",
+      "estado": "listo",
+      "fecha": "2026-10-11",
       "canal": "IG"
     }
   ],
