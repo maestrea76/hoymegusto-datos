@@ -1,9 +1,9 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-10-01",
-  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10–10/10). product_log solo conteos. Cero códigos de producto.",
+  "actualizado": "2026-10-02",
+  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10\u201310/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados). product_log solo conteos. Cero c\u00f3digos de producto.",
   "conteos": {
-    "pendientes": 20,
+    "pendientes": 22,
     "publicados": 38
   },
   "siguientes": [
@@ -20,13 +20,13 @@
       "canal": "TT"
     },
     {
-      "nombre": "Estée Lauder Double Wear",
+      "nombre": "Est\u00e9e Lauder Double Wear",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Lancôme Teint Idole Ultra Wear",
+      "nombre": "Lanc\u00f4me Teint Idole Ultra Wear",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
@@ -44,7 +44,7 @@
       "canal": "TT"
     },
     {
-      "nombre": "La Roche-Posay Mela B3 Sérum",
+      "nombre": "La Roche-Posay Mela B3 S\u00e9rum",
       "estado": "listo",
       "fecha": "2026-10-04",
       "canal": "TT"
@@ -98,7 +98,7 @@
       "canal": "TT"
     },
     {
-      "nombre": "Plantur 39 Champú Cafeína + Tónico",
+      "nombre": "Plantur 39 Champ\u00fa Cafe\u00edna + T\u00f3nico",
       "estado": "listo",
       "fecha": "2026-10-08",
       "canal": "TT"
@@ -126,6 +126,18 @@
       "estado": "listo",
       "fecha": "2026-10-10",
       "canal": "TT"
+    },
+    {
+      "nombre": "celimax The Vita-A Retinal Shot Dual Cream",
+      "estado": "listo",
+      "fecha": "2026-10-04",
+      "canal": "IG"
+    },
+    {
+      "nombre": "d'Alba White Truffle Intensive Eye Patch",
+      "estado": "listo",
+      "fecha": "2026-10-04",
+      "canal": "IG"
     }
   ],
   "_schema": {
