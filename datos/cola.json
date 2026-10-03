@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-10-02",
-  "fuente": "02-canonicos Drive: 6 packs TT W39 pendientes (NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10\u201310/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, 02/10, cobertura 11/10\u201317/10, no publicados). product_log no se duplica: ambos ya est\u00e1n por TikTok. Cero c\u00f3digos de producto.",
+  "actualizado": "2026-10-03",
+  "fuente": "02-canonicos Drive: 5 packs TT W39 pendientes (MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10–10/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, 02/10, cobertura 11/10–17/10, no publicados). product_log no se duplica: ambos ya están por TikTok. Cero códigos de producto.",
   "conteos": {
-    "pendientes": 24,
-    "publicados": 38
+    "pendientes": 23,
+    "publicados": 39
   },
   "siguientes": [
     {
@@ -20,19 +20,13 @@
       "canal": "TT"
     },
     {
-      "nombre": "Est\u00e9e Lauder Double Wear",
+      "nombre": "Estée Lauder Double Wear",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
     },
     {
-      "nombre": "Lanc\u00f4me Teint Idole Ultra Wear",
-      "estado": "listo",
-      "fecha": "2026-09-25",
-      "canal": "TT"
-    },
-    {
-      "nombre": "MISSHA M Perfect Cover BB",
+      "nombre": "Lancôme Teint Idole Ultra Wear",
       "estado": "listo",
       "fecha": "2026-09-25",
       "canal": "TT"
@@ -44,7 +38,7 @@
       "canal": "TT"
     },
     {
-      "nombre": "La Roche-Posay Mela B3 S\u00e9rum",
+      "nombre": "La Roche-Posay Mela B3 Sérum",
       "estado": "listo",
       "fecha": "2026-10-04",
       "canal": "TT"
@@ -98,7 +92,7 @@
       "canal": "TT"
     },
     {
-      "nombre": "Plantur 39 Champ\u00fa Cafe\u00edna + T\u00f3nico",
+      "nombre": "Plantur 39 Champú Cafeína + Tónico",
       "estado": "listo",
       "fecha": "2026-10-08",
       "canal": "TT"
