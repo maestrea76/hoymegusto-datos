@@ -1,20 +1,14 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-10-04",
-  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + 14 packs TT W40 listo (lote viernes 02/10, cobertura 04/10–10/10) + 2 carruseles IG W40 listo (celimax y d'Alba, 02/10, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, 02/10, cobertura 11/10–17/10, no publicados). product_log no se duplica: ambos ya están por TikTok. Cero códigos de producto.",
+  "actualizado": "2026-10-05",
+  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + Wonderskin Lip Tint publicado TT 2026-10-05 + 13 packs TT W40 listo (lote viernes 02/10; Wonderskin archivado) + 2 carruseles IG W40 listo (celimax y d'Alba, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, no publicados). product_log no se duplica: Wonderskin ya estaba por IG. Cero códigos de producto.",
   "conteos": {
-    "pendientes": 18,
-    "publicados": 43
+    "pendientes": 17,
+    "publicados": 44
   },
   "siguientes": [
     {
       "nombre": "La Roche-Posay Mela B3 Sérum",
-      "estado": "listo",
-      "fecha": "2026-10-04",
-      "canal": "TT"
-    },
-    {
-      "nombre": "Wonderskin Lip Tint",
       "estado": "listo",
       "fecha": "2026-10-04",
       "canal": "TT"
