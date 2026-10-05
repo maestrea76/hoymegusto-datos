@@ -90,6 +90,12 @@ def title_from_caption(c):
     return line[:72] + ("…" if len(line) > 72 else "")
 
 
+def _es_pregunta(t):
+    """Línea editorial: el gancho siempre es una pregunta. Solo se cita un título si ya lo es."""
+    t = (t or "").strip().rstrip("…").strip()
+    return t.startswith("¿") or t.endswith("?")
+
+
 
 def _comments_count_ausente(post):
     """True si el media no trae comments_count numérico. No se inventa."""
@@ -246,7 +252,7 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             {
                 "sev": "warn",
                 "t": "No hay bucle viral",
-                "d": f"{int(saves)} guardados y {int(shares)} compartidos ({100*save_acc:.2f}% save). En belleza manda el save; se comparte la pega, no el elogio.",
+                "d": f"{int(saves)} guardados y {int(shares)} compartidos ({100*save_acc:.2f}% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio.",
             }
         )
         pills.append(["Viral", "bad"])
@@ -320,14 +326,18 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
         acciones.append(
             {
                 "k": "02 · Formato",
-                "t": f"Repite el gancho de «{best_share['title']}» ({int(best_share['shares'])} shares). La pega va en el segundo 1–3.",
+                "t": (
+                    f"Repite el gancho de «{best_share['title']}» ({int(best_share['shares'])} shares): pregunta en pantalla en el segundo 1–3."
+                    if _es_pregunta(best_share["title"])
+                    else f"Repite el formato de la pieza más compartida ({int(best_share['shares'])} shares), pero abre con una pregunta sobre el producto en el segundo 1–3. Nada de precio como gancho."
+                ),
             }
         )
     else:
         acciones.append(
             {
                 "k": "02 · Gancho",
-                "t": "Tarjeta de primer segundo con la pega, no con la marca. Watch < 5 s = el vídeo no existe para el algoritmo.",
+                "t": "Tarjeta de primer segundo con una pregunta sobre el producto, no con la marca ni el precio. Watch < 5 s = el vídeo no existe para el algoritmo.",
             }
         )
     acciones.append(
