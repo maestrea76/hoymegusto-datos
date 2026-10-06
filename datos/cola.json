@@ -1,10 +1,10 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
-  "actualizado": "2026-10-05",
-  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + Wonderskin Lip Tint publicado TT 2026-10-05 + Tosowoong Real Collagen Fit Peel-Off Mask publicado TT+IG 2026-10-05 + 12 packs TT W40 listo (lote viernes 02/10; Wonderskin y Tosowoong archivados) + 2 carruseles IG W40 listo (celimax y d'Alba, no publicados) + 2 carruseles IG W41 listo (Karseell y MartiDerm, no publicados). product_log: Tosowoong actualizado a PUBLICADO. Cero códigos de producto.",
+  "actualizado": "2026-10-06",
+  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + Wonderskin Lip Tint publicado TT 2026-10-05 + Tosowoong Real Collagen Fit Peel-Off Mask publicado TT+IG 2026-10-05 + celimax The Vita-A Retinal Shot Dual Cream publicado IG carrusel 2026-10-06 (pack TT sigue pendiente) + 12 packs TT W40 listo (lote viernes 02/10; Wonderskin y Tosowoong archivados) + 1 carrusel IG W40 listo (d'Alba, no publicado; celimax archivado) + 2 carruseles IG W41 listo (Karseell y MartiDerm, no publicados). product_log: celimax actualizado con IG publicado. Cero códigos de producto.",
   "conteos": {
-    "pendientes": 16,
-    "publicados": 45
+    "pendientes": 15,
+    "publicados": 46
   },
   "siguientes": [
     {
@@ -78,12 +78,6 @@
       "estado": "listo",
       "fecha": "2026-10-10",
       "canal": "TT"
-    },
-    {
-      "nombre": "celimax The Vita-A Retinal Shot Dual Cream",
-      "estado": "listo",
-      "fecha": "2026-10-04",
-      "canal": "IG"
     },
     {
       "nombre": "d'Alba White Truffle Intensive Eye Patch",
