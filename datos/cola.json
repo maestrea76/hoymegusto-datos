@@ -1,9 +1,9 @@
 {
   "generado": "2026-09-25T20:13:43.139415+00:00",
   "actualizado": "2026-10-09",
-  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + Wonderskin Lip Tint publicado TT 2026-10-05 + Tosowoong Real Collagen Fit Peel-Off Mask publicado TT+IG 2026-10-05 + celimax The Vita-A Retinal Shot Dual Cream publicado IG carrusel 2026-10-06 + TT carrusel 2026-10-06 (pack vídeo TT cerrado, no publicado como vídeo) + La Roche-Posay Mela B3 Sérum publicado TT+IG 2026-10-06 + Revlon One-Step Dryer & Volumiser publicado TT 2026-10-09 + 11 packs TT W40 listo (lote viernes 02/10; Wonderskin, Tosowoong, La Roche-Posay y Revlon One-Step archivados) + 1 carrusel IG W40 listo (d'Alba, no publicado; celimax archivado) + 2 carruseles IG W41 listo (Karseell y MartiDerm, no publicados). product_log: La Roche-Posay actualizado a PUBLICADO (TT+IG); Revlon One-Step actualizado a PUBLICADO (TT). Cero códigos de producto.",
+  "fuente": "02-canonicos Drive: 0 packs TT W39 pendientes (MAC Studio Waterweight descartado 2026-10-04, no publicado, sin rehacer; Dior Addict Max Lip Bar publicado TT 2026-10-04; Estée Lauder Double Wear publicado TT 2026-10-04; Lancôme Teint Idole Ultra Wear publicado TT 2026-10-03; LANEIGE Lip Sleeping Mask publicado TT 2026-10-03; MISSHA M Perfect Cover BB publicado TT 2026-10-02; NARS Radiant Creamy Concealer publicado TT 2026-10-01; rom&nd Volume Hack Trio publicado TT 2026-09-30; no se rehacen) + Wonderskin Lip Tint publicado TT 2026-10-05 + Tosowoong Real Collagen Fit Peel-Off Mask publicado TT+IG 2026-10-05 + celimax The Vita-A Retinal Shot Dual Cream publicado IG carrusel 2026-10-06 + TT carrusel 2026-10-06 (pack vídeo TT cerrado, no publicado como vídeo) + La Roche-Posay Mela B3 Sérum publicado TT+IG 2026-10-06 + Revlon One-Step Dryer & Volumiser publicado TT 2026-10-09 + 11 packs TT W40 listo (lote viernes 02/10; Wonderskin, Tosowoong, La Roche-Posay y Revlon One-Step archivados) + 1 carrusel IG W40 listo (d'Alba, no publicado; celimax archivado) + 2 carruseles IG W41 listo (Karseell y MartiDerm, no publicados). product_log: La Roche-Posay actualizado a PUBLICADO (TT+IG); Revlon One-Step actualizado a PUBLICADO (TT). Cero códigos de producto. + 5 packs TT W41 listo (lote viernes 09/10; Beauty of Joseon Relief Sun, COSRX Blue Peptide, NYX Utopia, TYMO CURLPRO, Rowenta Powerstraight; fecha orientativa, el día lo asigna Estratega).",
   "conteos": {
-    "pendientes": 12,
+    "pendientes": 17,
     "publicados": 49
   },
   "siguientes": [
@@ -78,6 +78,36 @@
       "estado": "listo",
       "fecha": "2026-10-11",
       "canal": "IG"
+    },
+    {
+      "nombre": "Beauty of Joseon Relief Sun Rice + Probiotics SPF50+",
+      "estado": "listo",
+      "fecha": "2026-10-11",
+      "canal": "TT"
+    },
+    {
+      "nombre": "COSRX The Blue Peptide Bakuchiol Plump Glow Serum",
+      "estado": "listo",
+      "fecha": "2026-10-12",
+      "canal": "TT"
+    },
+    {
+      "nombre": "NYX Ultimate Shadow Palette Utopia",
+      "estado": "listo",
+      "fecha": "2026-10-13",
+      "canal": "TT"
+    },
+    {
+      "nombre": "TYMO CURLPRO rizador automático",
+      "estado": "listo",
+      "fecha": "2026-10-14",
+      "canal": "TT"
+    },
+    {
+      "nombre": "Rowenta Powerstraight cepillo alisador",
+      "estado": "listo",
+      "fecha": "2026-10-15",
+      "canal": "TT"
     }
   ],
   "_schema": {
