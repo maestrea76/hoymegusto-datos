@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-03T09:18:34+00:00",
+  "generado": "2026-10-10T06:55:50+00:00",
   "videos": [
     {
       "fecha": "2026-09-06",
@@ -44,7 +44,7 @@
       "video_id": "7686900441174543638",
       "title": "El SPF que deja glow… y del que nadie te cuenta la pega SKIN1004 Madagascar Cent",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7686900441174543638",
-      "views": 1144,
+      "views": 1145,
       "likes": 23,
       "comments": 0,
       "shares": 1,
@@ -55,15 +55,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-11",
       "video_id": "7684333353352334614",
       "title": "Un bote de estos NO es barato… y la marca no te dice lo molesto Kérastase Genesi",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7684333353352334614",
-      "views": 823,
+      "views": 824,
       "likes": 2,
       "comments": 0,
       "shares": 1,
@@ -74,34 +74,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
-    },
-    {
-      "fecha": "2026-09-29",
-      "video_id": "7691049002753592598",
-      "title": "¿Una sola gota para toda la cara? Yo tampoco me lo creía 👀 La Mask Fit Red de TI",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7691049002753592598",
-      "views": 808,
-      "likes": 5,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-25",
       "video_id": "7689571489888226582",
       "title": "¿Y si el rizador de pestañas ya no hiciera falta? 👀 La Roller Lash de Benefit se",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7689571489888226582",
-      "views": 807,
+      "views": 820,
       "likes": 4,
       "comments": 0,
       "shares": 1,
@@ -112,15 +93,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-26",
       "video_id": "7689795786413985046",
       "title": "¿Llevo base o no llevo base? Esa es la gracia 😌 La Even Better de Clinique cubre",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7689795786413985046",
-      "views": 805,
+      "views": 813,
       "likes": 5,
       "comments": 0,
       "shares": 1,
@@ -131,8 +112,46 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-29",
+      "video_id": "7691049002753592598",
+      "title": "¿Una sola gota para toda la cara? Yo tampoco me lo creía 👀 La Mask Fit Red de TI",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7691049002753592598",
+      "views": 809,
+      "likes": 5,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-15",
+      "video_id": "7685869740853562646",
+      "title": "Boquilla alisadora compatible dorada para Dyson Airwrap HS01/HS05/HS08 · Menos d",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685869740853562646",
+      "views": 799,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-07",
@@ -158,7 +177,7 @@
       "video_id": "7685484523550805270",
       "title": "La esencia caracol más famosa en serum… y la pega honesta: me da cosita ponerme",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7685484523550805270",
-      "views": 795,
+      "views": 798,
       "likes": 1,
       "comments": 0,
       "shares": 1,
@@ -169,18 +188,18 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
-      "fecha": "2026-09-15",
-      "video_id": "7685869740853562646",
-      "title": "Boquilla alisadora compatible dorada para Dyson Airwrap HS01/HS05/HS08 · Menos d",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685869740853562646",
+      "fecha": "2026-10-02",
+      "video_id": "7692114699130916118",
+      "title": "¿Así de jugosa con una BB tan barata? 🍓 La M Perfect Cover BB de MISSHA cubre bi",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7692114699130916118",
       "views": 793,
       "likes": 3,
       "comments": 0,
-      "shares": 0,
+      "shares": 1,
       "avg_watch": null,
       "followers_net": null,
       "interpretacion": "ok",
@@ -188,8 +207,46 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-12",
+      "video_id": "7684660907296820502",
+      "title": "Centella + Vita C en pack doble… y la pega que nadie dice Beauty of Joseon Light",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684660907296820502",
+      "views": 792,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-22",
+      "video_id": "7688441495715761430",
+      "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Setting Powder, 20 g, Coffee Cake",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688441495715761430",
+      "views": 791,
+      "likes": 4,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-07",
@@ -211,49 +268,11 @@
       "fuente_csv": "Content_20261003T091834Z.csv"
     },
     {
-      "fecha": "2026-09-12",
-      "video_id": "7684660907296820502",
-      "title": "Centella + Vita C en pack doble… y la pega que nadie dice Beauty of Joseon Light",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684660907296820502",
-      "views": 788,
-      "likes": 2,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
-    },
-    {
-      "fecha": "2026-09-22",
-      "video_id": "7688441495715761430",
-      "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Setting Powder, 20 g, Coffee Cake",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688441495715761430",
-      "views": 783,
-      "likes": 4,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
-    },
-    {
       "fecha": "2026-09-28",
       "video_id": "7690678931107892483",
       "title": "¿Una máscara con ese nombre puede estar a la altura? 😏 La Better Than Sex de Too",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7690678931107892483",
-      "views": 777,
+      "views": 780,
       "likes": 2,
       "comments": 0,
       "shares": 1,
@@ -264,15 +283,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-27",
       "video_id": "7690164080404876566",
       "title": "¿Y si tus brillos de mediodía no son culpa de tu base? 🤔 El All Nighter Matte de",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7690164080404876566",
-      "views": 768,
+      "views": 769,
       "likes": 7,
       "comments": 1,
       "shares": 1,
@@ -283,34 +302,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
-      "fecha": "2026-09-20",
-      "video_id": "7687694159959870742",
-      "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml — menos de 27 €. «Como hidrat",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687694159959870742",
-      "views": 749,
-      "likes": 3,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261003",
-      "fuente_csv": "Content_20261003T091834Z.csv"
-    },
-    {
-      "fecha": "2026-09-23",
-      "video_id": "7688673826850311446",
-      "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moisturizer, 50 ml — menos de 43 €.",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688673826850311446",
-      "views": 668,
+      "fecha": "2026-10-01",
+      "video_id": "7691776502186249494",
+      "title": "¿Un corrector de ojeras que no se marca? Spoiler: sí 😌 El Radiant Creamy Conceal",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7691776502186249494",
+      "views": 769,
       "likes": 2,
       "comments": 0,
       "shares": 1,
@@ -321,8 +321,46 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20260928",
-      "fuente_csv": "Content_20260928T180500Z.csv"
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-20",
+      "video_id": "7687694159959870742",
+      "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml — menos de 27 €. «Como hidrat",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7687694159959870742",
+      "views": 752,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
+    },
+    {
+      "fecha": "2026-09-23",
+      "video_id": "7688673826850311446",
+      "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moisturizer, 50 ml — menos de 43 €.",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688673826850311446",
+      "views": 673,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261010",
+      "fuente_csv": "Content_20261010T065550Z.csv"
     },
     {
       "fecha": "2026-09-13",
@@ -573,16 +611,16 @@
     }
   ],
   "fuentes": {
-    "content": "20261003T091834Z",
-    "overview": "20261003T091834Z",
-    "viewers": "20261003T091834Z",
-    "followers": "20261003T091834Z",
-    "content_prev": "20260928T180500Z"
+    "content": "20261010T065550Z",
+    "overview": "20261010T065550Z",
+    "viewers": "20261010T065550Z",
+    "followers": "20261010T065550Z",
+    "content_prev": "20261003T091834Z"
   },
   "summary": {
-    "n": 30,
-    "n_ok": 30,
-    "median_ok": 758.5,
+    "n": 32,
+    "n_ok": 32,
+    "median_ok": 769.0,
     "median_nucleo_organic": 274,
     "nucleo_range": [
       256,
@@ -605,28 +643,33 @@
     "outliers": [
       {
         "video_id": "7686900441174543638",
-        "views": 1144,
+        "views": 1145,
         "title": "El SPF que deja glow… y del que nadie te cuenta la"
       },
       {
         "video_id": "7684333353352334614",
-        "views": 823,
+        "views": 824,
         "title": "Un bote de estos NO es barato… y la marca no te di"
       },
       {
-        "video_id": "7691049002753592598",
-        "views": 808,
-        "title": "¿Una sola gota para toda la cara? Yo tampoco me lo"
-      },
-      {
         "video_id": "7689571489888226582",
-        "views": 807,
+        "views": 820,
         "title": "¿Y si el rizador de pestañas ya no hiciera falta? "
       },
       {
         "video_id": "7689795786413985046",
-        "views": 805,
+        "views": 813,
         "title": "¿Llevo base o no llevo base? Esa es la gracia 😌 La"
+      },
+      {
+        "video_id": "7691049002753592598",
+        "views": 809,
+        "title": "¿Una sola gota para toda la cara? Yo tampoco me lo"
+      },
+      {
+        "video_id": "7685869740853562646",
+        "views": 799,
+        "title": "Boquilla alisadora compatible dorada para Dyson Ai"
       },
       {
         "video_id": "7682661716454378774",
@@ -635,13 +678,23 @@
       },
       {
         "video_id": "7685484523550805270",
-        "views": 795,
+        "views": 798,
         "title": "La esencia caracol más famosa en serum… y la pega "
       },
       {
-        "video_id": "7685869740853562646",
+        "video_id": "7692114699130916118",
         "views": 793,
-        "title": "Boquilla alisadora compatible dorada para Dyson Ai"
+        "title": "¿Así de jugosa con una BB tan barata? 🍓 La M Perfe"
+      },
+      {
+        "video_id": "7684660907296820502",
+        "views": 792,
+        "title": "Centella + Vita C en pack doble… y la pega que nad"
+      },
+      {
+        "video_id": "7688441495715761430",
+        "views": 791,
+        "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Sett"
       },
       {
         "video_id": "7682800281070865686",
@@ -649,42 +702,37 @@
         "title": "El limpiador que TODO el mundo recomienda… y del q"
       },
       {
-        "video_id": "7684660907296820502",
-        "views": 788,
-        "title": "Centella + Vita C en pack doble… y la pega que nad"
-      },
-      {
-        "video_id": "7688441495715761430",
-        "views": 783,
-        "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Sett"
-      },
-      {
         "video_id": "7690678931107892483",
-        "views": 777,
+        "views": 780,
         "title": "¿Una máscara con ese nombre puede estar a la altur"
       },
       {
         "video_id": "7690164080404876566",
-        "views": 768,
+        "views": 769,
         "title": "¿Y si tus brillos de mediodía no son culpa de tu b"
       },
       {
+        "video_id": "7691776502186249494",
+        "views": 769,
+        "title": "¿Un corrector de ojeras que no se marca? Spoiler: "
+      },
+      {
         "video_id": "7687694159959870742",
-        "views": 749,
+        "views": 752,
         "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml"
       },
       {
         "video_id": "7688673826850311446",
-        "views": 668,
+        "views": 673,
         "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moistu"
       }
     ]
   },
   "regla": "<50 views = n/s; no scrapers; histórico por snapshot",
-  "content_import": "20261003T091834Z",
-  "overview_import": "20261003T091834Z",
-  "viewers_import": "20261003T091834Z",
-  "followers_import": "20261003T091834Z",
+  "content_import": "20261010T065550Z",
+  "overview_import": "20261010T065550Z",
+  "viewers_import": "20261010T065550Z",
+  "followers_import": "20261010T065550Z",
   "overview_semana": {
     "date_range": [
       "2026-09-21",
@@ -706,27 +754,157 @@
   },
   "overview_dias_nuevos": {
     "date_range": [
-      "2026-09-28",
-      "2026-10-01"
+      "2026-10-02",
+      "2026-10-08"
     ],
     "dias": [
-      "2026-09-28",
-      "2026-09-29",
-      "2026-09-30",
+      {
+        "fecha": "2026-10-02",
+        "views": 979,
+        "profile_views": 8,
+        "ratio_perfil_pct": 0.82
+      },
+      {
+        "fecha": "2026-10-03",
+        "views": 736,
+        "profile_views": 3,
+        "ratio_perfil_pct": 0.41
+      },
+      {
+        "fecha": "2026-10-04",
+        "views": 608,
+        "profile_views": 2,
+        "ratio_perfil_pct": 0.33
+      },
+      {
+        "fecha": "2026-10-05",
+        "views": 556,
+        "profile_views": 2,
+        "ratio_perfil_pct": 0.36
+      },
+      {
+        "fecha": "2026-10-06",
+        "views": 609,
+        "profile_views": 0,
+        "ratio_perfil_pct": 0.0
+      },
+      {
+        "fecha": "2026-10-07",
+        "views": 56,
+        "profile_views": 6,
+        "ratio_perfil_pct": 10.71,
+        "provisional": true,
+        "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\"; FollowerHistory.csv Followers=\"undefined\"; Video Views=56 frente a ~500–1.000/día habitual; FollowerActivity.csv: horas 2–23 a 0. Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      },
+      {
+        "fecha": "2026-10-08",
+        "views": 69,
+        "profile_views": 6,
+        "ratio_perfil_pct": 8.7,
+        "provisional": true,
+        "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\"; sin fila en FollowerHistory.csv; Video Views=69 frente a ~500–1.000/día habitual. Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      }
+    ],
+    "firmes_02_06": {
+      "views": 3488,
+      "profile_views": 15,
+      "ratio_perfil_pct": 0.43
+    },
+    "con_provisionales_02_08": {
+      "views": 3613,
+      "profile_views": 27,
+      "ratio_perfil_pct": 0.75
+    },
+    "followers_stock_1oct": 110,
+    "followers_stock_6oct": 110,
+    "followers_ultimo_numerico": {
+      "fecha": "2026-10-06",
+      "followers": 110
+    },
+    "fuente": "Overview.csv (Video Views, Profile Views) y FollowerHistory.csv (Followers) export 2026-10-10",
+    "nota": "Días presentes en el Overview del 10/10 y ausentes en el del 03/10. 07 y 08 oct provisionales (probable retraso de procesado), sin corregir. Viewers no se usa como visitas."
+  },
+  "merge_note": "videos = Content 20261010T065550Z (15) + 17 solo presentes en la lista previa de main (tiktok.json 20261003T091834Z; números y fuente_csv originales). 13 coinciden → números nuevos. 2 entran por primera vez en un Content.csv oficial (7692114699130916118 2026-10-02, 7691776502186249494 2026-10-01). Total 32. summary sobre la lista fusionada. Snapshot/latest de content reflejan solo el CSV nuevo (15 filas, mínimo 673 views): no es el catálogo entero. Fuera de este CSV, entre otros, los dos promos. No aparecen Lancôme, LANEIGE, Estée Lauder ni Dior (publicados 03–04 oct). No se borra ningún vídeo previo. No hay ASIN.",
+  "experimento_sigueme_provisional": {
+    "estado": "PROVISIONAL — lectura oficial con el export del lunes 12/10",
+    "semana": [
+      "2026-10-02",
+      "2026-10-08"
+    ],
+    "rol": "control nuevo (gancho pregunta sin CTA a mitad); no concluyente para el «sígueme» (Lancôme 03/10 es el único tratamiento, <80 %)",
+    "semana_preliminar_02_08": {
+      "views": 3613,
+      "profile_views": 27,
+      "ratio_perfil_pct": 0.75,
+      "incluye_provisionales": [
+        "2026-10-07",
+        "2026-10-08"
+      ]
+    },
+    "semana_firme_02_06": {
+      "views": 3488,
+      "profile_views": 15,
+      "ratio_perfil_pct": 0.43
+    },
+    "seguidores": {
+      "stock_1oct": 110,
+      "stock_6oct": 110,
+      "delta_02_06": 0,
+      "por_1000_vistas_02_06": 0.0,
+      "02_08": "no calculable: stock 7 oct undefined y sin fila 8 oct"
+    },
+    "por_dia_regla_mismo_dia": [
+      {
+        "fecha": "2026-10-02",
+        "brazo": "control con arrastre (NARS 01/10)",
+        "tt": [
+          "MISSHA"
+        ],
+        "views": 979,
+        "profile_views": 8,
+        "ratio_perfil_pct": 0.82
+      },
+      {
+        "fecha": "2026-10-03",
+        "brazo": "mezclado (LANEIGE control + Lancôme hablado+pantalla) — fuera",
+        "tt": [
+          "LANEIGE",
+          "Lancôme"
+        ]
+      },
+      {
+        "fecha": "2026-10-04",
+        "brazo": "control con arrastre",
+        "tt": [
+          "Estée Lauder",
+          "Dior"
+        ],
+        "views": 608,
+        "profile_views": 2,
+        "ratio_perfil_pct": 0.33
+      },
+      {
+        "fecha": "2026-10-05/08",
+        "brazo": "sin TT nuevo según calendario 05/10; Content 10/10 no muestra nada con Post time 03–08 oct (CSV recortado, no prueba ausencia)"
+      }
+    ]
+  },
+  "solape_vs_20261003": {
+    "comparado_con": "20261003T091834Z",
+    "rango_overview": [
+      "2026-09-11",
       "2026-10-01"
     ],
-    "views": 2420,
-    "profile_views": 13,
-    "ratio_perfil_pct": 0.54,
-    "likes": 13,
-    "comments": 0,
-    "shares": 0,
-    "followers_net_columna": 18,
-    "followers_stock_27sep": 90,
-    "followers_stock_1oct": 110,
-    "followers_stock_delta": 20,
-    "fuente": "Overview.csv columnas Video Views y Profile Views; FollowerHistory.csv columnas Followers y Difference in followers from previous day",
-    "nota": "Días presentes en Overview 2026-10-03 y ausentes en Overview 2026-09-28. 2420 views, 13 profile views, 13/2420 = 0.54 %. Suma de Difference en estos 4 días = 18. Delta de stock Followers 1 oct (110) − Followers 27 sep (90) = 20. No son lo mismo por el desfase de la columna Difference. Overview no trae acumulado de vistas. No incluye el 2 oct (inicio del experimento «sígueme» a mitad)."
-  },
-  "merge_note": "videos = Content 20261003T091834Z (15) + 15 solo presentes en la lista previa de main (tiktok.json 20260928T180500Z; números y fuente_csv originales). 12 coinciden → números nuevos. 3 entran por primera vez en un Content.csv oficial (7691049002753592598 TIRTIR 29-sep, 7690678931107892483 Too Faced 28-sep, 7690164080404876566 Urban Decay 27-sep). summary sobre la lista fusionada. El snapshot/latest de content reflejan solo el CSV nuevo (15 filas, mínimo 749 views): no es el catálogo entero. Siguen fuera de este CSV, entre otros, el promo Ordinary 7680683308577049878 (1425 views en 20260928T180500Z), MÁDARA 7688673826850311446 (668) y el núcleo 7685051792983493890 (287). No se borra ningún vídeo previo. No hay ASIN."
+    "dias_overview_comparados": 21,
+    "cambios": [
+      {
+        "fecha": "2026-10-01",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261003": "0",
+        "ahora": "1"
+      }
+    ],
+    "nota": "Comparación celda a celda de los días comunes con el export del 03/10 (Overview 11/09–01/10; FollowerHistory y Viewers en su solape). 1 celdas cambiadas, ver lista."
+  }
 }
