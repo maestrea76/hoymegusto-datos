@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-13T10:09:09.802102+02:00",
+  "generado": "2026-10-13T10:11:56.838214+02:00",
   "semana": "2026-W42",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
@@ -86,7 +86,23 @@
     "primer_comentario_cc_ausente": 0,
     "cola_pendientes": 14,
     "cola_publicados": 52,
-    "tt_cadencia_7d": "0/14",
+    "tt_cadencia_7d": "6/14",
+    "tt_cadencia_fuente": {
+      "fuente": "cola.json (texto 'fuente': publicado TT / TT carrusel + fecha)",
+      "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
+      "desde": "2026-10-06T10:11:56.838214+02:00",
+      "hasta": "2026-10-13T10:11:56.838214+02:00",
+      "incluye_carruseles_tt": true,
+      "publicados": [
+        "2026-10-06 celimax The Vita-A Retinal Shot Dual Cream (carrusel)",
+        "2026-10-06 La Roche-Posay Mela B3 Sérum (video)",
+        "2026-10-09 Revlon One-Step Dryer & Volumiser (video)",
+        "2026-10-10 d'Alba White Truffle Intensive Eye Patch (video)",
+        "2026-10-10 K18 Leave-In Molecular Repair Hair Mask (video)",
+        "2026-10-11 Freshly Hair Growth & Density Treatment (video)"
+      ],
+      "sin_fecha_no_contados": []
+    },
     "ig_carruseles_7d": 0,
     "ig_reels_7d": 5,
     "mejor_reel": {
