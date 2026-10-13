@@ -160,6 +160,55 @@ def in_days(iso, ref: dt.datetime, n: int):
     return 0 <= delta <= n * 86400
 
 
+_PUB_RE = None
+
+
+def tt_publicados_cola(cola, now: dt.datetime, n: int = 7):
+    """Cadencia TT desde cola.json (fuente de verdad de publicacion).
+
+    cola.json no trae registros estructurados de publicados: los anota en el
+    texto de "fuente" como "<nombre> publicado TT[+IG] AAAA-MM-DD" o, para
+    carruseles, "... + TT carrusel AAAA-MM-DD". Se cuenta todo lo publicado en
+    TT (video o carrusel) con fecha en los n dias previos a la run (Madrid;
+    fecha sin hora = 12:00 Madrid). Sin fecha -> no cuenta y se anota.
+    """
+    import re
+
+    texto = str((cola or {}).get("fuente") or "")
+    segs = re.split(r"\s*;\s*|\s\+\s", texto)
+    pubs, sin_fecha, ultimo = [], [], None
+    for seg in segs:
+        seg = seg.strip()
+        m = re.search(r"^(?P<nombre>.*?)\s+publicado\s+(?P<canal>TT\+IG|IG\+TT|TT|IG)(?:\s+carrusel)?\b", seg)
+        nombre = None
+        if m:
+            nombre = re.split(r"[(:]", m.group("nombre"))[-1].strip()
+            ultimo = nombre
+        tt_hits = []
+        if m and "TT" in m.group("canal"):
+            f = re.match(r"\s*(\d{4}-\d{2}-\d{2})", seg[m.end():])
+            tt_hits.append(("video" if "carrusel" not in m.group(0) else "carrusel", f.group(1) if f else None))
+        c = re.match(r"^TT carrusel(?:\s+(\d{4}-\d{2}-\d{2}))?", seg)
+        if c and ultimo:
+            nombre = ultimo
+            tt_hits.append(("carrusel", c.group(1)))
+        for tipo, fecha in tt_hits:
+            if not fecha:
+                sin_fecha.append(nombre)
+                continue
+            pubs.append({"nombre": nombre, "fecha": fecha, "tipo": tipo})
+    vistos, dentro = set(), []
+    for x in pubs:
+        k = (x["nombre"], x["fecha"], x["tipo"])
+        if k in vistos:
+            continue
+        vistos.add(k)
+        t = dt.datetime.fromisoformat(x["fecha"] + "T12:00:00").replace(tzinfo=MADRID)
+        if 0 <= (now - t).total_seconds() <= n * 86400:
+            dentro.append(x)
+    return dentro, sin_fecha
+
+
 def serie_delta(dias, field, days):
     rows = [d for d in dias if num(d.get(field)) is not None and d.get("fecha")]
     if not rows:
@@ -369,7 +418,9 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
         tt_ref = now
     if tt_ref.tzinfo is None:
         tt_ref = tt_ref.replace(tzinfo=dt.timezone.utc)
-    tt_week = [v for v in videos if in_days(v.get("fecha"), tt_ref, 7)]
+    # Cadencia: fuente = cola.json, ventana = 7 dias previos a la run (Madrid).
+    # tiktok.json (Content truncado) solo se usa para metricas.
+    tt_week, tt_sin_fecha = tt_publicados_cola(cola, now.astimezone(MADRID), 7)
     ig_ref = now
     ig_week = [p for p in posts if in_days(p.get("ts") or p.get("when"), ig_ref, 7)]
     cars = [
@@ -428,6 +479,15 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             "cola_pendientes": conteos.get("pendientes"),
             "cola_publicados": conteos.get("publicados"),
             "tt_cadencia_7d": f"{len(tt_week)}/14",
+            "tt_cadencia_fuente": {
+                "fuente": "cola.json (texto 'fuente': publicado TT / TT carrusel + fecha)",
+                "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
+                "desde": (now.astimezone(MADRID) - dt.timedelta(days=7)).isoformat(),
+                "hasta": now.astimezone(MADRID).isoformat(),
+                "incluye_carruseles_tt": True,
+                "publicados": [f"{x['fecha']} {x['nombre']} ({x['tipo']})" for x in sorted(tt_week, key=lambda x: x["fecha"])],
+                "sin_fecha_no_contados": tt_sin_fecha,
+            },
             "ig_carruseles_7d": len(cars),
             "ig_reels_7d": len(reels),
             "mejor_reel": {
