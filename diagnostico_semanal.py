@@ -197,16 +197,52 @@ def tt_publicados_cola(cola, now: dt.datetime, n: int = 7):
                 sin_fecha.append(nombre)
                 continue
             pubs.append({"nombre": nombre, "fecha": fecha, "tipo": tipo})
-    vistos, dentro = set(), []
+    import unicodedata
+
+    def _slug(t):
+        t = unicodedata.normalize("NFKD", str(t or "")).encode("ascii", "ignore").decode().lower()
+        return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+    def _en_ventana(fecha):
+        try:
+            raw = fecha if len(fecha) > 10 else fecha + "T12:00:00"
+            t = dt.datetime.fromisoformat(raw.replace("Z", "+00:00"))
+        except (TypeError, ValueError):
+            return None
+        if t.tzinfo is None:
+            t = t.replace(tzinfo=MADRID)
+        return 0 <= (now - t).total_seconds() <= n * 86400
+
+    # 1) Prioridad: array estructurado cola.json["publicados"].
+    estructurados = (cola or {}).get("publicados")
+    dentro, vistos, usadas = [], set(), set()
+    if isinstance(estructurados, list):
+        for x in estructurados:
+            if not isinstance(x, dict) or str(x.get("red") or "").strip().lower() not in ("tt", "tiktok"):
+                continue
+            slug = x.get("slug") or _slug(x.get("nombre"))
+            fecha = str(x.get("fecha") or "")
+            if not fecha or _en_ventana(fecha) is None:
+                sin_fecha.append(slug or x.get("nombre"))
+                continue
+            k = (slug, fecha[:10])
+            if k in vistos:
+                continue
+            vistos.add(k)
+            if _en_ventana(fecha):
+                usadas.add("publicados")
+                dentro.append({"nombre": slug, "fecha": fecha[:10], "tipo": x.get("tipo") or "?", "origen": "publicados"})
+    # 2) Respaldo: notas de cola.fuente (dedupe por slug del nombre + fecha).
     for x in pubs:
-        k = (x["nombre"], x["fecha"], x["tipo"])
+        k = (_slug(x["nombre"]), x["fecha"])
         if k in vistos:
             continue
         vistos.add(k)
-        t = dt.datetime.fromisoformat(x["fecha"] + "T12:00:00").replace(tzinfo=MADRID)
-        if 0 <= (now - t).total_seconds() <= n * 86400:
-            dentro.append(x)
-    return dentro, sin_fecha
+        if _en_ventana(x["fecha"]):
+            usadas.add("notas")
+            dentro.append(dict(x, origen="notas"))
+    fuente = "ambas" if len(usadas) == 2 else (usadas.pop() if usadas else "ninguna")
+    return dentro, sin_fecha, fuente
 
 
 def serie_delta(dias, field, days):
@@ -420,7 +456,7 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
         tt_ref = tt_ref.replace(tzinfo=dt.timezone.utc)
     # Cadencia: fuente = cola.json, ventana = 7 dias previos a la run (Madrid).
     # tiktok.json (Content truncado) solo se usa para metricas.
-    tt_week, tt_sin_fecha = tt_publicados_cola(cola, now.astimezone(MADRID), 7)
+    tt_week, tt_sin_fecha, tt_fuente_usada = tt_publicados_cola(cola, now.astimezone(MADRID), 7)
     ig_ref = now
     ig_week = [p for p in posts if in_days(p.get("ts") or p.get("when"), ig_ref, 7)]
     cars = [
@@ -480,7 +516,8 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             "cola_publicados": conteos.get("publicados"),
             "tt_cadencia_7d": f"{len(tt_week)}/14",
             "tt_cadencia_fuente": {
-                "fuente": "cola.json (texto 'fuente': publicado TT / TT carrusel + fecha)",
+                "fuente": "cola.json: array 'publicados' (red TT) con prioridad + notas de 'fuente' como respaldo",
+                "fuente_usada": tt_fuente_usada,
                 "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
                 "desde": (now.astimezone(MADRID) - dt.timedelta(days=7)).isoformat(),
                 "hasta": now.astimezone(MADRID).isoformat(),
