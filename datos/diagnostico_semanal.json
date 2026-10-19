@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-13T10:11:56.838214+02:00",
-  "semana": "2026-W42",
+  "generado": "2026-10-20T01:54:52.465896+02:00",
+  "semana": "2026-W43",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
     "proxima": "2026-10-20T10:00:00+02:00",
@@ -36,12 +36,12 @@
     {
       "sev": "bad",
       "t": "El algoritmo no empuja en Instagram",
-      "d": "29 de 50 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
+      "d": "28 de 50 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
     },
     {
       "sev": "warn",
       "t": "No hay bucle viral",
-      "d": "8 guardados y 1 compartidos (0.20% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
+      "d": "8 guardados y 1 compartidos (0.17% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
     },
     {
       "sev": "warn",
@@ -51,13 +51,13 @@
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "27 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "26 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     }
   ],
   "acciones": [
     {
       "k": "01 · Clics + 1er comentario",
-      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 27 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 26 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
     },
     {
       "k": "02 · Formato",
@@ -69,46 +69,40 @@
     }
   ],
   "kpis": {
-    "followers_ig": 44.0,
-    "delta_7d": -1.0,
+    "followers_ig": 45.0,
+    "delta_7d": 1.0,
     "delta_7d_nota": null,
-    "delta_30d": null,
-    "delta_30d_nota": "serie <30d",
-    "website_clicks": 4.0,
-    "profile_views": 119.0,
-    "views_ig_piezas": 3986.0,
+    "delta_30d": 34.0,
+    "delta_30d_nota": null,
+    "website_clicks": 3.0,
+    "profile_views": 120.0,
+    "views_ig_piezas": 4844.0,
     "tt_views": 18781.0,
     "tt_profile_views": 104.0,
     "tt_views_perfil": 0.005537511314626484,
-    "ig_bajo_50": "29/50",
-    "primer_comentario_ok": "23/50",
-    "primer_comentario_texto_nota": "23 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
+    "ig_bajo_50": "28/50",
+    "primer_comentario_ok": "24/50",
+    "primer_comentario_texto_nota": "24 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
     "primer_comentario_cc_ausente": 0,
-    "cola_pendientes": 14,
-    "cola_publicados": 52,
-    "tt_cadencia_7d": "6/14",
+    "cola_pendientes": 12,
+    "cola_publicados": 55,
+    "tt_cadencia_7d": "0/14",
     "tt_cadencia_fuente": {
-      "fuente": "cola.json (texto 'fuente': publicado TT / TT carrusel + fecha)",
+      "fuente": "cola.json: array 'publicados' (red TT) con prioridad + notas de 'fuente' como respaldo",
+      "fuente_usada": "ninguna",
       "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
-      "desde": "2026-10-06T10:11:56.838214+02:00",
-      "hasta": "2026-10-13T10:11:56.838214+02:00",
+      "desde": "2026-10-13T01:54:52.465896+02:00",
+      "hasta": "2026-10-20T01:54:52.465896+02:00",
       "incluye_carruseles_tt": true,
-      "publicados": [
-        "2026-10-06 celimax The Vita-A Retinal Shot Dual Cream (carrusel)",
-        "2026-10-06 La Roche-Posay Mela B3 Sérum (video)",
-        "2026-10-09 Revlon One-Step Dryer & Volumiser (video)",
-        "2026-10-10 d'Alba White Truffle Intensive Eye Patch (video)",
-        "2026-10-10 K18 Leave-In Molecular Repair Hair Mask (video)",
-        "2026-10-11 Freshly Hair Growth & Density Treatment (video)"
-      ],
+      "publicados": [],
       "sin_fecha_no_contados": []
     },
     "ig_carruseles_7d": 0,
-    "ig_reels_7d": 5,
+    "ig_reels_7d": 4,
     "mejor_reel": {
-      "title": "Un bote de estos no es barato. Y la marca no te dice lo molesto.",
-      "views": 317.0,
-      "avg": 11.2
+      "title": "¿Sombras que no hacen polvo?",
+      "views": 937.0,
+      "avg": 5.3
     }
   },
   "fuentes": {
