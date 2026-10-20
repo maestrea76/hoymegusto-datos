@@ -163,7 +163,7 @@ def in_days(iso, ref: dt.datetime, n: int):
 _PUB_RE = None
 
 
-def tt_publicados_cola(cola, now: dt.datetime, n: int = 7):
+def tt_publicados_cola(cola, now: dt.datetime, n: int = 7, tt=None):
     """Cadencia TT desde cola.json (fuente de verdad de publicacion).
 
     cola.json no trae registros estructurados de publicados: los anota en el
@@ -213,6 +213,12 @@ def tt_publicados_cola(cola, now: dt.datetime, n: int = 7):
             t = t.replace(tzinfo=MADRID)
         return 0 <= (now - t).total_seconds() <= n * 86400
 
+    def _mismo(a, b):
+        """Mismo producto si comparten un token >=5 letras (o prefijo: titulos TT truncados)."""
+        ta = [t for t in _slug(a).split("-") if len(t) >= 5]
+        tb = [t for t in _slug(b).split("-") if len(t) >= 5]
+        return any(x.startswith(y) or y.startswith(x) for x in ta for y in tb)
+
     # 1) Prioridad: array estructurado cola.json["publicados"].
     estructurados = (cola or {}).get("publicados")
     dentro, vistos, usadas = [], set(), set()
@@ -235,13 +241,30 @@ def tt_publicados_cola(cola, now: dt.datetime, n: int = 7):
     # 2) Respaldo: notas de cola.fuente (dedupe por slug del nombre + fecha).
     for x in pubs:
         k = (_slug(x["nombre"]), x["fecha"])
-        if k in vistos:
+        if k in vistos or any(d["fecha"] == x["fecha"] and _mismo(d["nombre"], x["nombre"]) for d in dentro):
             continue
         vistos.add(k)
         if _en_ventana(x["fecha"]):
             usadas.add("notas")
             dentro.append(dict(x, origen="notas"))
-    fuente = "ambas" if len(usadas) == 2 else (usadas.pop() if usadas else "ninguna")
+    # 3) Tercera fuente: Post time (fecha) de tiktok.json dentro de la ventana.
+    #    Sin slug: duplicado si ya hay un registro TT ese dia del mismo producto
+    #    (_mismo); si no, clave = video_id o titulo.
+    for v in (tt or {}).get("videos") or []:
+        fecha = str(v.get("fecha") or "")[:10]
+        if not fecha or not _en_ventana(fecha):
+            continue
+        tslug = _slug(v.get("title"))
+        if any(d["fecha"] == fecha and _mismo(d["nombre"], tslug) for d in dentro):
+            continue
+        k = (v.get("video_id") or tslug[:40], fecha)
+        if k in vistos:
+            continue
+        vistos.add(k)
+        usadas.add("tiktok.json")
+        dentro.append({"nombre": tslug[:40], "fecha": fecha, "tipo": "video", "origen": "tiktok.json"})
+    orden = [f for f in ("publicados", "notas", "tiktok.json") if f in usadas]
+    fuente = "+".join(orden) if orden else "ninguna"
     return dentro, sin_fecha, fuente
 
 
@@ -302,8 +325,22 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
     else:
         pills.append(["Conversión", "ns"])
 
-    tt_views = num((ov or {}).get("totals", {}).get("views"))
-    tt_prof = num((ov or {}).get("totals", {}).get("profile_views"))
+    # Views->perfil TT: ultimos 7 dias firmes del Overview (no el total del export).
+    tt_views_exp = num((ov or {}).get("totals", {}).get("views"))
+    tt_prof_exp = num((ov or {}).get("totals", {}).get("profile_views"))
+    ov_rows = [
+        r for r in ((ov or {}).get("rows") or (ov or {}).get("dias") or [])
+        if r.get("fecha") and num(r.get("views")) is not None and not r.get("provisional")
+    ]
+    ov_rows.sort(key=lambda r: r["fecha"])
+    if ov_rows:
+        fin = dt.date.fromisoformat(ov_rows[-1]["fecha"])
+        sem = [r for r in ov_rows if dt.date.fromisoformat(r["fecha"]) > fin - dt.timedelta(days=7)]
+        tt_views = sum(num(r.get("views")) or 0 for r in sem)
+        tt_prof = sum(num(r.get("profile_views")) or 0 for r in sem)
+        tt_ventana = [sem[0]["fecha"], sem[-1]["fecha"]]
+    else:
+        tt_views, tt_prof, tt_ventana = tt_views_exp, tt_prof_exp, None
     tt_ratio = pct(tt_prof, tt_views)
     if tt_ratio is not None and tt_ratio < TT_PROFILE_META:
         items.append(
@@ -456,7 +493,7 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
         tt_ref = tt_ref.replace(tzinfo=dt.timezone.utc)
     # Cadencia: fuente = cola.json, ventana = 7 dias previos a la run (Madrid).
     # tiktok.json (Content truncado) solo se usa para metricas.
-    tt_week, tt_sin_fecha, tt_fuente_usada = tt_publicados_cola(cola, now.astimezone(MADRID), 7)
+    tt_week, tt_sin_fecha, tt_fuente_usada = tt_publicados_cola(cola, now.astimezone(MADRID), 7, tt)
     ig_ref = now
     ig_week = [p for p in posts if in_days(p.get("ts") or p.get("when"), ig_ref, 7)]
     cars = [
@@ -501,6 +538,11 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             "tt_views": tt_views,
             "tt_profile_views": tt_prof,
             "tt_views_perfil": tt_ratio,
+            "tt_views_perfil_ventana": tt_ventana,
+            "tt_views_perfil_fuente": "tiktok_overview_latest.json rows (ultimos 7 dias firmes) import " + str((ov or {}).get("imported_at")),
+            "tt_views_export": tt_views_exp,
+            "tt_profile_views_export": tt_prof_exp,
+            "tt_views_perfil_export": pct(tt_prof_exp, tt_views_exp),
             "ig_bajo_50": f"{low}/{len(posts)}" if posts else None,
             "primer_comentario_ok": f"{sum(1 for p in posts if p.get('primer') is True)}/{len(posts)}"
             if posts
@@ -516,13 +558,13 @@ def diagnose(ig, posts, tt, ov, cola, serie, now):
             "cola_publicados": conteos.get("publicados"),
             "tt_cadencia_7d": f"{len(tt_week)}/14",
             "tt_cadencia_fuente": {
-                "fuente": "cola.json: array 'publicados' (red TT) con prioridad + notas de 'fuente' como respaldo",
+                "fuente": "union dedupe: cola.json publicados (red TT) + notas de cola.fuente + Post time de tiktok.json",
                 "fuente_usada": tt_fuente_usada,
                 "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
                 "desde": (now.astimezone(MADRID) - dt.timedelta(days=7)).isoformat(),
                 "hasta": now.astimezone(MADRID).isoformat(),
                 "incluye_carruseles_tt": True,
-                "publicados": [f"{x['fecha']} {x['nombre']} ({x['tipo']})" for x in sorted(tt_week, key=lambda x: x["fecha"])],
+                "publicados": [f"{x['fecha']} {x['nombre']} ({x['tipo']}; {x.get('origen')})" for x in sorted(tt_week, key=lambda x: x["fecha"])],
                 "sin_fecha_no_contados": tt_sin_fecha,
             },
             "ig_carruseles_7d": len(cars),
