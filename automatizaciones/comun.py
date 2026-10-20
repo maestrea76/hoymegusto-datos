@@ -4,8 +4,9 @@
   dos crons UTC (uno vale en CEST y otro en CET); solo sigue el que corresponde a
   la hora local pedida. El retraso de GitHub no afecta: se mira el cron que disparó
   (github.event.schedule), no la hora real de arranque.
-- Aviso al bot por webhook (POST JSON, timeout 8 s, un solo intento). Si faltan
-  BOT_WEBHOOK_URL / BOT_WEBHOOK_KEY, escribe en el log lo que habría enviado.
+- Aviso al bot: abre un issue con etiqueta «aviso-bot» asignado a maestrea76
+  (GITHUB_TOKEN, permissions issues: write). Con SECO=true solo escribe en el log.
+  Repo público: el issue nunca lleva texto de DMs, tokens ni datos privados.
 - Graph API con el Page token (FB_PAGE_TOKEN). Nunca se imprimen tokens ni paging.
 """
 import datetime
@@ -85,36 +86,96 @@ def graph_get(path, errores=None, **params):
         return None
 
 
-def avisar_bot(tipo, detalle, log_detalle=None):
-    """Despierta al bot. Devuelve True solo si el webhook respondió 2xx.
-    log_detalle: versión del detalle para el log (el repo es público)."""
-    payload = {"tipo": tipo, "detalle": detalle}
-    visible = {"tipo": tipo, "detalle": detalle if log_detalle is None else log_detalle}
-    url = os.environ.get("BOT_WEBHOOK_URL", "").strip()
-    key = os.environ.get("BOT_WEBHOOK_KEY", "").strip()
-    if not url or not key:
-        print("SIN WEBHOOK (faltan BOT_WEBHOOK_URL/BOT_WEBHOOK_KEY). Habría enviado:")
-        print(json.dumps(visible, ensure_ascii=False, indent=1))
-        return False
+REPO_API = "https://api.github.com/repos/"
+ETIQUETA = "aviso-bot"
+ASIGNADO = "maestrea76"
+
+
+def _gh(metodo, ruta, datos=None):
+    """Llamada a la API de GitHub con GITHUB_TOKEN. Devuelve (status, json)."""
+    token = os.environ.get("GITHUB_TOKEN", "").strip()
+    repo = os.environ.get("GITHUB_REPOSITORY", "maestrea76/hoymegusto-datos")
+    if not token:
+        raise RuntimeError("falta GITHUB_TOKEN")
     req = urllib.request.Request(
-        url,
-        data=json.dumps(payload, ensure_ascii=False).encode(),
-        method="POST",
-        headers={
-            "Authorization": f"Bearer {key}",
-            "X-Automation-Key": key,
-            "Content-Type": "application/json",
-        },
-    )
+        REPO_API + repo + ruta, method=metodo,
+        data=None if datos is None else json.dumps(datos, ensure_ascii=False).encode(),
+        headers={"Authorization": f"Bearer {token}", "Accept": "application/vnd.github+json",
+                 "X-GitHub-Api-Version": "2022-11-28", "Content-Type": "application/json"})
     try:
-        with urllib.request.urlopen(req, timeout=8) as r:
-            print(f"Aviso '{tipo}' enviado al bot: HTTP {r.status}")
-            return 200 <= r.status < 300
+        with urllib.request.urlopen(req, timeout=20) as r:
+            return r.status, json.loads(r.read() or b"null")
     except urllib.error.HTTPError as e:
-        print(f"::warning::El webhook respondió HTTP {e.code} al aviso '{tipo}'")
+        try:
+            return e.code, json.loads(e.read() or b"null")
+        except Exception:
+            return e.code, None
+
+
+def _issue_abierto(titulo):
+    st, issues = _gh("GET", f"/issues?state=open&labels={ETIQUETA}&per_page=100")
+    if st != 200:
+        raise RuntimeError(f"no se pudieron listar los issues (HTTP {st})")
+    for i in issues or []:
+        if i.get("title") == titulo and "pull_request" not in i:
+            return i
+    return None
+
+
+def avisar_bot(tipo, detalle, fecha=None, comentar_si_existe=False):
+    """Despierta al bot abriendo un issue «aviso-bot: <tipo> <fecha>» con etiqueta
+    aviso-bot, asignado a maestrea76 y cuerpo JSON {"tipo", "detalle"}.
+    El repo es PÚBLICO: detalle no puede llevar texto de DMs, tokens ni datos privados.
+
+    Devuelve "creado", "duplicado" (ya hay uno abierto igual), "comentado"
+    (ya había uno abierto y se le añade un comentario con el nuevo detalle),
+    "seco" (SECO=true: no escribe nada) o None si falló.
+    Se considera entregado si devuelve creado, duplicado o comentado."""
+    fecha = fecha or ahora_madrid().date().isoformat()
+    titulo = f"aviso-bot: {tipo} {fecha}"
+    cuerpo = json.dumps({"tipo": tipo, "detalle": detalle}, ensure_ascii=False, indent=1)
+    seco = os.environ.get("SECO", "").strip().lower() in ("1", "true", "yes", "si", "sí")
+    print(f"Aviso «{titulo}»:")
+    print(cuerpo)
+    try:
+        existente = _issue_abierto(titulo)
+        if existente:
+            if not comentar_si_existe:
+                print(f"Ya hay un issue abierto igual (#{existente['number']}); no se abre otro")
+                return "seco" if seco else "duplicado"
+            if seco:
+                print(f"SECO: habría comentado en el issue abierto #{existente['number']}")
+                return "seco"
+            st, _ = _gh("POST", f"/issues/{existente['number']}/comments",
+                        {"body": "Nuevos elementos:\n```json\n" + cuerpo + "\n```"})
+            if st == 201:
+                print(f"Añadido como comentario al issue abierto #{existente['number']}")
+                return "comentado"
+            print(f"::warning::No se pudo comentar en #{existente['number']} (HTTP {st})")
+            return None
+        if seco:
+            print("SECO: no se crea el issue")
+            return "seco"
+        st, _ = _gh("GET", f"/labels/{ETIQUETA}")
+        if st == 404:
+            st, _ = _gh("POST", "/labels", {"name": ETIQUETA, "color": "5319e7",
+                                            "description": "Aviso automático que despierta al bot"})
+            print(f"Etiqueta {ETIQUETA} creada (HTTP {st})")
+        st, issue = _gh("POST", "/issues", {"title": titulo, "body": "```json\n" + cuerpo + "\n```",
+                                           "labels": [ETIQUETA], "assignees": [ASIGNADO]})
+        if st == 201:
+            asignados = [a["login"] for a in issue.get("assignees", [])]
+            print(f"Issue #{issue['number']} creado: {issue['html_url']} (asignado a {asignados})")
+            if ASIGNADO not in asignados:
+                print(f"::warning::El issue se creó pero sin asignar a {ASIGNADO}")
+            return "creado"
+        print(f"::warning::No se pudo crear el issue (HTTP {st}): {(issue or {}).get('message')}")
     except Exception as e:
-        print(f"::warning::No se pudo enviar el aviso '{tipo}': {type(e).__name__}")
-    return False
+        print(f"::warning::Fallo al avisar al bot: {e}")
+    return None
+
+
+ENTREGADO = ("creado", "duplicado", "comentado")
 
 
 def marcar_error_enviado():
@@ -122,7 +183,8 @@ def marcar_error_enviado():
 
 
 if __name__ == "__main__":
-    # CLI: python comun.py TIPO 'JSON_DETALLE'
+    # CLI: python comun.py TIPO 'JSON_DETALLE'  (sale con 1 si no se pudo avisar)
     tipo = sys.argv[1]
     detalle = json.loads(sys.argv[2]) if len(sys.argv) > 2 else None
-    avisar_bot(tipo, detalle)
+    r = avisar_bot(tipo, detalle)
+    sys.exit(0 if r in ENTREGADO + ("seco",) else 1)

@@ -1,6 +1,6 @@
 name: Bot - comentarios y DMs
 
-# Comentarios nuevos (IG + FB, últimos 14 días) y DMs de IG. Despierta al bot solo si hay algo nuevo.
+# Comentarios nuevos (IG + FB, últimos 14 días) y DMs de IG. Abre un issue aviso-bot (solo ids y enlaces) si hay algo nuevo.
 # 13:00 y 21:00 Madrid: 11:00/19:00 UTC en verano (CEST) y 12:00/20:00 UTC en invierno (CET).
 on:
   schedule:
@@ -9,9 +9,15 @@ on:
     - cron: "0 12 * * *"
     - cron: "0 20 * * *"
   workflow_dispatch:
+    inputs:
+      seco:
+        description: "En seco: no abre issues (solo escribe en el log lo que abriría)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: bot-comentarios
@@ -28,8 +34,8 @@ jobs:
       - name: Buscar comentarios y DMs nuevos
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           CRON_SCHEDULE: ${{ github.event.schedule }}
         run: python automatizaciones/comentarios.py
       - name: Guardar
@@ -47,8 +53,8 @@ jobs:
       - name: Avisar al bot si algo falla
         if: failure()
         env:
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -f /tmp/aviso_error_enviado ]; then echo "Error ya avisado"; exit 0; fi

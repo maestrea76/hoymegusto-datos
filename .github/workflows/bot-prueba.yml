@@ -1,11 +1,13 @@
-name: Bot - prueba del webhook
+name: Bot - prueba del aviso
 
-# Manual: manda {"tipo": "prueba"} al bot para comprobar BOT_WEBHOOK_URL y BOT_WEBHOOK_KEY.
+# Manual: abre un issue «aviso-bot: prueba <fecha>» (etiqueta aviso-bot, asignado a maestrea76)
+# para comprobar que el bot se despierta al asignarse el issue.
 on:
   workflow_dispatch:
 
 permissions:
   contents: read
+  issues: write
 
 jobs:
   probar:
@@ -16,9 +18,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Enviar prueba
+      - name: Abrir issue de prueba
         env:
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           python automatizaciones/comun.py prueba '{"mensaje": "Prueba manual desde GitHub Actions"}'

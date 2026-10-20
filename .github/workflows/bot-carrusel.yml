@@ -1,6 +1,6 @@
 name: Bot - carrusel del dia
 
-# Despierta al bot si en datos/cola.json hay un carrusel de IG listo para hoy y sin publicar.
+# Abre un issue aviso-bot si en datos/cola.json hay un carrusel de IG listo para hoy y sin publicar.
 # 19:45 Madrid: 17:45 UTC en horario de verano (CEST) y 18:45 UTC en invierno (CET).
 # Se programan las dos; el script deja seguir solo la que toca (mira el cron que disparó).
 # Ojo: GitHub puede retrasar los schedule (en este repo, 2-6 h el de 18:00 UTC).
@@ -14,9 +14,14 @@ on:
         description: "Probar con otra fecha (AAAA-MM-DD); vacío = hoy"
         required: false
         default: ""
+      seco:
+        description: "En seco: no abre issues (solo escribe en el log lo que abriría)"
+        type: boolean
+        default: true
 
 permissions:
   contents: read
+  issues: write
 
 concurrency:
   group: bot-carrusel
@@ -33,16 +38,16 @@ jobs:
       - name: Revisar la cola
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           CRON_SCHEDULE: ${{ github.event.schedule }}
           FECHA: ${{ github.event.inputs.fecha }}
         run: python automatizaciones/carrusel_del_dia.py
       - name: Avisar al bot si algo falla
         if: failure()
         env:
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -f /tmp/aviso_error_enviado ]; then echo "Error ya avisado"; exit 0; fi

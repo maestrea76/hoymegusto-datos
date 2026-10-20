@@ -5,7 +5,7 @@ total_interactions); cuenta: reach diario y follower_count (Meta solo da
 follower_count a cuentas con 100+ seguidores; si viene vacío se compara
 followers_count con el snapshot anterior). FB: cada Reel de la página con sus
 video_insights disponibles.
-Avisa con tipo "estadisticas" solo si un Reel supera 3x la mediana de
+Abre un issue aviso-bot tipo "estadisticas" (id del Reel y cifras) solo si un Reel supera 3x la mediana de
 reproducciones (una vez por Reel) o si hay más de 10 seguidores nuevos en un día.
 Token caducado (190) -> tipo "error".
 """
@@ -129,7 +129,9 @@ print(json.dumps({"archivo": destino, "media_ig": len(media), "views_reels": vie
 
 nuevas = [a for a in alertas if a.get("nueva")]
 if nuevas:
-    out["aviso_enviado"] = comun.avisar_bot("estadisticas", {"fecha": dia.isoformat(), "archivo": destino, "alertas": nuevas})
+    r = comun.avisar_bot("estadisticas", {"fecha": dia.isoformat(), "archivo": destino, "alertas": nuevas},
+                         fecha=dia.isoformat())
+    out["aviso_enviado"] = r in comun.ENTREGADO  # una vez avisado, ese Reel no vuelve a avisar
     json.dump(out, open(destino, "w"), ensure_ascii=False, indent=1)
 else:
     print("Sin alertas nuevas. No se avisa al bot.")

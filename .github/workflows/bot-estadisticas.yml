@@ -1,16 +1,22 @@
 name: Bot - estadisticas nocturnas
 
 # Snapshot IG+FB en datos/graph-diario/AAAA-MM-DD.json. Avisa al bot solo si un Reel supera
-# 3x la mediana de reproducciones o hay más de 10 seguidores nuevos en un día; token 190 o fallo -> "error".
+# 3x la mediana de reproducciones o hay más de 10 seguidores nuevos en un día (issue aviso-bot); token 190 o fallo -> issue "error".
 # 23:30 Madrid: 21:30 UTC en verano (CEST) y 22:30 UTC en invierno (CET).
 on:
   schedule:
     - cron: "30 21 * * *"
     - cron: "30 22 * * *"
   workflow_dispatch:
+    inputs:
+      seco:
+        description: "En seco: no abre issues (solo escribe en el log lo que abriría)"
+        type: boolean
+        default: true
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: bot-estadisticas
@@ -27,8 +33,8 @@ jobs:
       - name: Leer Graph API
         env:
           FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           CRON_SCHEDULE: ${{ github.event.schedule }}
         run: python automatizaciones/graph_diario.py
       - name: Guardar
@@ -46,8 +52,8 @@ jobs:
       - name: Avisar al bot si algo falla
         if: failure()
         env:
-          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
-          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SECO: ${{ github.event.inputs.seco }}
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
         run: |
           if [ -f /tmp/aviso_error_enviado ]; then echo "Error ya avisado"; exit 0; fi

@@ -1,5 +1,6 @@
 """Carrusel IG del día: si en datos/cola.json hay un carrusel de IG listo para hoy
-(hora de Madrid) y sin publicar, despierta al bot con tipo "carrusel".
+(hora de Madrid) y sin publicar, abre un issue aviso-bot tipo "carrusel" con
+{slug, nombre, fecha}. Si ya hay uno abierto para ese día, no abre otro.
 
 cola.json: siguientes[] con {nombre, estado (listo|producido|usado), fecha AAAA-MM-DD,
 canal IG|TT, [slug], [tipo]}; publicados[] con {fecha, red ig|fb|tt, tipo, slug}.
@@ -54,7 +55,7 @@ for e in cola.get("siguientes", []):
     if slug in publicados or e.get("publicado"):
         print(f"- {slug}: ya publicado")
         continue
-    candidatos.append({"slug": slug, "fecha": fecha, "nombre": e.get("nombre"), "estado": estado})
+    candidatos.append({"slug": slug, "nombre": e.get("nombre"), "fecha": fecha})
 
 if not candidatos:
     print("No hay carrusel de IG listo para hoy. No se avisa al bot.")
@@ -62,4 +63,4 @@ if not candidatos:
 
 for c in candidatos:
     print(f"Carrusel listo: {c['slug']} ({c['fecha']})")
-    comun.avisar_bot("carrusel", c)
+    comun.avisar_bot("carrusel", c, fecha=fecha)

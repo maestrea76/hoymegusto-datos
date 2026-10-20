@@ -4,11 +4,11 @@
 - DMs de IG (conversaciones actualizadas en los últimos 14 días). Los DMs de FB
   necesitan pages_messaging, que el token no tiene.
 - Ignora lo escrito por @hoymegusto / la página y el spam evidente.
-- Ids ya vistos en datos/comentarios-vistos.json. Solo se marcan como vistos
-  cuando el bot ha recibido el aviso (HTTP 2xx); si no hay webhook o falla, se
-  reintentan en la siguiente pasada.
-Si hay algo nuevo, avisa con tipo "comentarios": lista de {plataforma, tipo, autor,
-texto, enlace, id, fecha}. En el log público, el texto de los DMs se oculta.
+- Ids ya vistos en datos/comentarios-vistos.json. Se marcan como vistos cuando
+  se crea el issue de aviso (o se añaden a uno abierto del mismo día); en seco o
+  si falla, se reintentan en la siguiente pasada.
+Si hay algo nuevo, abre un issue tipo "comentarios" (repo PÚBLICO) solo con
+{plataforma, clase (comentario|dm), id, enlace}: el bot lee autor y texto con Graph.
 """
 import datetime
 import json
@@ -139,9 +139,11 @@ for e in errores:
 enviado = True
 if nuevos:
     nuevos.sort(key=lambda x: x.get("fecha") or "")
-    log = [dict(x, texto=f"[DM oculto en el log público: {len(x['texto'])} caracteres]")
-           if x["tipo"] == "dm" else x for x in nuevos]
-    enviado = comun.avisar_bot("comentarios", nuevos, log_detalle=log)
+    # Repo público: nada de autor ni texto, solo lo necesario para leerlo con Graph
+    seguro = [{"plataforma": x["plataforma"], "clase": x["tipo"], "id": x["id"],
+               **({"enlace": x["enlace"]} if x["tipo"] == "comentario" else {})} for x in nuevos]
+    r = comun.avisar_bot("comentarios", seguro, comentar_si_existe=True)
+    enviado = r in comun.ENTREGADO
 else:
     print("Nada nuevo. No se avisa al bot.")
 
@@ -153,4 +155,4 @@ if claves and enviado:
     json.dump(vistos, open(VISTOS, "w"), ensure_ascii=False, indent=1)
     print(f"Marcados como vistos: {len(claves)}")
 elif claves:
-    print(f"{len(claves)} ids sin marcar como vistos (aviso no entregado); se reintentan en la próxima pasada")
+    print(f"{len(claves)} ids sin marcar como vistos (seco o aviso no entregado); se reintentan en la próxima pasada")
