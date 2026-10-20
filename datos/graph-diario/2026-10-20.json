@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T22:51:14",
+ "generated_at": "2026-10-21T01:58:43",
  "tz": "Europe/Madrid",
  "origen": "github-actions",
  "ig": {
@@ -402,5 +402,5 @@
    "nueva": true
   }
  ],
- "aviso_enviado": false
+ "aviso_enviado": true
 }
