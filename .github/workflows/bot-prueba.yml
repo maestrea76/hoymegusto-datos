@@ -20,4 +20,5 @@ jobs:
         env:
           BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
           BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
-        run: python automatizaciones/comun.py prueba '{"mensaje": "Prueba manual desde GitHub Actions"}'
+        run: |
+          python automatizaciones/comun.py prueba '{"mensaje": "Prueba manual desde GitHub Actions"}'
