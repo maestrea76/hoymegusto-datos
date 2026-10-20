@@ -1,13 +1,13 @@
 {
-  "generado": "2026-10-20T01:54:52.465896+02:00",
+  "generado": "2026-10-20T10:14:16.931104+02:00",
   "semana": "2026-W43",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
-    "proxima": "2026-10-20T10:00:00+02:00",
-    "siguiente_ciclo": "2026-10-27T10:00:00+01:00"
+    "proxima": "2026-10-27T10:00:00+01:00",
+    "siguiente_ciclo": "2026-11-03T10:00:00+01:00"
   },
   "headline": "TikTok no lleva al perfil",
-  "lead": "Views→perfil 0.55% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views.",
+  "lead": "Views→perfil 0.69% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views.",
   "sev": "bad",
   "pills": [
     [
@@ -31,7 +31,7 @@
     {
       "sev": "bad",
       "t": "TikTok no lleva al perfil",
-      "d": "Views→perfil 0.55% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
+      "d": "Views→perfil 0.69% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
     },
     {
       "sev": "bad",
@@ -46,7 +46,7 @@
     {
       "sev": "warn",
       "t": "No leas el pico de TikTok como orgánico",
-      "d": "2 piezas promo y 13 de núcleo. Mediana orgánica 274 views. Las decisiones de formato salen del núcleo."
+      "d": "2 piezas promo y 17 de núcleo. Mediana orgánica 277 views. Las decisiones de formato salen del núcleo."
     },
     {
       "sev": "warn",
@@ -77,24 +77,34 @@
     "website_clicks": 3.0,
     "profile_views": 120.0,
     "views_ig_piezas": 4844.0,
-    "tt_views": 18781.0,
-    "tt_profile_views": 104.0,
-    "tt_views_perfil": 0.005537511314626484,
+    "tt_views": 1592.0,
+    "tt_profile_views": 11.0,
+    "tt_views_perfil": 0.006909547738693468,
+    "tt_views_perfil_ventana": [
+      "2026-10-12",
+      "2026-10-18"
+    ],
+    "tt_views_perfil_fuente": "tiktok_overview_latest.json rows (ultimos 7 dias firmes) import 20261020T042226Z",
+    "tt_views_export": 14988.0,
+    "tt_profile_views_export": 95.0,
+    "tt_views_perfil_export": 0.006338404056578597,
     "ig_bajo_50": "28/50",
     "primer_comentario_ok": "24/50",
     "primer_comentario_texto_nota": "24 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
     "primer_comentario_cc_ausente": 0,
-    "cola_pendientes": 12,
-    "cola_publicados": 55,
-    "tt_cadencia_7d": "0/14",
+    "cola_pendientes": 11,
+    "cola_publicados": 57,
+    "tt_cadencia_7d": "1/14",
     "tt_cadencia_fuente": {
-      "fuente": "cola.json: array 'publicados' (red TT) con prioridad + notas de 'fuente' como respaldo",
-      "fuente_usada": "ninguna",
+      "fuente": "union dedupe: cola.json publicados (red TT) + notas de cola.fuente + Post time de tiktok.json",
+      "fuente_usada": "publicados",
       "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
-      "desde": "2026-10-13T01:54:52.465896+02:00",
-      "hasta": "2026-10-20T01:54:52.465896+02:00",
+      "desde": "2026-10-13T10:14:16.931104+02:00",
+      "hasta": "2026-10-20T10:14:16.931104+02:00",
       "incluye_carruseles_tt": true,
-      "publicados": [],
+      "publicados": [
+        "2026-10-17 martiderm-the-originals-proteos-hydra-plus-sp (video; publicados)"
+      ],
       "sin_fecha_no_contados": []
     },
     "ig_carruseles_7d": 0,
@@ -111,8 +121,8 @@
     "cola": true,
     "tiktok": true,
     "overview": true,
-    "tt_generado": "2026-10-10T06:55:50+00:00",
-    "tt_content_import": "20261010T065550Z"
+    "tt_generado": "2026-10-20T04:22:26+00:00",
+    "tt_content_import": "20261020T042226Z"
   },
   "regla": "no inventar nulls; umbrales fijos; promo ≠ orgánico; manda API/CSV no la parrilla"
 }
