@@ -1,0 +1,406 @@
+{
+ "generated_at": "2026-10-20T22:44:28",
+ "tz": "Europe/Madrid",
+ "origen": "github-actions",
+ "ig": {
+  "account": {
+   "username": "hoymegusto",
+   "followers_count": 45,
+   "follows_count": 11,
+   "media_count": 60,
+   "id": "17841430322145064"
+  },
+  "reach_daily": [
+   {
+    "end_time": "2026-10-07T07:00:00+0000",
+    "value": 4
+   },
+   {
+    "end_time": "2026-10-08T07:00:00+0000",
+    "value": 1
+   },
+   {
+    "end_time": "2026-10-09T07:00:00+0000",
+    "value": 18
+   },
+   {
+    "end_time": "2026-10-10T07:00:00+0000",
+    "value": 261
+   },
+   {
+    "end_time": "2026-10-11T07:00:00+0000",
+    "value": 126
+   },
+   {
+    "end_time": "2026-10-12T07:00:00+0000",
+    "value": 2
+   },
+   {
+    "end_time": "2026-10-13T07:00:00+0000",
+    "value": 1
+   },
+   {
+    "end_time": "2026-10-14T07:00:00+0000",
+    "value": 0
+   },
+   {
+    "end_time": "2026-10-15T07:00:00+0000",
+    "value": 8
+   },
+   {
+    "end_time": "2026-10-16T07:00:00+0000",
+    "value": 272
+   },
+   {
+    "end_time": "2026-10-17T07:00:00+0000",
+    "value": 57
+   },
+   {
+    "end_time": "2026-10-18T07:00:00+0000",
+    "value": 738
+   },
+   {
+    "end_time": "2026-10-19T07:00:00+0000",
+    "value": 84
+   },
+   {
+    "end_time": "2026-10-20T07:00:00+0000",
+    "value": 102
+   }
+  ],
+  "follower_count_daily": [],
+  "media_14d": [
+   {
+    "id": "18093253985674687",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "timestamp": "2026-10-20T18:54:38+0000",
+    "permalink": "https://www.instagram.com/p/Deuhh9OCY2C/",
+    "caption": "¿Piel mixta o sensible? ¿Este tónico es para ti?\n\nAnua Heartleaf 77: 77 % de extracto de hoja de corazón y pH 5,5. La fi",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 0,
+     "reach": 0,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "17958200139312191",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-20T05:47:21+0000",
+    "permalink": "https://www.instagram.com/reel/DetHZDKFvrK/",
+    "caption": "¿Protector que no deja la cara blanca?\n\nRelief Sun SPF50+ de Beauty of Joseon: textura fluida y muy ligera que se absorb",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 121,
+     "reach": 103,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18153007981540893",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-18T07:47:26+0000",
+    "permalink": "https://www.instagram.com/reel/DeoLhc0jz8K/",
+    "caption": "¿Sombras que no hacen polvo?\nPaleta Ultimate Shadow Palette Utopia de NYX: 40 tonos cremosos y nada polvorientos, mates ",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 937,
+     "reach": 783,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18082913900375159",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "timestamp": "2026-10-17T18:02:48+0000",
+    "permalink": "https://www.instagram.com/p/DemtNowHNyt/",
+    "caption": "¿Sabes cómo se usan estas ampollas?\n\nSoy Inés.\n\nCómo se usan las ampollas MartiDerm: media ampolla cada vez, en cara, cu",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 2,
+     "reach": 2,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18122018983873814",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-17T06:44:43+0000",
+    "permalink": "https://www.instagram.com/reel/DelfkE2AfJq/",
+    "caption": "¿Ya tienes el SPF del día?\nISDIN Fusion Water Magic Repair SPF 50: textura ultraligera que se absorbe en segundos, acaba",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 44,
+     "reach": 40,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18107633261351258",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-16T17:28:25+0000",
+    "permalink": "https://www.instagram.com/reel/DekEdP0lC7O/",
+    "caption": "¿Lo pruebas antes de un evento?\nRemescar Bolsas y Ojeras: mejora la apariencia de bolsas y ojeras en minutos, el efecto ",
+    "like_count": 1,
+    "comments_count": 1,
+    "insights": {
+     "views": 179,
+     "reach": 139,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 2
+    }
+   },
+   {
+    "id": "18097217168652493",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-16T14:04:49+0000",
+    "permalink": "https://www.instagram.com/reel/DejtHRMCX_i/",
+    "caption": "¿Plancha sí o aire natural?\nRemington Keratin Therapy S8593: se calienta en segundos, deja el pelo liso y brillante sin ",
+    "like_count": 2,
+    "comments_count": 1,
+    "insights": {
+     "views": 136,
+     "reach": 123,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 3
+    }
+   },
+   {
+    "id": "18075410684732688",
+    "media_type": "CAROUSEL_ALBUM",
+    "media_product_type": "FEED",
+    "timestamp": "2026-10-15T18:54:14+0000",
+    "permalink": "https://www.instagram.com/p/DehpgtNlCH2/",
+    "caption": "¿Más suave desde el primer aclarado?\n\nSoy Inés.\n\nLa mascarilla Karseell. Lo que se repite: más suave y con brillo desde ",
+    "like_count": 0,
+    "comments_count": 1,
+    "insights": {
+     "views": 25,
+     "reach": 17,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18107342105206553",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-11T08:06:03+0000",
+    "permalink": "https://www.instagram.com/reel/DeWMHXPtHqC/",
+    "caption": "Freshly Hair Growth & Density Treatment: fórmula ligera que favorece la apariencia de densidad sin engrasar y deja el pe",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+     "views": 141,
+     "reach": 121,
+     "saved": 1,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18092606546269169",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-10T17:19:06+0000",
+    "permalink": "https://www.instagram.com/reel/DeUmgCTtLnM/",
+    "caption": "K18 Leave-In Molecular Repair Hair Mask: reparación visible desde el primer uso, menos fragilidad y cabello más suave y ",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+     "views": 133,
+     "reach": 127,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 0
+    }
+   },
+   {
+    "id": "18074677466726002",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-10T06:59:38+0000",
+    "permalink": "https://www.instagram.com/reel/DeTfj7RNXrZ/",
+    "caption": "Soy Inés. d'Alba White Truffle Intensive Eye Patch: hidratación que deja el contorno suave y jugoso, luminosidad y fresc",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+     "views": 189,
+     "reach": 154,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 0
+    }
+   },
+   {
+    "id": "18098338223382126",
+    "media_type": "VIDEO",
+    "media_product_type": "REELS",
+    "timestamp": "2026-10-09T15:50:24+0000",
+    "permalink": "https://www.instagram.com/reel/DeR3kL0Nkqd/",
+    "caption": "Revlon One-Step Dryer & Volumiser: seca y peina en un paso, aporta volumen, reduce el encrespamiento y deja brillo tipo ",
+    "like_count": 0,
+    "comments_count": 0,
+    "insights": {
+     "views": 41,
+     "reach": 30,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 0
+    }
+   }
+  ],
+  "followers_neto_vs_anterior": {
+   "anterior": "2026-10-17.json",
+   "neto": 0
+  }
+ },
+ "fb": {
+  "page": {
+   "name": "Hoy Me Gusto",
+   "followers_count": 0,
+   "fan_count": 0,
+   "id": "1349934388202783"
+  },
+  "reels": [
+   {
+    "id": "1150902854291439",
+    "description": "¿Protector que no deja la cara blanca?\n\nRelief Sun SPF50+ de Beauty of Joseon: textura fluida y muy ligera que se absorb",
+    "created_time": "2026-10-20T05:47:35+0000",
+    "permalink_url": "/reel/1150902854291439/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1429552021967851",
+    "description": "¿Sombras que no hacen polvo?\nPaleta Ultimate Shadow Palette Utopia de NYX: 40 tonos cremosos y nada polvorientos, mates ",
+    "created_time": "2026-10-18T07:47:36+0000",
+    "permalink_url": "/reel/1429552021967851/",
+    "length": 9.416,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1591057668738049",
+    "description": "¿Ya tienes el SPF del día?\nISDIN Fusion Water Magic Repair SPF 50: textura ultraligera que se absorbe en segundos, acaba",
+    "created_time": "2026-10-17T06:44:49+0000",
+    "permalink_url": "/reel/1591057668738049/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1839954604107139",
+    "description": "¿Lo pruebas antes de un evento?\nRemescar Bolsas y Ojeras: mejora la apariencia de bolsas y ojeras en minutos, el efecto ",
+    "created_time": "2026-10-16T17:28:32+0000",
+    "permalink_url": "/reel/1839954604107139/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1429384495364686",
+    "description": "¿Plancha sí o aire natural?\nRemington Keratin Therapy S8593: se calienta en segundos, deja el pelo liso y brillante sin ",
+    "created_time": "2026-10-16T14:30:40+0000",
+    "permalink_url": "/reel/1429384495364686/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   }
+  ]
+ },
+ "errors": [],
+ "notes": [
+  "follower_count diario vacío (Meta lo da a partir de 100 seguidores); se compara ig.account.followers_count con el snapshot anterior."
+ ],
+ "alerts": [
+  {
+   "type": "reel_3x_mediana",
+   "media_id": "18153007981540893",
+   "permalink": "https://www.instagram.com/reel/DeoLhc0jz8K/",
+   "views": 937,
+   "mediana": 136,
+   "nueva": true
+  }
+ ],
+ "aviso_enviado": false
+}
