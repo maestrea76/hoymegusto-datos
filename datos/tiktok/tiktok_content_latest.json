@@ -1,37 +1,30 @@
 {
-  "imported_at": "20261010T065550Z",
+  "imported_at": "20261020T042226Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Content.csv (official)",
   "kind": "per_video_content",
-  "schema_note": "Por vídeo. Sin tiempo medio, finalización ni seguidores → avg_watch y followers_net null. Views acumuladas a fecha de exportación (Time = 10 de octubre en las 15 filas). <50 = n/s; etiqueta: nucleo | promo | outlier(>=500) | n/s. Este CSV trae 15 vídeos, mínimo 673 y máximo 1145: no es el catálogo entero ni un top por views (faltan los dos promos, 2849 y 1425 views en exports previos, y otros 15 video_id de tiktok.json). Post time más reciente: 2 oct (MISSHA). No aparecen Lancôme, LANEIGE, Estée Lauder ni Dior. Los que no aparecen no se ponen a 0.",
+  "schema_note": "Por vídeo. Sin tiempo medio, finalización ni seguidores → avg_watch y followers_net null. Views acumuladas a fecha de exportación (Time = 20 de octubre en las 15 filas). <50 = n/s; etiqueta: nucleo (core) | promo | outlier(>=500) | n/s. Este CSV trae 15 vídeos (no 14), mínimo 304 y máximo 822: no es el catálogo entero. Post time más reciente: 17 oct (MartiDerm). No aparecen los promos, ni Revlon (09/10), d'Alba (10/10), K18 (10/10), Freshly (11/10) ni BoJ Relief Sun (20/10). Los que no aparecen no se ponen a 0.",
   "totals": {
     "videos": 15,
-    "views": 12127,
-    "likes": 68,
+    "views": 9355,
+    "likes": 55,
     "comments": 1,
-    "shares": 13
+    "shares": 15
   },
   "summary": {
     "n": 15,
     "n_ok": 15,
-    "median_ok": 793,
-    "median_nucleo_organic": null,
-    "nucleo_range": null,
+    "median_ok": 769,
+    "median_nucleo_organic": 316,
+    "nucleo_range": [
+      304,
+      321
+    ],
     "promos": [],
     "outliers": [
       {
-        "video_id": "7686900441174543638",
-        "views": 1145,
-        "title": "El SPF que deja glow… y del que nadie te cuenta la"
-      },
-      {
-        "video_id": "7684333353352334614",
-        "views": 824,
-        "title": "Un bote de estos NO es barato… y la marca no te di"
-      },
-      {
         "video_id": "7689571489888226582",
-        "views": 820,
+        "views": 822,
         "title": "¿Y si el rizador de pestañas ya no hiciera falta? "
       },
       {
@@ -41,33 +34,18 @@
       },
       {
         "video_id": "7691049002753592598",
-        "views": 809,
+        "views": 810,
         "title": "¿Una sola gota para toda la cara? Yo tampoco me lo"
       },
       {
-        "video_id": "7685869740853562646",
+        "video_id": "7688441495715761430",
         "views": 799,
-        "title": "Boquilla alisadora compatible dorada para Dyson Ai"
-      },
-      {
-        "video_id": "7685484523550805270",
-        "views": 798,
-        "title": "La esencia caracol más famosa en serum… y la pega "
+        "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Sett"
       },
       {
         "video_id": "7692114699130916118",
-        "views": 793,
+        "views": 795,
         "title": "¿Así de jugosa con una BB tan barata? 🍓 La M Perfe"
-      },
-      {
-        "video_id": "7684660907296820502",
-        "views": 792,
-        "title": "Centella + Vita C en pack doble… y la pega que nad"
-      },
-      {
-        "video_id": "7688441495715761430",
-        "views": 791,
-        "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Sett"
       },
       {
         "video_id": "7690678931107892483",
@@ -75,72 +53,34 @@
         "title": "¿Una máscara con ese nombre puede estar a la altur"
       },
       {
+        "video_id": "7691776502186249494",
+        "views": 770,
+        "title": "¿Un corrector de ojeras que no se marca? Spoiler: "
+      },
+      {
         "video_id": "7690164080404876566",
         "views": 769,
         "title": "¿Y si tus brillos de mediodía no son culpa de tu b"
       },
       {
-        "video_id": "7691776502186249494",
-        "views": 769,
-        "title": "¿Un corrector de ojeras que no se marca? Spoiler: "
-      },
-      {
         "video_id": "7687694159959870742",
-        "views": 752,
+        "views": 758,
         "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml"
       },
       {
         "video_id": "7688673826850311446",
-        "views": 673,
+        "views": 675,
         "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moistu"
       }
     ]
   },
   "videos": [
     {
-      "fecha": "2026-09-18",
-      "video_id": "7686900441174543638",
-      "title": "El SPF que deja glow… y del que nadie te cuenta la pega SKIN1004 Madagascar Cent",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7686900441174543638",
-      "views": 1145,
-      "likes": 23,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
-      "fecha": "2026-09-11",
-      "video_id": "7684333353352334614",
-      "title": "Un bote de estos NO es barato… y la marca no te dice lo molesto Kérastase Genesi",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684333353352334614",
-      "views": 824,
-      "likes": 2,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
       "fecha": "2026-09-25",
       "video_id": "7689571489888226582",
       "title": "¿Y si el rizador de pestañas ya no hiciera falta? 👀 La Roller Lash de Benefit se",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7689571489888226582",
-      "views": 820,
+      "views": 822,
       "likes": 4,
       "comments": 0,
       "shares": 1,
@@ -151,8 +91,8 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-26",
@@ -170,15 +110,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-29",
       "video_id": "7691049002753592598",
       "title": "¿Una sola gota para toda la cara? Yo tampoco me lo creía 👀 La Mask Fit Red de TI",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7691049002753592598",
-      "views": 809,
+      "views": 810,
       "likes": 5,
       "comments": 0,
       "shares": 0,
@@ -189,91 +129,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
-      "fecha": "2026-09-15",
-      "video_id": "7685869740853562646",
-      "title": "Boquilla alisadora compatible dorada para Dyson Airwrap HS01/HS05/HS08 · Menos d",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685869740853562646",
-      "views": 799,
-      "likes": 3,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
-      "fecha": "2026-09-14",
-      "video_id": "7685484523550805270",
-      "title": "La esencia caracol más famosa en serum… y la pega honesta: me da cosita ponerme",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7685484523550805270",
-      "views": 798,
-      "likes": 1,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
-      "fecha": "2026-10-02",
-      "video_id": "7692114699130916118",
-      "title": "¿Así de jugosa con una BB tan barata? 🍓 La M Perfect Cover BB de MISSHA cubre bi",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7692114699130916118",
-      "views": 793,
-      "likes": 3,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
-    },
-    {
-      "fecha": "2026-09-12",
-      "video_id": "7684660907296820502",
-      "title": "Centella + Vita C en pack doble… y la pega que nadie dice Beauty of Joseon Light",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7684660907296820502",
-      "views": 792,
-      "likes": 2,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": null,
-      "interpretacion": "ok",
-      "promo": false,
-      "promo_eur_oral": null,
-      "etiqueta": "outlier",
-      "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-22",
       "video_id": "7688441495715761430",
       "title": "Huda Beauty ORIGINAL Easy Bake Loose Baking & Setting Powder, 20 g, Coffee Cake",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7688441495715761430",
-      "views": 791,
+      "views": 799,
       "likes": 4,
       "comments": 0,
       "shares": 1,
@@ -284,8 +148,27 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-02",
+      "video_id": "7692114699130916118",
+      "title": "¿Así de jugosa con una BB tan barata? 🍓 La M Perfect Cover BB de MISSHA cubre bi",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7692114699130916118",
+      "views": 795,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-28",
@@ -303,8 +186,27 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-01",
+      "video_id": "7691776502186249494",
+      "title": "¿Un corrector de ojeras que no se marca? Spoiler: sí 😌 El Radiant Creamy Conceal",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7691776502186249494",
+      "views": 770,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "outlier",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-27",
@@ -322,15 +224,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
-      "fecha": "2026-10-01",
-      "video_id": "7691776502186249494",
-      "title": "¿Un corrector de ojeras que no se marca? Spoiler: sí 😌 El Radiant Creamy Conceal",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7691776502186249494",
-      "views": 769,
+      "fecha": "2026-09-23",
+      "video_id": "7688673826850311446",
+      "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moisturizer, 50 ml — menos de 43 €.",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688673826850311446",
+      "views": 675,
       "likes": 2,
       "comments": 0,
       "shares": 1,
@@ -341,15 +243,15 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
       "fecha": "2026-09-20",
       "video_id": "7687694159959870742",
       "title": "DearKlairs Rich Moisturizing Soothing Cream, 80 ml — menos de 27 €. «Como hidrat",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7687694159959870742",
-      "views": 752,
+      "views": 758,
       "likes": 3,
       "comments": 0,
       "shares": 1,
@@ -360,16 +262,35 @@
       "promo_eur_oral": null,
       "etiqueta": "outlier",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     },
     {
-      "fecha": "2026-09-23",
-      "video_id": "7688673826850311446",
-      "title": "¿Piel poco hidratada? MÁDARA SOS+ Sensitive Moisturizer, 50 ml — menos de 43 €.",
-      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688673826850311446",
-      "views": 673,
+      "fecha": "2026-10-17",
+      "video_id": "7697721328434040086",
+      "title": "¿Sabes cómo se usan estas ampollas? Soy Inés. Cómo se usan las ampollas MartiDer",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7697721328434040086",
+      "views": 321,
       "likes": 2,
+      "comments": 0,
+      "shares": 2,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-06",
+      "video_id": "7693225255254560022",
+      "title": "La crema de noche de celimax. Lo que se repite: la piel más tersa y cuidada desd",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7693225255254560022",
+      "views": 317,
+      "likes": 3,
       "comments": 0,
       "shares": 1,
       "avg_watch": null,
@@ -377,10 +298,67 @@
       "interpretacion": "ok",
       "promo": false,
       "promo_eur_oral": null,
-      "etiqueta": "outlier",
+      "etiqueta": "nucleo",
       "nota": null,
-      "export_time": "20261010",
-      "fuente_csv": "Content_20261010T065550Z.csv"
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-03",
+      "video_id": "7692500813448613142",
+      "title": "¿Mucha cobertura sin que se cuartee? Lo busqué con lupa y nada 😂 El Teint Idôle",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7692500813448613142",
+      "views": 316,
+      "likes": 3,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-04",
+      "video_id": "7692828964544433430",
+      "title": "¿Por qué todo el mundo me pregunta qué labial llevo? 💄 Es el Addict Max Lip Bar",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7692828964544433430",
+      "views": 304,
+      "likes": 10,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-09-21",
+      "video_id": "7688098501951032598",
+      "title": "BIODANCE Pore Perfecting Collagen Peptide Cream, 50 ml — menos de 27 €. ¿Tú lo d",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7688098501951032598",
+      "views": 306,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261020",
+      "fuente_csv": "Content_20261020T042226Z.csv"
     }
   ]
 }

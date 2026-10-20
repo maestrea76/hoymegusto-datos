@@ -1,57 +1,159 @@
 {
-  "imported_at": "20261010T065550Z",
+  "imported_at": "20261020T042226Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio FollowerHistory/FollowerActivity/FollowerGender/FollowerTopTerritories.csv (official)",
   "kind": "account_followers",
-  "schema_note": "history: 1–7 oct 2026. followers = columna Followers (stock, fuente de cálculo); followers_net = columna Difference sin realinear (va un día desfasada). 7 oct Followers=\"undefined\" → null, provisional. No hay fila del 8 oct. Último stock numérico: 2026-10-06 = 110. activity: 120 filas 3–7 oct; el 7 oct horas 2–23 a 0 (mismo patrón que el 2 oct en el export del 03/10) → provisional. Distribuciones como en el CSV (texto).",
+  "schema_note": "history: 21 sep–18 oct 2026, todos numéricos. followers = columna Followers (stock, fuente de cálculo); followers_net = columna Difference sin realinear (va desfasada). activity: 168 filas 2026-10-13–2026-10-19; el 2026-10-19 horas 2–23 a 0 → provisional (mismo patrón que días sin procesar en exports previos). Zona horaria de FollowerActivity: el CSV NO la indica; no se convierte. Distribuciones como en el CSV (texto).",
   "date_range": [
-    "2026-10-01",
-    "2026-10-07"
+    "2026-09-21",
+    "2026-10-18"
   ],
   "totals": {
-    "followers_inicio": 110,
-    "followers_fin": 110,
-    "followers_fin_fecha": "2026-10-06",
-    "followers_delta_stock": 0
+    "followers_inicio": 50,
+    "followers_fin": 130,
+    "followers_fin_fecha": "2026-10-18",
+    "followers_delta_stock": 80
   },
   "history": [
     {
-      "fecha": "2026-10-01",
-      "followers": 110,
+      "fecha": "2026-09-21",
+      "followers": 50,
       "followers_net": 1
     },
     {
-      "fecha": "2026-10-02",
-      "followers": 108,
+      "fecha": "2026-09-22",
+      "followers": 51,
+      "followers_net": 1
+    },
+    {
+      "fecha": "2026-09-23",
+      "followers": 52,
+      "followers_net": -1
+    },
+    {
+      "fecha": "2026-09-24",
+      "followers": 51,
+      "followers_net": 0
+    },
+    {
+      "fecha": "2026-09-25",
+      "followers": 51,
+      "followers_net": 21
+    },
+    {
+      "fecha": "2026-09-26",
+      "followers": 72,
+      "followers_net": 18
+    },
+    {
+      "fecha": "2026-09-27",
+      "followers": 90,
       "followers_net": 2
     },
     {
-      "fecha": "2026-10-03",
+      "fecha": "2026-09-28",
+      "followers": 92,
+      "followers_net": 12
+    },
+    {
+      "fecha": "2026-09-29",
+      "followers": 104,
+      "followers_net": 5
+    },
+    {
+      "fecha": "2026-09-30",
       "followers": 109,
       "followers_net": 1
     },
     {
+      "fecha": "2026-10-01",
+      "followers": 110,
+      "followers_net": -2
+    },
+    {
+      "fecha": "2026-10-02",
+      "followers": 108,
+      "followers_net": 1
+    },
+    {
+      "fecha": "2026-10-03",
+      "followers": 109,
+      "followers_net": 2
+    },
+    {
       "fecha": "2026-10-04",
       "followers": 111,
-      "followers_net": -2
+      "followers_net": 1
     },
     {
       "fecha": "2026-10-05",
       "followers": 112,
-      "followers_net": 0
+      "followers_net": -2
     },
     {
       "fecha": "2026-10-06",
       "followers": 110,
-      "followers_net": 0
+      "followers_net": 3
     },
     {
       "fecha": "2026-10-07",
-      "followers": null,
-      "followers_net": 0,
-      "followers_raw": "undefined",
-      "provisional": true,
-      "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\"; FollowerHistory.csv Followers=\"undefined\"; Video Views=56 frente a ~500–1.000/día habitual; FollowerActivity.csv: horas 2–23 a 0. Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      "followers": 113,
+      "followers_net": 9
+    },
+    {
+      "fecha": "2026-10-08",
+      "followers": 122,
+      "followers_net": 3
+    },
+    {
+      "fecha": "2026-10-09",
+      "followers": 125,
+      "followers_net": 2
+    },
+    {
+      "fecha": "2026-10-10",
+      "followers": 127,
+      "followers_net": -2
+    },
+    {
+      "fecha": "2026-10-11",
+      "followers": 125,
+      "followers_net": -1
+    },
+    {
+      "fecha": "2026-10-12",
+      "followers": 124,
+      "followers_net": 5
+    },
+    {
+      "fecha": "2026-10-13",
+      "followers": 129,
+      "followers_net": -1
+    },
+    {
+      "fecha": "2026-10-14",
+      "followers": 128,
+      "followers_net": 0
+    },
+    {
+      "fecha": "2026-10-15",
+      "followers": 128,
+      "followers_net": 0
+    },
+    {
+      "fecha": "2026-10-16",
+      "followers": 128,
+      "followers_net": 2
+    },
+    {
+      "fecha": "2026-10-17",
+      "followers": 130,
+      "followers_net": 0
+    },
+    {
+      "fecha": "2026-10-18",
+      "followers": 130,
+      "followers_net": 0
     }
   ],
   "breakdown": {
@@ -63,602 +165,842 @@
       ],
       "rows": [
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "0",
-          "Active followers": "31"
+          "Active followers": "29"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "1",
-          "Active followers": "20"
+          "Active followers": "30"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "2",
-          "Active followers": "20"
+          "Active followers": "18"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "3",
-          "Active followers": "11"
+          "Active followers": "15"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "4",
-          "Active followers": "11"
+          "Active followers": "8"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "5",
-          "Active followers": "12"
+          "Active followers": "14"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "6",
-          "Active followers": "9"
+          "Active followers": "13"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "7",
-          "Active followers": "19"
+          "Active followers": "26"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "8",
           "Active followers": "22"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "9",
-          "Active followers": "22"
+          "Active followers": "35"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "10",
+          "Active followers": "32"
+        },
+        {
+          "Date": "13 de octubre",
+          "Hour": "11",
           "Active followers": "29"
         },
         {
-          "Date": "3 de octubre",
-          "Hour": "11",
-          "Active followers": "30"
-        },
-        {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "12",
-          "Active followers": "38"
+          "Active followers": "39"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "13",
           "Active followers": "38"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "14",
-          "Active followers": "38"
+          "Active followers": "41"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "15",
-          "Active followers": "33"
+          "Active followers": "47"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "16",
-          "Active followers": "30"
+          "Active followers": "46"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "17",
-          "Active followers": "30"
+          "Active followers": "52"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "18",
-          "Active followers": "38"
+          "Active followers": "41"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "19",
           "Active followers": "36"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "20",
-          "Active followers": "39"
+          "Active followers": "44"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "21",
-          "Active followers": "41"
+          "Active followers": "47"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "22",
-          "Active followers": "39"
+          "Active followers": "30"
         },
         {
-          "Date": "3 de octubre",
+          "Date": "13 de octubre",
           "Hour": "23",
-          "Active followers": "34"
+          "Active followers": "38"
         },
         {
-          "Date": "4 de octubre",
+          "Date": "14 de octubre",
           "Hour": "0",
-          "Active followers": "25"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "1",
-          "Active followers": "23"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "2",
-          "Active followers": "17"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "3",
-          "Active followers": "13"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "4",
-          "Active followers": "9"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "5",
-          "Active followers": "12"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "6",
-          "Active followers": "13"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "7",
-          "Active followers": "12"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "8",
-          "Active followers": "26"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "9",
-          "Active followers": "24"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "10",
-          "Active followers": "39"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "11",
-          "Active followers": "37"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "12",
-          "Active followers": "37"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "13",
-          "Active followers": "49"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "14",
-          "Active followers": "40"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "15",
-          "Active followers": "45"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "16",
-          "Active followers": "46"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "17",
-          "Active followers": "41"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "18",
-          "Active followers": "53"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "19",
-          "Active followers": "48"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "20",
-          "Active followers": "48"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "21",
-          "Active followers": "43"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "22",
-          "Active followers": "42"
-        },
-        {
-          "Date": "4 de octubre",
-          "Hour": "23",
-          "Active followers": "34"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "0",
-          "Active followers": "27"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "1",
-          "Active followers": "17"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "2",
-          "Active followers": "10"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "3",
-          "Active followers": "11"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "4",
-          "Active followers": "11"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "5",
-          "Active followers": "11"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "6",
-          "Active followers": "10"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "7",
-          "Active followers": "17"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "8",
-          "Active followers": "28"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "9",
-          "Active followers": "31"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "10",
-          "Active followers": "31"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "11",
-          "Active followers": "32"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "12",
-          "Active followers": "32"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "13",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "14",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "15",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "16",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "17",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "18",
           "Active followers": "35"
         },
         {
-          "Date": "5 de octubre",
-          "Hour": "19",
-          "Active followers": "43"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "20",
-          "Active followers": "42"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "21",
-          "Active followers": "46"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "22",
-          "Active followers": "39"
-        },
-        {
-          "Date": "5 de octubre",
-          "Hour": "23",
-          "Active followers": "45"
-        },
-        {
-          "Date": "6 de octubre",
-          "Hour": "0",
-          "Active followers": "23"
-        },
-        {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "1",
+          "Active followers": "26"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "2",
           "Active followers": "16"
         },
         {
-          "Date": "6 de octubre",
-          "Hour": "2",
-          "Active followers": "15"
-        },
-        {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "3",
           "Active followers": "11"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "4",
-          "Active followers": "12"
+          "Active followers": "14"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "5",
-          "Active followers": "12"
+          "Active followers": "14"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "6",
           "Active followers": "14"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "7",
-          "Active followers": "19"
+          "Active followers": "22"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "14 de octubre",
           "Hour": "8",
+          "Active followers": "18"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "9",
+          "Active followers": "27"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "10",
+          "Active followers": "40"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "11",
+          "Active followers": "33"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "12",
+          "Active followers": "42"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "13",
+          "Active followers": "36"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "14",
+          "Active followers": "36"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "15",
+          "Active followers": "45"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "16",
+          "Active followers": "44"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "17",
+          "Active followers": "38"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "18",
+          "Active followers": "46"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "19",
+          "Active followers": "41"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "20",
+          "Active followers": "42"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "21",
+          "Active followers": "38"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "22",
+          "Active followers": "32"
+        },
+        {
+          "Date": "14 de octubre",
+          "Hour": "23",
+          "Active followers": "38"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "0",
+          "Active followers": "31"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "1",
           "Active followers": "19"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
+          "Hour": "2",
+          "Active followers": "13"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "3",
+          "Active followers": "11"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "4",
+          "Active followers": "12"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "5",
+          "Active followers": "12"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "6",
+          "Active followers": "18"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "7",
+          "Active followers": "30"
+        },
+        {
+          "Date": "15 de octubre",
+          "Hour": "8",
+          "Active followers": "30"
+        },
+        {
+          "Date": "15 de octubre",
           "Hour": "9",
-          "Active followers": "21"
+          "Active followers": "27"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "10",
-          "Active followers": "28"
+          "Active followers": "27"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "11",
           "Active followers": "27"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "12",
           "Active followers": "33"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "13",
-          "Active followers": "29"
+          "Active followers": "35"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "14",
-          "Active followers": "32"
+          "Active followers": "39"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "15",
-          "Active followers": "37"
+          "Active followers": "41"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "16",
-          "Active followers": "31"
+          "Active followers": "39"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "17",
-          "Active followers": "42"
+          "Active followers": "37"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "18",
-          "Active followers": "37"
+          "Active followers": "41"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "19",
-          "Active followers": "37"
+          "Active followers": "38"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "20",
           "Active followers": "45"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "21",
           "Active followers": "44"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "22",
           "Active followers": "38"
         },
         {
-          "Date": "6 de octubre",
+          "Date": "15 de octubre",
           "Hour": "23",
-          "Active followers": "32"
+          "Active followers": "38"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "16 de octubre",
           "Hour": "0",
-          "Active followers": "23"
+          "Active followers": "30"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "16 de octubre",
           "Hour": "1",
+          "Active followers": "17"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "2",
+          "Active followers": "16"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "3",
+          "Active followers": "8"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "4",
+          "Active followers": "10"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "5",
+          "Active followers": "7"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "6",
+          "Active followers": "16"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "7",
+          "Active followers": "17"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "8",
+          "Active followers": "22"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "9",
+          "Active followers": "35"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "10",
+          "Active followers": "33"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "11",
+          "Active followers": "33"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "12",
+          "Active followers": "34"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "13",
+          "Active followers": "39"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "14",
+          "Active followers": "43"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "15",
+          "Active followers": "33"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "16",
+          "Active followers": "37"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "17",
+          "Active followers": "37"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "18",
+          "Active followers": "43"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "19",
+          "Active followers": "41"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "20",
+          "Active followers": "41"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "21",
+          "Active followers": "36"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "22",
+          "Active followers": "41"
+        },
+        {
+          "Date": "16 de octubre",
+          "Hour": "23",
+          "Active followers": "44"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "0",
+          "Active followers": "30"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "1",
+          "Active followers": "24"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "2",
           "Active followers": "18"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "17 de octubre",
+          "Hour": "3",
+          "Active followers": "12"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "4",
+          "Active followers": "9"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "5",
+          "Active followers": "9"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "6",
+          "Active followers": "9"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "7",
+          "Active followers": "11"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "8",
+          "Active followers": "16"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "9",
+          "Active followers": "27"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "10",
+          "Active followers": "27"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "11",
+          "Active followers": "33"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "12",
+          "Active followers": "35"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "13",
+          "Active followers": "37"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "14",
+          "Active followers": "36"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "15",
+          "Active followers": "47"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "16",
+          "Active followers": "39"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "17",
+          "Active followers": "39"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "18",
+          "Active followers": "38"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "19",
+          "Active followers": "38"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "20",
+          "Active followers": "35"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "21",
+          "Active followers": "32"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "22",
+          "Active followers": "36"
+        },
+        {
+          "Date": "17 de octubre",
+          "Hour": "23",
+          "Active followers": "33"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "0",
+          "Active followers": "35"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "1",
+          "Active followers": "24"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "2",
+          "Active followers": "20"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "3",
+          "Active followers": "19"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "4",
+          "Active followers": "14"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "5",
+          "Active followers": "11"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "6",
+          "Active followers": "13"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "7",
+          "Active followers": "10"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "8",
+          "Active followers": "21"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "9",
+          "Active followers": "25"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "10",
+          "Active followers": "26"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "11",
+          "Active followers": "36"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "12",
+          "Active followers": "40"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "13",
+          "Active followers": "34"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "14",
+          "Active followers": "37"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "15",
+          "Active followers": "37"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "16",
+          "Active followers": "44"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "17",
+          "Active followers": "52"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "18",
+          "Active followers": "50"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "19",
+          "Active followers": "44"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "20",
+          "Active followers": "42"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "21",
+          "Active followers": "39"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "22",
+          "Active followers": "32"
+        },
+        {
+          "Date": "18 de octubre",
+          "Hour": "23",
+          "Active followers": "34"
+        },
+        {
+          "Date": "19 de octubre",
+          "Hour": "0",
+          "Active followers": "24"
+        },
+        {
+          "Date": "19 de octubre",
+          "Hour": "1",
+          "Active followers": "11"
+        },
+        {
+          "Date": "19 de octubre",
           "Hour": "2",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "3",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "4",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "5",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "6",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "7",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "8",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "9",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "10",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "11",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "12",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "13",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "14",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "15",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "16",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "17",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "18",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "19",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "20",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "21",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "22",
           "Active followers": "0"
         },
         {
-          "Date": "7 de octubre",
+          "Date": "19 de octubre",
           "Hour": "23",
           "Active followers": "0"
         }
@@ -673,15 +1015,15 @@
       "rows": [
         {
           "Gender": "Female",
-          "Distribution": "0.52"
+          "Distribution": "0.57"
         },
         {
           "Gender": "Male",
-          "Distribution": "0.39"
+          "Distribution": "0.35"
         },
         {
           "Gender": "Other",
-          "Distribution": "0.09"
+          "Distribution": "0.08"
         }
       ],
       "vacio": false
@@ -694,55 +1036,99 @@
       "rows": [
         {
           "Top territories": "ES",
-          "Distribution": "0.279"
+          "Distribution": "0.269"
         },
         {
           "Top territories": "GB",
-          "Distribution": "0.074"
+          "Distribution": "0.069"
         },
         {
           "Top territories": "PT",
-          "Distribution": "0.057"
-        },
-        {
-          "Top territories": "FR",
-          "Distribution": "0.049"
-        },
-        {
-          "Top territories": "RO",
-          "Distribution": "0.049"
-        },
-        {
-          "Top territories": "DE",
-          "Distribution": "0.041"
-        },
-        {
-          "Top territories": "EG",
-          "Distribution": "0.033"
+          "Distribution": "0.069"
         },
         {
           "Top territories": "IT",
-          "Distribution": "0.033"
+          "Distribution": "0.046"
+        },
+        {
+          "Top territories": "RO",
+          "Distribution": "0.046"
+        },
+        {
+          "Top territories": "DE",
+          "Distribution": "0.038"
+        },
+        {
+          "Top territories": "EG",
+          "Distribution": "0.031"
+        },
+        {
+          "Top territories": "FR",
+          "Distribution": "0.031"
         },
         {
           "Top territories": "JP",
-          "Distribution": "0.025"
+          "Distribution": "0.031"
         },
         {
           "Top territories": "NP",
-          "Distribution": "0.016"
+          "Distribution": "0.015"
         },
         {
           "Top territories": "Others",
-          "Distribution": "0.344"
+          "Distribution": "0.355"
         }
       ],
       "vacio": false
     }
   },
-  "provisional_activity": {
-    "fecha": "2026-10-07",
-    "provisional": true,
-    "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): horas 2–23 a 0."
-  }
+  "activity_resumen": {
+    "dias_usados": [
+      "2026-10-13",
+      "2026-10-14",
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "media_por_hora": {
+      "0": 31.67,
+      "1": 23.33,
+      "2": 16.83,
+      "3": 12.67,
+      "4": 11.17,
+      "5": 11.17,
+      "6": 13.83,
+      "7": 19.33,
+      "8": 21.5,
+      "9": 29.33,
+      "10": 30.83,
+      "11": 31.83,
+      "12": 37.17,
+      "13": 36.5,
+      "14": 38.67,
+      "15": 41.67,
+      "16": 41.5,
+      "17": 42.5,
+      "18": 43.17,
+      "19": 39.67,
+      "20": 41.5,
+      "21": 39.33,
+      "22": 34.83,
+      "23": 37.5
+    },
+    "hora_pico_csv": 18,
+    "franja_3h_csv": [
+      16,
+      18
+    ],
+    "zona_horaria_csv": "no indicada en el CSV"
+  },
+  "provisional_activity": [
+    {
+      "fecha": "2026-10-19",
+      "provisional": true,
+      "provisional_motivo": "horas 2–23 a 0 en export 20/10 (día en curso / sin procesar)."
+    }
+  ]
 }

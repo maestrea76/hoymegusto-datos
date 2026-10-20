@@ -1,14 +1,80 @@
 {
-  "imported_at": "20261010T065550Z",
+  "imported_at": "20261020T042226Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Viewers.csv (official)",
   "kind": "account_viewers_daily",
-  "schema_note": "Una fila por día (3–9 oct 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil (eso es Profile Views de Overview). 7, 8 y 9 oct Total Viewers=\"undefined\" (New/Returning=0) → null y provisional:true. Sin totales.",
+  "schema_note": "Una fila por día (22 sep–19 oct 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil (eso es Profile Views de Overview). 19 oct Total Viewers=\"undefined\" → null, provisional:true. 07–09 oct, undefined en el export del 10/10, ahora con número. Parece ir un día por delante de Overview.csv (ver schema_note de overview). Sin totales.",
   "date_range": [
-    "2026-10-03",
-    "2026-10-09"
+    "2026-09-22",
+    "2026-10-19"
   ],
   "rows": [
+    {
+      "fecha": "2026-09-22",
+      "total_viewers": 738,
+      "new_viewers": 474,
+      "returning_viewers": 264
+    },
+    {
+      "fecha": "2026-09-23",
+      "total_viewers": 816,
+      "new_viewers": 557,
+      "returning_viewers": 259
+    },
+    {
+      "fecha": "2026-09-24",
+      "total_viewers": 871,
+      "new_viewers": 606,
+      "returning_viewers": 265
+    },
+    {
+      "fecha": "2026-09-25",
+      "total_viewers": 465,
+      "new_viewers": 319,
+      "returning_viewers": 146
+    },
+    {
+      "fecha": "2026-09-26",
+      "total_viewers": 518,
+      "new_viewers": 404,
+      "returning_viewers": 114
+    },
+    {
+      "fecha": "2026-09-27",
+      "total_viewers": 1273,
+      "new_viewers": 952,
+      "returning_viewers": 321
+    },
+    {
+      "fecha": "2026-09-28",
+      "total_viewers": 771,
+      "new_viewers": 492,
+      "returning_viewers": 279
+    },
+    {
+      "fecha": "2026-09-29",
+      "total_viewers": 341,
+      "new_viewers": 172,
+      "returning_viewers": 169
+    },
+    {
+      "fecha": "2026-09-30",
+      "total_viewers": 946,
+      "new_viewers": 574,
+      "returning_viewers": 372
+    },
+    {
+      "fecha": "2026-10-01",
+      "total_viewers": 472,
+      "new_viewers": 295,
+      "returning_viewers": 177
+    },
+    {
+      "fecha": "2026-10-02",
+      "total_viewers": 476,
+      "new_viewers": 234,
+      "returning_viewers": 242
+    },
     {
       "fecha": "2026-10-03",
       "total_viewers": 844,
@@ -35,30 +101,84 @@
     },
     {
       "fecha": "2026-10-07",
-      "total_viewers": null,
-      "new_viewers": 0,
-      "returning_viewers": 0,
-      "total_viewers_raw": "undefined",
-      "provisional": true,
-      "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\"; FollowerHistory.csv Followers=\"undefined\"; Video Views=56 frente a ~500–1.000/día habitual; FollowerActivity.csv: horas 2–23 a 0. Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      "total_viewers": 553,
+      "new_viewers": 301,
+      "returning_viewers": 252
     },
     {
       "fecha": "2026-10-08",
-      "total_viewers": null,
-      "new_viewers": 0,
-      "returning_viewers": 0,
-      "total_viewers_raw": "undefined",
-      "provisional": true,
-      "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\"; sin fila en FollowerHistory.csv; Video Views=69 frente a ~500–1.000/día habitual. Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      "total_viewers": 52,
+      "new_viewers": 47,
+      "returning_viewers": 5
     },
     {
       "fecha": "2026-10-09",
+      "total_viewers": 33,
+      "new_viewers": 30,
+      "returning_viewers": 3
+    },
+    {
+      "fecha": "2026-10-10",
+      "total_viewers": 252,
+      "new_viewers": 177,
+      "returning_viewers": 75
+    },
+    {
+      "fecha": "2026-10-11",
+      "total_viewers": 513,
+      "new_viewers": 342,
+      "returning_viewers": 171
+    },
+    {
+      "fecha": "2026-10-12",
+      "total_viewers": 299,
+      "new_viewers": 220,
+      "returning_viewers": 79
+    },
+    {
+      "fecha": "2026-10-13",
+      "total_viewers": 21,
+      "new_viewers": 15,
+      "returning_viewers": 6
+    },
+    {
+      "fecha": "2026-10-14",
+      "total_viewers": 21,
+      "new_viewers": 16,
+      "returning_viewers": 5
+    },
+    {
+      "fecha": "2026-10-15",
+      "total_viewers": 20,
+      "new_viewers": 17,
+      "returning_viewers": 3
+    },
+    {
+      "fecha": "2026-10-16",
+      "total_viewers": 18,
+      "new_viewers": 17,
+      "returning_viewers": 1
+    },
+    {
+      "fecha": "2026-10-17",
+      "total_viewers": 474,
+      "new_viewers": 305,
+      "returning_viewers": 169
+    },
+    {
+      "fecha": "2026-10-18",
+      "total_viewers": 462,
+      "new_viewers": 303,
+      "returning_viewers": 159
+    },
+    {
+      "fecha": "2026-10-19",
       "total_viewers": null,
       "new_viewers": 0,
       "returning_viewers": 0,
       "total_viewers_raw": "undefined",
       "provisional": true,
-      "provisional_motivo": "probable retraso de procesado de TikTok Studio (export 10/10 08:54): Viewers.csv Total Viewers=\"undefined\". Pendiente de confirmar con el export del lunes 12/10. Valores del CSV sin corregir."
+      "provisional_motivo": "Total Viewers=\"undefined\" (New/Returning=0) en export 20/10: probable día aún sin procesar."
     }
   ]
 }
