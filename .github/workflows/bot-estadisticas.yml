@@ -1,0 +1,54 @@
+name: Bot - estadisticas nocturnas
+
+# Snapshot IG+FB en datos/graph-diario/AAAA-MM-DD.json. Avisa al bot solo si un Reel supera
+# 3x la mediana de reproducciones o hay más de 10 seguidores nuevos en un día; token 190 o fallo -> "error".
+# 23:30 Madrid: 21:30 UTC en verano (CEST) y 22:30 UTC en invierno (CET).
+on:
+  schedule:
+    - cron: "30 21 * * *"
+    - cron: "30 22 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bot-estadisticas
+
+jobs:
+  leer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Leer Graph API
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
+          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          CRON_SCHEDULE: ${{ github.event.schedule }}
+        run: python automatizaciones/graph_diario.py
+      - name: Guardar
+        run: |
+          git config user.name "hoymegusto-bot"
+          git config user.email "estadisticas@github.com"
+          git add datos/graph-diario/
+          if git diff --staged --quiet; then echo "Sin cambios"; exit 0; fi
+          git commit -m "graph-diario: $(git diff --staged --name-only | xargs -n1 basename | tr "\n" " ")"
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push && exit 0
+            sleep 5
+          done
+          exit 1
+      - name: Avisar al bot si algo falla
+        if: failure()
+        env:
+          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
+          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -f /tmp/aviso_error_enviado ]; then echo "Error ya avisado"; exit 0; fi
+          python automatizaciones/comun.py error "{\"origen\": \"${{ github.workflow }}\", \"mensaje\": \"La Action ha fallado\", \"run\": \"$RUN_URL\"}"

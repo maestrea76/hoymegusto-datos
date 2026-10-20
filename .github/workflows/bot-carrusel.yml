@@ -1,0 +1,49 @@
+name: Bot - carrusel del dia
+
+# Despierta al bot si en datos/cola.json hay un carrusel de IG listo para hoy y sin publicar.
+# 19:45 Madrid: 17:45 UTC en horario de verano (CEST) y 18:45 UTC en invierno (CET).
+# Se programan las dos; el script deja seguir solo la que toca (mira el cron que disparó).
+# Ojo: GitHub puede retrasar los schedule (en este repo, 2-6 h el de 18:00 UTC).
+on:
+  schedule:
+    - cron: "45 17 * * *"
+    - cron: "45 18 * * *"
+  workflow_dispatch:
+    inputs:
+      fecha:
+        description: "Probar con otra fecha (AAAA-MM-DD); vacío = hoy"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bot-carrusel
+
+jobs:
+  revisar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Revisar la cola
+        env:
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
+          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          CRON_SCHEDULE: ${{ github.event.schedule }}
+          FECHA: ${{ github.event.inputs.fecha }}
+        run: python automatizaciones/carrusel_del_dia.py
+      - name: Avisar al bot si algo falla
+        if: failure()
+        env:
+          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
+          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          if [ -f /tmp/aviso_error_enviado ]; then echo "Error ya avisado"; exit 0; fi
+          python automatizaciones/comun.py error "{\"origen\": \"${{ github.workflow }}\", \"mensaje\": \"La Action ha fallado\", \"run\": \"$RUN_URL\"}"

@@ -1,0 +1,23 @@
+name: Bot - prueba del webhook
+
+# Manual: manda {"tipo": "prueba"} al bot para comprobar BOT_WEBHOOK_URL y BOT_WEBHOOK_KEY.
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Enviar prueba
+        env:
+          BOT_WEBHOOK_URL: ${{ secrets.BOT_WEBHOOK_URL }}
+          BOT_WEBHOOK_KEY: ${{ secrets.BOT_WEBHOOK_KEY }}
+        run: python automatizaciones/comun.py prueba '{"mensaje": "Prueba manual desde GitHub Actions"}'
