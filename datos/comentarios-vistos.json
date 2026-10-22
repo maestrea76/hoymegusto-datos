@@ -15,7 +15,8 @@
   "18150709342505117",
   "18197520640345431",
   "18012862316988839",
-  "18479955997117612"
+  "18479955997117612",
+  "18289095523290342"
  ],
  "fb_comments": [
   "122105503335510734_2153680908553773",
@@ -28,6 +29,6 @@
   "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDMwMzIyMTQ1MDY0OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDM4ODY2MzYyMzI0NTc1NDozMjk5MDUxMzc1NjExMDg0NzY0NjYxNzk5MzYyNDk0NDY0MAZDZD",
   "aWdfZAG1faXRlbToxOklHTWVzc2FnZAUlEOjE3ODQxNDMwMzIyMTQ1MDY0OjM0MDI4MjM2Njg0MTcxMDMwMTI0NDI2MDM2Nzg4NjE5MjAzMjkyOTozMjk4OTYwNjM4ODIyMjE1ODgzMDMxNTk2NzYyMzQ2MjkxMgZDZD"
  ],
- "ultima_revision": "2026-10-22T00:14:18+02:00",
+ "ultima_revision": "2026-10-22T17:47:43+02:00",
  "nota": "Ids ya revisados. Lo mantiene automatizaciones/comentarios.py (GitHub Actions, bot-comentarios.yml) desde el 20/10/2026; migrado desde el box. Los DMs de FB requieren pages_messaging (no disponible)."
 }
