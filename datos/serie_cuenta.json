@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T20:25:45.115590+00:00",
+  "generado": "2026-10-26T22:20:53.981397+00:00",
   "fuente": "instagram_graph",
   "dias": [
     {
@@ -527,11 +527,19 @@
       "followers_count": 45,
       "profile_views": 1,
       "website_clicks": 0,
-      "views": 371,
-      "reach": 292
+      "views": 372,
+      "reach": 293
     },
     {
       "fecha": "2026-10-25",
+      "followers_count": 46,
+      "profile_views": 1,
+      "website_clicks": 0,
+      "views": 266,
+      "reach": 202
+    },
+    {
+      "fecha": "2026-10-26",
       "followers_count": 46,
       "profile_views": null,
       "website_clicks": null,
