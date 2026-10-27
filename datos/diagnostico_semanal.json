@@ -1,6 +1,6 @@
 {
-  "generado": "2026-10-20T10:14:16.931104+02:00",
-  "semana": "2026-W43",
+  "generado": "2026-10-27T01:03:16.414648+01:00",
+  "semana": "2026-W44",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
     "proxima": "2026-10-27T10:00:00+01:00",
@@ -36,12 +36,12 @@
     {
       "sev": "bad",
       "t": "El algoritmo no empuja en Instagram",
-      "d": "28 de 50 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
+      "d": "27 de 50 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
     },
     {
       "sev": "warn",
       "t": "No hay bucle viral",
-      "d": "8 guardados y 1 compartidos (0.17% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
+      "d": "6 guardados y 0 compartidos (0.11% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
     },
     {
       "sev": "warn",
@@ -51,17 +51,17 @@
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "26 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "20 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     }
   ],
   "acciones": [
     {
       "k": "01 · Clics + 1er comentario",
-      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 26 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 20 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
     },
     {
-      "k": "02 · Formato",
-      "t": "Repite el formato de la pieza más compartida (1 shares), pero abre con una pregunta sobre el producto en el segundo 1–3. Nada de precio como gancho."
+      "k": "02 · Gancho",
+      "t": "Tarjeta de primer segundo con una pregunta sobre el producto, no con la marca ni el precio. Watch < 5 s = el vídeo no existe para el algoritmo."
     },
     {
       "k": "03 · Cadencia TT",
@@ -69,14 +69,14 @@
     }
   ],
   "kpis": {
-    "followers_ig": 45.0,
+    "followers_ig": 46.0,
     "delta_7d": 1.0,
     "delta_7d_nota": null,
-    "delta_30d": 34.0,
+    "delta_30d": 3.0,
     "delta_30d_nota": null,
-    "website_clicks": 3.0,
-    "profile_views": 120.0,
-    "views_ig_piezas": 4844.0,
+    "website_clicks": 1.0,
+    "profile_views": 34.0,
+    "views_ig_piezas": 5511.0,
     "tt_views": 1592.0,
     "tt_profile_views": 11.0,
     "tt_views_perfil": 0.006909547738693468,
@@ -88,30 +88,33 @@
     "tt_views_export": 14988.0,
     "tt_profile_views_export": 95.0,
     "tt_views_perfil_export": 0.006338404056578597,
-    "ig_bajo_50": "28/50",
-    "primer_comentario_ok": "24/50",
-    "primer_comentario_texto_nota": "24 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
+    "ig_bajo_50": "27/50",
+    "primer_comentario_ok": "30/50",
+    "primer_comentario_texto_nota": "30 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
     "primer_comentario_cc_ausente": 0,
-    "cola_pendientes": 11,
-    "cola_publicados": 57,
-    "tt_cadencia_7d": "1/14",
+    "cola_pendientes": 10,
+    "cola_publicados": 25,
+    "tt_cadencia_7d": "4/14",
     "tt_cadencia_fuente": {
       "fuente": "union dedupe: cola.json publicados (red TT) + notas de cola.fuente + Post time de tiktok.json",
       "fuente_usada": "publicados",
       "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
-      "desde": "2026-10-13T10:14:16.931104+02:00",
-      "hasta": "2026-10-20T10:14:16.931104+02:00",
+      "desde": "2026-10-20T01:03:16.414648+02:00",
+      "hasta": "2026-10-27T01:03:16.414648+01:00",
       "incluye_carruseles_tt": true,
       "publicados": [
-        "2026-10-17 martiderm-the-originals-proteos-hydra-plus-sp (video; publicados)"
+        "2026-10-20 beauty-of-joseon-relief-sun-rice-probiotics-spf50 (video; publicados)",
+        "2026-10-21 karseell-maca-care-system-mascarilla (video; publicados)",
+        "2026-10-22 tymo-curlpro-rizador-automatico (video; publicados)",
+        "2026-10-23 torriden-dive-in-hyaluronic-acid-serum (video; publicados)"
       ],
       "sin_fecha_no_contados": []
     },
     "ig_carruseles_7d": 0,
-    "ig_reels_7d": 4,
+    "ig_reels_7d": 6,
     "mejor_reel": {
       "title": "¿Sombras que no hacen polvo?",
-      "views": 937.0,
+      "views": 938.0,
       "avg": 5.3
     }
   },
