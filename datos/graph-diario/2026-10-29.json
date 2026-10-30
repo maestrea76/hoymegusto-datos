@@ -1,0 +1,650 @@
+{
+ "generated_at": "2026-10-30T03:06:44",
+ "tz": "Europe/Madrid",
+ "origen": "github-actions",
+ "ig": {
+  "account": {
+   "id": "17841430322145064",
+   "followers_count": 53,
+   "follows_count": 11,
+   "media_count": 69,
+   "username": "hoymegusto"
+  },
+  "reach_daily": [
+   {
+    "end_time": "2026-10-16T07:00:00+0000",
+    "value": 272
+   },
+   {
+    "end_time": "2026-10-17T07:00:00+0000",
+    "value": 57
+   },
+   {
+    "end_time": "2026-10-18T07:00:00+0000",
+    "value": 738
+   },
+   {
+    "end_time": "2026-10-19T07:00:00+0000",
+    "value": 84
+   },
+   {
+    "end_time": "2026-10-20T07:00:00+0000",
+    "value": 104
+   },
+   {
+    "end_time": "2026-10-21T07:00:00+0000",
+    "value": 149
+   },
+   {
+    "end_time": "2026-10-22T07:00:00+0000",
+    "value": 233
+   },
+   {
+    "end_time": "2026-10-23T07:00:00+0000",
+    "value": 42
+   },
+   {
+    "end_time": "2026-10-24T07:00:00+0000",
+    "value": 293
+   },
+   {
+    "end_time": "2026-10-25T07:00:00+0000",
+    "value": 202
+   },
+   {
+    "end_time": "2026-10-26T07:00:00+0000",
+    "value": 18
+   },
+   {
+    "end_time": "2026-10-27T07:00:00+0000",
+    "value": 2513
+   },
+   {
+    "end_time": "2026-10-28T07:00:00+0000",
+    "value": 606
+   },
+   {
+    "end_time": "2026-10-29T07:00:00+0000",
+    "value": 717
+   }
+  ],
+  "follower_count_daily": [],
+  "media_14d": [
+   {
+    "id": "18106175354342662",
+    "caption": "¿Pelo suave y con brillo sin aclarar nada?\nTratamiento sin aclarado de Redken: lo que más se repite es que deja el pelo ",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DfFt4pnFPoO/",
+    "timestamp": "2026-10-29T19:05:34+0000",
+    "insights": {
+     "views": 224,
+     "reach": 198,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "17901220026391228",
+    "caption": "¿Qué es el PDRN del que habla todo el mundo?\nADN de salmón que la cosmética coreana usa para hidratar; medicube lo mete ",
+    "comments_count": 1,
+    "like_count": 7,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DfDJ3SAFYKU/",
+    "timestamp": "2026-10-28T19:12:20+0000",
+    "insights": {
+     "views": 1167,
+     "reach": 903,
+     "saved": 5,
+     "shares": 1,
+     "total_interactions": 15
+    }
+   },
+   {
+    "id": "18144966853596401",
+    "caption": "¿Sérum con color en vez de base?\nAccord Parfait de L'Oréal Paris: textura ligera, color muy natural y la piel queda prec",
+    "comments_count": 1,
+    "like_count": 10,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/De_N5dsiSbr/",
+    "timestamp": "2026-10-27T06:30:39+0000",
+    "insights": {
+     "views": 3926,
+     "reach": 2696,
+     "saved": 7,
+     "shares": 0,
+     "total_interactions": 19
+    }
+   },
+   {
+    "id": "18021452468731102",
+    "caption": "¿Glass skin o bloom skin? Esta crema encaja en las dos.\nDynasty Cream de Beauty of Joseon: 2 % de niacinamida y 2 % de e",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/De6WaLwEWgg/",
+    "timestamp": "2026-10-25T09:08:41+0000",
+    "insights": {
+     "views": 11,
+     "reach": 7,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18020312201951891",
+    "caption": "¿Glass skin o bloom skin? Esta crema encaja en las dos.\nDynasty Cream de Beauty of Joseon: 2 % de niacinamida y 2 % de e",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "FEED",
+    "media_type": "CAROUSEL_ALBUM",
+    "permalink": "https://www.instagram.com/p/De6WV6dljpd/",
+    "timestamp": "2026-10-25T09:07:45+0000",
+    "insights": {
+     "views": 1,
+     "reach": 1,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18175375078459965",
+    "caption": "¿Champú + tónico en tu rutina?\nPlantur 39 Champú Cafeína + Tónico: el cabello con sensación de más fuerza y grosor, limp",
+    "comments_count": 1,
+    "like_count": 1,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/De4vFdRguem/",
+    "timestamp": "2026-10-24T18:05:56+0000",
+    "insights": {
+     "views": 604,
+     "reach": 464,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 2
+    }
+   },
+   {
+    "id": "18002923260001108",
+    "caption": "¿Hidratación que se absorbe al momento?\n\nSérum DIVE-IN de Torriden, con ácido hialurónico de bajo peso molecular. Lo que",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/De2KEyUDyg1/",
+    "timestamp": "2026-10-23T18:03:58+0000",
+    "insights": {
+     "views": 23,
+     "reach": 15,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "17907459306591136",
+    "caption": "¿Rizos sin saber rizar?\nTYMO CURLPRO, rizador automático: súper fácil, rizos preciosos y la melena hecha en unos 15 minu",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DezGCGDiSzu/",
+    "timestamp": "2026-10-22T13:31:06+0000",
+    "insights": {
+     "views": 281,
+     "reach": 235,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "17951008107316153",
+    "caption": "¿Mascarilla de domingo o de diario?\nKarseell Maca Care System Mascarilla 500 ml: suavidad y brillo desde el primer aclar",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DexC_eeDfhm/",
+    "timestamp": "2026-10-21T18:25:53+0000",
+    "insights": {
+     "views": 186,
+     "reach": 165,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18093253985674687",
+    "caption": "¿Piel mixta o sensible? ¿Este tónico es para ti?\n\nAnua Heartleaf 77: 77 % de extracto de hoja de corazón y pH 5,5. La fi",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "FEED",
+    "media_type": "CAROUSEL_ALBUM",
+    "permalink": "https://www.instagram.com/p/Deuhh9OCY2C/",
+    "timestamp": "2026-10-20T18:54:38+0000",
+    "insights": {
+     "views": 5,
+     "reach": 3,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "17958200139312191",
+    "caption": "¿Protector que no deja la cara blanca?\n\nRelief Sun SPF50+ de Beauty of Joseon: textura fluida y muy ligera que se absorb",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DetHZDKFvrK/",
+    "timestamp": "2026-10-20T05:47:21+0000",
+    "insights": {
+     "views": 125,
+     "reach": 106,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18153007981540893",
+    "caption": "¿Sombras que no hacen polvo?\nPaleta Ultimate Shadow Palette Utopia de NYX: 40 tonos cremosos y nada polvorientos, mates ",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DeoLhc0jz8K/",
+    "timestamp": "2026-10-18T07:47:26+0000",
+    "insights": {
+     "views": 942,
+     "reach": 786,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18082913900375159",
+    "caption": "¿Sabes cómo se usan estas ampollas?\n\nSoy Inés.\n\nCómo se usan las ampollas MartiDerm: media ampolla cada vez, en cara, cu",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "FEED",
+    "media_type": "CAROUSEL_ALBUM",
+    "permalink": "https://www.instagram.com/p/DemtNowHNyt/",
+    "timestamp": "2026-10-17T18:02:48+0000",
+    "insights": {
+     "views": 5,
+     "reach": 4,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18122018983873814",
+    "caption": "¿Ya tienes el SPF del día?\nISDIN Fusion Water Magic Repair SPF 50: textura ultraligera que se absorbe en segundos, acaba",
+    "comments_count": 1,
+    "like_count": 0,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DelfkE2AfJq/",
+    "timestamp": "2026-10-17T06:44:43+0000",
+    "insights": {
+     "views": 47,
+     "reach": 43,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 1
+    }
+   },
+   {
+    "id": "18107633261351258",
+    "caption": "¿Lo pruebas antes de un evento?\nRemescar Bolsas y Ojeras: mejora la apariencia de bolsas y ojeras en minutos, el efecto ",
+    "comments_count": 1,
+    "like_count": 1,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DekEdP0lC7O/",
+    "timestamp": "2026-10-16T17:28:25+0000",
+    "insights": {
+     "views": 184,
+     "reach": 144,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 2
+    }
+   },
+   {
+    "id": "18097217168652493",
+    "caption": "¿Plancha sí o aire natural?\nRemington Keratin Therapy S8593: se calienta en segundos, deja el pelo liso y brillante sin ",
+    "comments_count": 1,
+    "like_count": 2,
+    "media_product_type": "REELS",
+    "media_type": "VIDEO",
+    "permalink": "https://www.instagram.com/reel/DejtHRMCX_i/",
+    "timestamp": "2026-10-16T14:04:49+0000",
+    "insights": {
+     "views": 148,
+     "reach": 129,
+     "saved": 0,
+     "shares": 0,
+     "total_interactions": 3
+    }
+   }
+  ],
+  "followers_neto_vs_anterior": {
+   "anterior": "2026-10-28.json",
+   "neto": 1
+  }
+ },
+ "fb": {
+  "page": {
+   "name": "Hoy Me Gusto",
+   "followers_count": 0,
+   "fan_count": 0,
+   "id": "1349934388202783"
+  },
+  "reels": [
+   {
+    "id": "1393161142594307",
+    "description": "¿Pelo suave y con brillo sin aclarar nada?\nTratamiento sin aclarado de Redken: lo que más se repite es que deja el pelo ",
+    "created_time": "2026-10-29T19:05:41+0000",
+    "permalink_url": "/reel/1393161142594307/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "2046707335987180",
+    "description": "¿Qué es el PDRN del que habla todo el mundo?\nADN de salmón que la cosmética coreana usa para hidratar; medicube lo mete ",
+    "created_time": "2026-10-28T19:12:29+0000",
+    "permalink_url": "/reel/2046707335987180/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1833348851023575",
+    "description": "¿Sérum con color en vez de base?\nAccord Parfait de L'Oréal Paris: textura ligera, color muy natural y la piel queda prec",
+    "created_time": "2026-10-27T06:30:49+0000",
+    "permalink_url": "/reel/1833348851023575/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "2816668898733914",
+    "description": "¿Glass skin o bloom skin? Esta crema encaja en las dos.\nDynasty Cream de Beauty of Joseon: 2 % de niacinamida y 2 % de e",
+    "created_time": "2026-10-25T09:08:50+0000",
+    "permalink_url": "/reel/2816668898733914/",
+    "length": 7,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1932845478123275",
+    "description": "¿Champú + tónico en tu rutina?\nPlantur 39 Champú Cafeína + Tónico: el cabello con sensación de más fuerza y grosor, limp",
+    "created_time": "2026-10-24T18:06:04+0000",
+    "permalink_url": "/reel/1932845478123275/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "2005449923471267",
+    "description": "¿Hidratación que se absorbe al momento?\n\nSérum DIVE-IN de Torriden, con ácido hialurónico de bajo peso molecular. Lo que",
+    "created_time": "2026-10-23T18:04:08+0000",
+    "permalink_url": "/reel/2005449923471267/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1167419899351255",
+    "description": "¿Rizos sin saber rizar?\nTYMO CURLPRO, rizador automático: súper fácil, rizos preciosos y la melena hecha en unos 15 minu",
+    "created_time": "2026-10-22T13:31:15+0000",
+    "permalink_url": "/reel/1167419899351255/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "3612271598928708",
+    "description": "¿Mascarilla de domingo o de diario?\nKarseell Maca Care System Mascarilla 500 ml: suavidad y brillo desde el primer aclar",
+    "created_time": "2026-10-21T19:42:26+0000",
+    "permalink_url": "/reel/3612271598928708/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1150902854291439",
+    "description": "¿Protector que no deja la cara blanca?\n\nRelief Sun SPF50+ de Beauty of Joseon: textura fluida y muy ligera que se absorb",
+    "created_time": "2026-10-20T05:47:35+0000",
+    "permalink_url": "/reel/1150902854291439/",
+    "length": 10.041,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {},
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1429552021967851",
+    "description": "¿Sombras que no hacen polvo?\nPaleta Ultimate Shadow Palette Utopia de NYX: 40 tonos cremosos y nada polvorientos, mates ",
+    "created_time": "2026-10-18T07:47:36+0000",
+    "permalink_url": "/reel/1429552021967851/",
+    "length": 9.416,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1591057668738049",
+    "description": "¿Ya tienes el SPF del día?\nISDIN Fusion Water Magic Repair SPF 50: textura ultraligera que se absorbe en segundos, acaba",
+    "created_time": "2026-10-17T06:44:49+0000",
+    "permalink_url": "/reel/1591057668738049/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1839954604107139",
+    "description": "¿Lo pruebas antes de un evento?\nRemescar Bolsas y Ojeras: mejora la apariencia de bolsas y ojeras en minutos, el efecto ",
+    "created_time": "2026-10-16T17:28:32+0000",
+    "permalink_url": "/reel/1839954604107139/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   },
+   {
+    "id": "1429384495364686",
+    "description": "¿Plancha sí o aire natural?\nRemington Keratin Therapy S8593: se calienta en segundos, deja el pelo liso y brillante sin ",
+    "created_time": "2026-10-16T14:30:40+0000",
+    "permalink_url": "/reel/1429384495364686/",
+    "length": 10,
+    "insights": {
+     "post_video_likes_by_reaction_type": {},
+     "post_video_avg_time_watched": 0,
+     "post_video_social_actions": {
+      "COMMENT": 1
+     },
+     "post_video_view_time": 0,
+     "blue_reels_play_count": 0,
+     "fb_reels_total_plays": 0,
+     "fb_reels_replay_count": 0,
+     "post_video_retention_graph": {},
+     "post_video_followers": 0
+    }
+   }
+  ]
+ },
+ "errors": [],
+ "notes": [
+  "follower_count diario vacío (Meta lo da a partir de 100 seguidores); se compara ig.account.followers_count con el snapshot anterior."
+ ],
+ "alerts": [
+  {
+   "type": "reel_3x_mediana",
+   "media_id": "17901220026391228",
+   "permalink": "https://www.instagram.com/reel/DfDJ3SAFYKU/",
+   "views": 1167,
+   "mediana": 186,
+   "nueva": true
+  },
+  {
+   "type": "reel_3x_mediana",
+   "media_id": "18144966853596401",
+   "permalink": "https://www.instagram.com/reel/De_N5dsiSbr/",
+   "views": 3926,
+   "mediana": 186,
+   "nueva": false
+  },
+  {
+   "type": "reel_3x_mediana",
+   "media_id": "18175375078459965",
+   "permalink": "https://www.instagram.com/reel/De4vFdRguem/",
+   "views": 604,
+   "mediana": 186,
+   "nueva": false
+  },
+  {
+   "type": "reel_3x_mediana",
+   "media_id": "18153007981540893",
+   "permalink": "https://www.instagram.com/reel/DeoLhc0jz8K/",
+   "views": 942,
+   "mediana": 186,
+   "nueva": false
+  }
+ ],
+ "aviso_enviado": true
+}
