@@ -1,0 +1,184 @@
+{
+  "imported_at": "20261103T090338Z",
+  "account": "@hoymegusto",
+  "source": "TikTok Studio Viewers.csv (official)",
+  "kind": "account_viewers_daily",
+  "schema_note": "Una fila por día (06 oct–02 nov 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil. 02 nov Total Viewers=\"undefined\" → null, provisional. Va un día por delante de Overview.csv. Sin totales.",
+  "date_range": [
+    "2026-10-06",
+    "2026-11-02"
+  ],
+  "rows": [
+    {
+      "fecha": "2026-10-06",
+      "total_viewers": 501,
+      "new_viewers": 305,
+      "returning_viewers": 196
+    },
+    {
+      "fecha": "2026-10-07",
+      "total_viewers": 553,
+      "new_viewers": 301,
+      "returning_viewers": 252
+    },
+    {
+      "fecha": "2026-10-08",
+      "total_viewers": 52,
+      "new_viewers": 47,
+      "returning_viewers": 5
+    },
+    {
+      "fecha": "2026-10-09",
+      "total_viewers": 33,
+      "new_viewers": 30,
+      "returning_viewers": 3
+    },
+    {
+      "fecha": "2026-10-10",
+      "total_viewers": 252,
+      "new_viewers": 177,
+      "returning_viewers": 75
+    },
+    {
+      "fecha": "2026-10-11",
+      "total_viewers": 513,
+      "new_viewers": 342,
+      "returning_viewers": 171
+    },
+    {
+      "fecha": "2026-10-12",
+      "total_viewers": 299,
+      "new_viewers": 220,
+      "returning_viewers": 79
+    },
+    {
+      "fecha": "2026-10-13",
+      "total_viewers": 21,
+      "new_viewers": 15,
+      "returning_viewers": 6
+    },
+    {
+      "fecha": "2026-10-14",
+      "total_viewers": 21,
+      "new_viewers": 16,
+      "returning_viewers": 5
+    },
+    {
+      "fecha": "2026-10-15",
+      "total_viewers": 20,
+      "new_viewers": 17,
+      "returning_viewers": 3
+    },
+    {
+      "fecha": "2026-10-16",
+      "total_viewers": 18,
+      "new_viewers": 17,
+      "returning_viewers": 1
+    },
+    {
+      "fecha": "2026-10-17",
+      "total_viewers": 474,
+      "new_viewers": 305,
+      "returning_viewers": 169
+    },
+    {
+      "fecha": "2026-10-18",
+      "total_viewers": 462,
+      "new_viewers": 303,
+      "returning_viewers": 159
+    },
+    {
+      "fecha": "2026-10-19",
+      "total_viewers": 380,
+      "new_viewers": 265,
+      "returning_viewers": 115
+    },
+    {
+      "fecha": "2026-10-20",
+      "total_viewers": 25,
+      "new_viewers": 23,
+      "returning_viewers": 2
+    },
+    {
+      "fecha": "2026-10-21",
+      "total_viewers": 268,
+      "new_viewers": 173,
+      "returning_viewers": 95
+    },
+    {
+      "fecha": "2026-10-22",
+      "total_viewers": 262,
+      "new_viewers": 162,
+      "returning_viewers": 100
+    },
+    {
+      "fecha": "2026-10-23",
+      "total_viewers": 277,
+      "new_viewers": 151,
+      "returning_viewers": 126
+    },
+    {
+      "fecha": "2026-10-24",
+      "total_viewers": 283,
+      "new_viewers": 225,
+      "returning_viewers": 58
+    },
+    {
+      "fecha": "2026-10-25",
+      "total_viewers": 274,
+      "new_viewers": 177,
+      "returning_viewers": 97
+    },
+    {
+      "fecha": "2026-10-26",
+      "total_viewers": 307,
+      "new_viewers": 219,
+      "returning_viewers": 88
+    },
+    {
+      "fecha": "2026-10-27",
+      "total_viewers": 39,
+      "new_viewers": 37,
+      "returning_viewers": 2
+    },
+    {
+      "fecha": "2026-10-28",
+      "total_viewers": 276,
+      "new_viewers": 177,
+      "returning_viewers": 99
+    },
+    {
+      "fecha": "2026-10-29",
+      "total_viewers": 279,
+      "new_viewers": 199,
+      "returning_viewers": 80
+    },
+    {
+      "fecha": "2026-10-30",
+      "total_viewers": 307,
+      "new_viewers": 203,
+      "returning_viewers": 104
+    },
+    {
+      "fecha": "2026-10-31",
+      "total_viewers": 212,
+      "new_viewers": 115,
+      "returning_viewers": 97
+    },
+    {
+      "fecha": "2026-11-01",
+      "total_viewers": 131,
+      "new_viewers": 95,
+      "returning_viewers": 36
+    },
+    {
+      "fecha": "2026-11-02",
+      "total_viewers": null,
+      "new_viewers": 0,
+      "returning_viewers": 0,
+      "total_viewers_raw": "undefined",
+      "provisional": true,
+      "provisional_motivo": "Total Viewers=\"undefined\" (New/Returning=0) en export 03/11: día aún sin procesar."
+    }
+  ]
+}
