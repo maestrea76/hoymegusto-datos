@@ -1,18 +1,18 @@
 {
-  "generado": "2026-10-27T01:03:16.414648+01:00",
-  "semana": "2026-W44",
+  "generado": "2026-11-03T03:37:29.866454+01:00",
+  "semana": "2026-W45",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
-    "proxima": "2026-10-27T10:00:00+01:00",
-    "siguiente_ciclo": "2026-11-03T10:00:00+01:00"
+    "proxima": "2026-11-03T10:00:00+01:00",
+    "siguiente_ciclo": "2026-11-10T10:00:00+01:00"
   },
-  "headline": "TikTok no lleva al perfil",
-  "lead": "Views→perfil 0.69% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views.",
+  "headline": "Cero clics al enlace",
+  "lead": "27 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1.",
   "sev": "bad",
   "pills": [
     [
       "Conversión",
-      "ok"
+      "bad"
     ],
     [
       "Views→perfil TT",
@@ -20,7 +20,7 @@
     ],
     [
       "Distribución IG",
-      "bad"
+      "warn"
     ],
     [
       "Viral",
@@ -30,18 +30,18 @@
   "problemas": [
     {
       "sev": "bad",
+      "t": "Cero clics al enlace",
+      "d": "27 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1."
+    },
+    {
+      "sev": "bad",
       "t": "TikTok no lleva al perfil",
       "d": "Views→perfil 0.69% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
     },
     {
-      "sev": "bad",
-      "t": "El algoritmo no empuja en Instagram",
-      "d": "27 de 50 piezas bajo 50 views. Cambia el gancho (texto en pantalla, sin intro); no toques el producto."
-    },
-    {
       "sev": "warn",
       "t": "No hay bucle viral",
-      "d": "6 guardados y 0 compartidos (0.11% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
+      "d": "20 guardados y 1 compartidos (0.18% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
     },
     {
       "sev": "warn",
@@ -51,17 +51,17 @@
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "20 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "17 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     }
   ],
   "acciones": [
     {
       "k": "01 · Clics + 1er comentario",
-      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 20 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 17 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
     },
     {
-      "k": "02 · Gancho",
-      "t": "Tarjeta de primer segundo con una pregunta sobre el producto, no con la marca ni el precio. Watch < 5 s = el vídeo no existe para el algoritmo."
+      "k": "02 · Formato",
+      "t": "Repite el gancho de «¿Qué es el PDRN del que habla todo el mundo?» (1 shares): pregunta en pantalla en el segundo 1–3."
     },
     {
       "k": "03 · Cadencia TT",
@@ -69,14 +69,14 @@
     }
   ],
   "kpis": {
-    "followers_ig": 46.0,
-    "delta_7d": 1.0,
+    "followers_ig": 53.0,
+    "delta_7d": 3.0,
     "delta_7d_nota": null,
-    "delta_30d": 3.0,
+    "delta_30d": 8.0,
     "delta_30d_nota": null,
-    "website_clicks": 1.0,
-    "profile_views": 34.0,
-    "views_ig_piezas": 5511.0,
+    "website_clicks": 0.0,
+    "profile_views": 27.0,
+    "views_ig_piezas": 11137.0,
     "tt_views": 1592.0,
     "tt_profile_views": 11.0,
     "tt_views_perfil": 0.006909547738693468,
@@ -88,34 +88,35 @@
     "tt_views_export": 14988.0,
     "tt_profile_views_export": 95.0,
     "tt_views_perfil_export": 0.006338404056578597,
-    "ig_bajo_50": "27/50",
-    "primer_comentario_ok": "30/50",
-    "primer_comentario_texto_nota": "30 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
+    "ig_bajo_50": "23/50",
+    "primer_comentario_ok": "33/50",
+    "primer_comentario_texto_nota": "33 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
     "primer_comentario_cc_ausente": 0,
-    "cola_pendientes": 10,
-    "cola_publicados": 25,
-    "tt_cadencia_7d": "4/14",
+    "cola_pendientes": 9,
+    "cola_publicados": 28,
+    "tt_cadencia_7d": "3/14",
     "tt_cadencia_fuente": {
       "fuente": "union dedupe: cola.json publicados (red TT) + notas de cola.fuente + Post time de tiktok.json",
       "fuente_usada": "publicados",
       "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
-      "desde": "2026-10-20T01:03:16.414648+02:00",
-      "hasta": "2026-10-27T01:03:16.414648+01:00",
+      "desde": "2026-10-27T03:37:29.866454+01:00",
+      "hasta": "2026-11-03T03:37:29.866454+01:00",
       "incluye_carruseles_tt": true,
       "publicados": [
-        "2026-10-20 beauty-of-joseon-relief-sun-rice-probiotics-spf50 (video; publicados)",
-        "2026-10-21 karseell-maca-care-system-mascarilla (video; publicados)",
-        "2026-10-22 tymo-curlpro-rizador-automatico (video; publicados)",
-        "2026-10-23 torriden-dive-in-hyaluronic-acid-serum (video; publicados)"
+        "2026-10-27 l-oreal-paris-accord-parfait-serum-con-color (video; publicados)",
+        "2026-10-28 medicube-capsule-cream-pdrn (video; publicados)",
+        "2026-10-29 redken-abc-acondicionador-sin-aclarar (video; publicados)"
       ],
-      "sin_fecha_no_contados": []
+      "sin_fecha_no_contados": [
+        "remington-keratin-therapy-s8593"
+      ]
     },
     "ig_carruseles_7d": 0,
-    "ig_reels_7d": 6,
+    "ig_reels_7d": 4,
     "mejor_reel": {
-      "title": "¿Sombras que no hacen polvo?",
-      "views": 938.0,
-      "avg": 5.3
+      "title": "¿Sérum con color en vez de base?",
+      "views": 3942.0,
+      "avg": 7.8
     }
   },
   "fuentes": {
