@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T04:22:26+00:00",
+  "generado": "2026-11-03T09:03:38+00:00",
   "videos": [
     {
       "fecha": "2026-10-20",
@@ -643,7 +643,7 @@
       "video_id": "7697721328434040086",
       "title": "¿Sabes cómo se usan estas ampollas? Soy Inés. Cómo se usan las ampollas MartiDer",
       "permalink": "https://www.tiktok.com/@hoymegusto/video/7697721328434040086",
-      "views": 321,
+      "views": 337,
       "likes": 2,
       "comments": 0,
       "shares": 2,
@@ -654,8 +654,9 @@
       "promo_eur_oral": null,
       "etiqueta": "nucleo",
       "nota": null,
-      "export_time": "20261020",
-      "fuente_csv": "Content_20261020T042226Z.csv"
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv",
+      "views_prev": 321
     },
     {
       "fecha": "2026-10-06",
@@ -673,8 +674,9 @@
       "promo_eur_oral": null,
       "etiqueta": "nucleo",
       "nota": null,
-      "export_time": "20261020",
-      "fuente_csv": "Content_20261020T042226Z.csv"
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv",
+      "views_prev": 317
     },
     {
       "fecha": "2026-10-03",
@@ -713,23 +715,271 @@
       "nota": null,
       "export_time": "20261020",
       "fuente_csv": "Content_20261020T042226Z.csv"
+    },
+    {
+      "fecha": "2026-10-18",
+      "video_id": "7697908552744127766",
+      "title": "Soy Inés. Ultimate Shadow Palette Utopia de NYX: 40 tonos cremosos y nada polvor",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7697908552744127766",
+      "views": 422,
+      "likes": 0,
+      "comments": 1,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-16",
+      "video_id": "7697278701230148886",
+      "title": "Remington Keratin Therapy S8593: calentamiento rápido, alisado brillante sin tir",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7697278701230148886",
+      "views": 444,
+      "likes": 2,
+      "comments": 1,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-10",
+      "video_id": "7695089018395987222",
+      "title": "K18 Leave-In Molecular Repair Hair Mask: reparación visible desde el primer uso,",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7695089018395987222",
+      "views": 306,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-09",
+      "video_id": "7694695113682996502",
+      "title": "Revlon One-Step Dryer & Volumiser: seca y peina en un paso, aporta volumen, redu",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7694695113682996502",
+      "views": 298,
+      "likes": 3,
+      "comments": 0,
+      "shares": 2,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-06",
+      "video_id": "7693620713437056278",
+      "title": "La Roche-Posay Mela B3 Sérum: atenúa la apariencia de manchas, unifica el tono y",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7693620713437056278",
+      "views": 296,
+      "likes": 1,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-24",
+      "video_id": "7700302892816796950",
+      "title": "¿Champú + tónico en tu rutina? Plantur 39 Champú Cafeína + Tónico: el cabello co",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7700302892816796950",
+      "views": 308,
+      "likes": 2,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-11",
+      "video_id": "7695317181629828374",
+      "title": "Freshly Hair Growth & Density Treatment: fórmula ligera que favorece la aparienc",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7695317181629828374",
+      "views": 291,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-28",
+      "video_id": "7701800354538671382",
+      "title": "¿Qué es el PDRN del que habla todo el mundo? ADN de salmón que la cosmética core",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7701800354538671382",
+      "views": 289,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-23",
+      "video_id": "7699871324004666627",
+      "title": "¿Hidratación que se absorbe al momento? Sérum DIVE-IN de Torriden, con ácido hia",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7699871324004666627",
+      "views": 285,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-10",
+      "video_id": "7694928417673858326",
+      "title": "d'Alba White Truffle Intensive Eye Patch: hidratación que deja el contorno suave",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7694928417673858326",
+      "views": 285,
+      "likes": 2,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-30",
+      "video_id": "7702576284559297814",
+      "title": "¿Parches de ojos que no se caen? Parches de colágeno de BIODANCE: se adhieren mu",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7702576284559297814",
+      "views": 279,
+      "likes": 1,
+      "comments": 0,
+      "shares": 2,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-27",
+      "video_id": "7701254394729352470",
+      "title": "¿Sérum con color en vez de base? Accord Parfait de L'Oréal Paris: textura ligera",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7701254394729352470",
+      "views": 288,
+      "likes": 3,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
+    },
+    {
+      "fecha": "2026-10-16",
+      "video_id": "7697318908285570326",
+      "title": "Soy Inés. Remescar Bolsas y Ojeras: mejora la apariencia de bolsas y ojeras en m",
+      "permalink": "https://www.tiktok.com/@hoymegusto/video/7697318908285570326",
+      "views": 274,
+      "likes": 0,
+      "comments": 0,
+      "shares": 1,
+      "avg_watch": null,
+      "followers_net": null,
+      "interpretacion": "ok",
+      "promo": false,
+      "promo_eur_oral": null,
+      "etiqueta": "nucleo",
+      "nota": null,
+      "export_time": "20261103",
+      "fuente_csv": "Content_20261103T090338Z.csv"
     }
   ],
   "fuentes": {
-    "content": "20261020T042226Z",
-    "overview": "20261020T042226Z",
-    "viewers": "20261020T042226Z",
-    "followers": "20261020T042226Z",
-    "content_prev": "20261010T065550Z"
+    "content": "20261103T090338Z",
+    "overview": "20261103T090338Z",
+    "viewers": "20261103T090338Z",
+    "followers": "20261103T090338Z",
+    "content_prev": "20261020T042226Z"
   },
   "summary": {
-    "n": 37,
-    "n_ok": 36,
-    "median_ok": 716.5,
-    "median_nucleo_organic": 277,
+    "n": 50,
+    "n_ok": 49,
+    "median_ok": 308,
+    "median_nucleo_organic": 286.0,
+    "n_nucleo": 30,
     "nucleo_range": [
       256,
-      321
+      444
     ],
     "promos": [
       {
@@ -834,128 +1084,221 @@
     ]
   },
   "regla": "<50 views = n/s; no scrapers; histórico por snapshot",
-  "content_import": "20261020T042226Z",
-  "overview_import": "20261020T042226Z",
-  "viewers_import": "20261020T042226Z",
-  "followers_import": "20261020T042226Z",
+  "content_import": "20261103T090338Z",
+  "overview_import": "20261103T090338Z",
+  "viewers_import": "20261103T090338Z",
+  "followers_import": "20261103T090338Z",
   "overview_semana": {
     "date_range": [
-      "2026-10-12",
-      "2026-10-18"
+      "2026-10-26",
+      "2026-11-01"
     ],
-    "views": 1592,
-    "profile_views": 11,
-    "ratio_perfil_pct": 0.69,
-    "likes": 7,
-    "comments": 1,
+    "dias_con_dato": 7,
+    "views": 1457,
+    "profile_views": 13,
+    "ratio_perfil_pct": 0.89,
+    "likes": 10,
+    "comments": 0,
     "shares": 1,
-    "followers_net": 5,
-    "followers_inicio": 125,
+    "followers_inicio": 131,
     "followers_fin": 130,
-    "videos_publicados": 1,
-    "videos_planificados": null,
-    "fuente": "Overview.csv + FollowerHistory.csv + Content.csv (official) 2026-10-20",
-    "nota": "Última semana lun–dom completa del Overview (21 sep–18 oct): 12–18 oct. followers_net por stock = Followers(18/10) − Followers(11/10). videos_publicados = vídeos con Post time 12–18 en la lista fusionada (solo MartiDerm 17/10; el Content.csv va recortado). 12–15 sin TT nuevo (pausa)."
+    "followers_net": -1,
+    "videos_en_lista_fusionada": 3,
+    "provisional": true,
+    "fuente": "Overview.csv + FollowerHistory.csv + Content.csv (official) 2026-11-03",
+    "nota": "Última semana lun–dom completa del Overview (05/10–01/11): W44 26/10–01/11; 31/10 y 01/11 provisionales. followers_net por stock = Followers(01/11) − Followers(25/10). videos_en_lista_fusionada = vídeos con Post time en la semana (Content.csv truncado; Redken 29/10 no aparece)."
   },
+  "overview_semanas": [
+    {
+      "semana": "W42",
+      "date_range": [
+        "2026-10-12",
+        "2026-10-18"
+      ],
+      "dias_con_dato": 7,
+      "views": 1592,
+      "profile_views": 11,
+      "ratio_perfil_pct": 0.69,
+      "likes": 7,
+      "comments": 1,
+      "shares": 1,
+      "followers_inicio": 125,
+      "followers_fin": 130,
+      "followers_net": 5,
+      "videos_en_lista_fusionada": 4,
+      "provisional": false
+    },
+    {
+      "semana": "W43",
+      "date_range": [
+        "2026-10-19",
+        "2026-10-25"
+      ],
+      "dias_con_dato": 7,
+      "views": 1868,
+      "profile_views": 14,
+      "ratio_perfil_pct": 0.75,
+      "likes": 14,
+      "comments": 1,
+      "shares": 0,
+      "followers_inicio": 130,
+      "followers_fin": 131,
+      "followers_net": 1,
+      "videos_en_lista_fusionada": 3,
+      "provisional": false
+    },
+    {
+      "semana": "W44",
+      "date_range": [
+        "2026-10-26",
+        "2026-11-01"
+      ],
+      "dias_con_dato": 7,
+      "views": 1457,
+      "profile_views": 13,
+      "ratio_perfil_pct": 0.89,
+      "likes": 10,
+      "comments": 0,
+      "shares": 1,
+      "followers_inicio": 131,
+      "followers_fin": 130,
+      "followers_net": -1,
+      "videos_en_lista_fusionada": 3,
+      "provisional": true
+    },
+    {
+      "semana": "W45",
+      "date_range": [
+        "2026-11-02",
+        "2026-11-08"
+      ],
+      "dias": [],
+      "nota": "sin datos en el Overview de este export"
+    }
+  ],
   "overview_dias_nuevos": {
     "date_range": [
-      "2026-10-09",
-      "2026-10-18"
+      "2026-10-19",
+      "2026-11-01"
     ],
     "dias": [
       {
-        "fecha": "2026-10-09",
-        "views": 325,
-        "profile_views": 1,
-        "ratio_perfil_pct": 0.31,
-        "followers": 125
+        "fecha": "2026-10-19",
+        "views": 27,
+        "profile_views": 0,
+        "ratio_perfil_pct": 0.0,
+        "followers": 130,
+        "provisional": false
       },
       {
-        "fecha": "2026-10-10",
-        "views": 580,
-        "profile_views": 1,
-        "ratio_perfil_pct": 0.17,
-        "followers": 127
+        "fecha": "2026-10-20",
+        "views": 290,
+        "profile_views": 0,
+        "ratio_perfil_pct": 0.0,
+        "followers": 130,
+        "provisional": false
       },
       {
-        "fecha": "2026-10-11",
-        "views": 318,
+        "fecha": "2026-10-21",
+        "views": 290,
+        "profile_views": 1,
+        "ratio_perfil_pct": 0.34,
+        "followers": 128,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-22",
+        "views": 306,
         "profile_views": 2,
-        "ratio_perfil_pct": 0.63,
-        "followers": 125
+        "ratio_perfil_pct": 0.65,
+        "followers": 128,
+        "provisional": false
       },
       {
-        "fecha": "2026-10-12",
-        "views": 23,
-        "profile_views": 1,
-        "ratio_perfil_pct": 4.35,
-        "followers": 124
-      },
-      {
-        "fecha": "2026-10-13",
-        "views": 31,
-        "profile_views": 1,
-        "ratio_perfil_pct": 3.23,
-        "followers": 129
-      },
-      {
-        "fecha": "2026-10-14",
-        "views": 39,
-        "profile_views": 1,
-        "ratio_perfil_pct": 2.56,
-        "followers": 128
-      },
-      {
-        "fecha": "2026-10-15",
-        "views": 21,
-        "profile_views": 1,
-        "ratio_perfil_pct": 4.76,
-        "followers": 128
-      },
-      {
-        "fecha": "2026-10-16",
-        "views": 558,
+        "fecha": "2026-10-23",
+        "views": 308,
         "profile_views": 2,
-        "ratio_perfil_pct": 0.36,
-        "followers": 128
+        "ratio_perfil_pct": 0.65,
+        "followers": 129,
+        "provisional": false
       },
       {
-        "fecha": "2026-10-17",
-        "views": 507,
-        "profile_views": 3,
+        "fecha": "2026-10-24",
+        "views": 293,
+        "profile_views": 1,
+        "ratio_perfil_pct": 0.34,
+        "followers": 130,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-25",
+        "views": 354,
+        "profile_views": 8,
+        "ratio_perfil_pct": 2.26,
+        "followers": 131,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-26",
+        "views": 42,
+        "profile_views": 4,
+        "ratio_perfil_pct": 9.52,
+        "followers": 131,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-27",
+        "views": 300,
+        "profile_views": 1,
+        "ratio_perfil_pct": 0.33,
+        "followers": 131,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-28",
+        "views": 311,
+        "profile_views": 1,
+        "ratio_perfil_pct": 0.32,
+        "followers": 131,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-29",
+        "views": 337,
+        "profile_views": 2,
         "ratio_perfil_pct": 0.59,
-        "followers": 130
+        "followers": 130,
+        "provisional": false
       },
       {
-        "fecha": "2026-10-18",
-        "views": 413,
+        "fecha": "2026-10-30",
+        "views": 232,
+        "profile_views": 1,
+        "ratio_perfil_pct": 0.43,
+        "followers": 130,
+        "provisional": false
+      },
+      {
+        "fecha": "2026-10-31",
+        "views": 143,
         "profile_views": 2,
-        "ratio_perfil_pct": 0.48,
-        "followers": 130
-      }
-    ],
-    "revision_07_08": [
-      {
-        "fecha": "2026-10-07",
-        "views": 56,
-        "profile_views": 6,
-        "followers": 113,
-        "provisional": false,
-        "nota": "provisional:true en el export del 10/10; el export del 20/10 repite views=56 y profile_views=6 y ya trae Followers (113) y Viewers numéricos → dato firme, se quita provisional. No fue un retraso de procesado rellenado después."
+        "ratio_perfil_pct": 1.4,
+        "followers": 130,
+        "provisional": true
       },
       {
-        "fecha": "2026-10-08",
-        "views": 69,
-        "profile_views": 6,
-        "followers": 122,
-        "provisional": false,
-        "nota": "provisional:true en el export del 10/10; el export del 20/10 repite views=69 y profile_views=6 y ya trae Followers (122) y Viewers numéricos → dato firme, se quita provisional. No fue un retraso de procesado rellenado después."
+        "fecha": "2026-11-01",
+        "views": 92,
+        "profile_views": 2,
+        "ratio_perfil_pct": 2.17,
+        "followers": 130,
+        "provisional": true
       }
     ],
-    "fuente": "Overview.csv y FollowerHistory.csv export 2026-10-20",
-    "nota": "Días presentes en el Overview del 20/10 y ausentes en el del 10/10. Ninguno con undefined. Viewers no se usa como visitas."
+    "fuente": "Overview.csv y FollowerHistory.csv export 2026-11-03",
+    "nota": "Días presentes en el Overview del 03/11 y ausentes en el del 20/10. Ninguno con undefined. Viewers no se usa como visitas."
   },
-  "merge_note": "videos = 33 previos de main (tiktok.json 20261010T065550Z + entrada manual BoJ Relief Sun) + 4 nuevos del Content 20261020T042226Z. 11 coinciden por video_id → números nuevos (views_prev guarda el valor anterior). 21 solo en la lista previa (números y fuente_csv originales). Nuevos: 7697721328434040086 2026-10-17, 7693225255254560022 2026-10-06, 7692500813448613142 2026-10-03, 7692828964544433430 2026-10-04. BoJ Relief Sun (20/10, publicacion_manual, métricas null) NO está en este Content.csv (Overview acaba el 18/10) → se deja tal cual. Revlon, d'Alba, K18 y Freshly tampoco están. Content.csv trae 15 filas (no 14). Total 37. summary sobre la lista fusionada (BoJ fuera de n_ok). No se borra ningún vídeo. No hay ASIN.",
+  "merge_note": "videos = 37 previos de main (tiktok.json 20261020T042226Z, incl. entrada manual BoJ Relief Sun) + 13 nuevos del Content 20261103T090338Z. 2 coinciden por video_id → números nuevos (views_prev guarda el anterior). 34 solo en la lista previa (números y fuente_csv originales). Nuevos: 7697908552744127766 2026-10-18, 7697278701230148886 2026-10-16, 7695089018395987222 2026-10-10, 7694695113682996502 2026-10-09, 7693620713437056278 2026-10-06, 7700302892816796950 2026-10-24, 7695317181629828374 2026-10-11, 7701800354538671382 2026-10-28, 7699871324004666627 2026-10-23, 7694928417673858326 2026-10-10, 7702576284559297814 2026-10-30, 7701254394729352470 2026-10-27, 7697318908285570326 2026-10-16. BoJ Relief Sun (20/10, publicacion_manual, métricas null) NO está en este Content.csv → se deja tal cual. Karseell 21/10, TYMO 22/10 y Redken 29/10 (TT según cola.json) tampoco están. Content.csv trae 15 filas. Total 50. summary sobre la lista fusionada (BoJ fuera de n_ok). No se borra ningún vídeo. No hay ASIN.",
   "experimento_sigueme": {
     "estado": "LECTURA FINAL 20/10 (export 20261020T042226Z). Diseño aprobado por Estratega 14/10.",
     "tratamiento_09_11": {
@@ -1069,132 +1412,34 @@
     "veredicto": "NO CONCLUYENTE: el «sígueme» solo en pantalla ni se adopta ni se descarta. Tratamiento = 4 visitas al perfil en 3 días; un cambio de ±1 visita mueve la tasa ~0,08 pp y el signo cambia según qué control se tome. Se vuelve a probar con API y cadencia estable.",
     "fuente": "Overview.csv (Video Views, Profile Views) y FollowerHistory.csv (Followers, stock) export 20/10. Viewers no se usa."
   },
-  "solape_vs_20261010": {
-    "comparado_con": "20261010T065550Z",
-    "dias_overview_comparados": 18,
-    "dias_viewers_comparados": 7,
-    "dias_followerhistory_comparados": 7,
+  "solape_vs_20261020": {
+    "comparado_con": "20261020T042226Z",
+    "dias_overview_comparados": 14,
+    "dias_viewers_comparados": 14,
+    "dias_followerhistory_comparados": 14,
     "cambios": [
       {
-        "fecha": "2026-10-07",
+        "fecha": "2026-10-19",
         "fichero": "Viewers",
         "columna": "Total Viewers",
-        "antes_20261010": "undefined",
-        "ahora": "553"
+        "antes_20261020": "undefined",
+        "ahora": "380"
       },
       {
-        "fecha": "2026-10-07",
+        "fecha": "2026-10-19",
         "fichero": "Viewers",
         "columna": "New Viewers",
-        "antes_20261010": "0",
-        "ahora": "301"
+        "antes_20261020": "0",
+        "ahora": "265"
       },
       {
-        "fecha": "2026-10-07",
+        "fecha": "2026-10-19",
         "fichero": "Viewers",
         "columna": "Returning Viewers",
-        "antes_20261010": "0",
-        "ahora": "252"
-      },
-      {
-        "fecha": "2026-10-08",
-        "fichero": "Viewers",
-        "columna": "Total Viewers",
-        "antes_20261010": "undefined",
-        "ahora": "52"
-      },
-      {
-        "fecha": "2026-10-08",
-        "fichero": "Viewers",
-        "columna": "New Viewers",
-        "antes_20261010": "0",
-        "ahora": "47"
-      },
-      {
-        "fecha": "2026-10-08",
-        "fichero": "Viewers",
-        "columna": "Returning Viewers",
-        "antes_20261010": "0",
-        "ahora": "5"
-      },
-      {
-        "fecha": "2026-10-09",
-        "fichero": "Viewers",
-        "columna": "Total Viewers",
-        "antes_20261010": "undefined",
-        "ahora": "33"
-      },
-      {
-        "fecha": "2026-10-09",
-        "fichero": "Viewers",
-        "columna": "New Viewers",
-        "antes_20261010": "0",
-        "ahora": "30"
-      },
-      {
-        "fecha": "2026-10-09",
-        "fichero": "Viewers",
-        "columna": "Returning Viewers",
-        "antes_20261010": "0",
-        "ahora": "3"
-      },
-      {
-        "fecha": "2026-10-01",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "1",
-        "ahora": "-2"
-      },
-      {
-        "fecha": "2026-10-02",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "2",
-        "ahora": "1"
-      },
-      {
-        "fecha": "2026-10-03",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "1",
-        "ahora": "2"
-      },
-      {
-        "fecha": "2026-10-04",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "-2",
-        "ahora": "1"
-      },
-      {
-        "fecha": "2026-10-05",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "0",
-        "ahora": "-2"
-      },
-      {
-        "fecha": "2026-10-06",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "0",
-        "ahora": "3"
-      },
-      {
-        "fecha": "2026-10-07",
-        "fichero": "FollowerHistory",
-        "columna": "Followers",
-        "antes_20261010": "undefined",
-        "ahora": "113"
-      },
-      {
-        "fecha": "2026-10-07",
-        "fichero": "FollowerHistory",
-        "columna": "Difference in followers from previous day",
-        "antes_20261010": "0",
-        "ahora": "9"
+        "antes_20261020": "0",
+        "ahora": "115"
       }
     ],
-    "nota": "Comparación celda a celda de los días comunes con el export del 10/10. Overview 21/09–08/10: 0 celdas cambiadas (07 y 08/10 siguen en 56 y 69 views). Viewers y FollowerHistory: los 'undefined' del 10/10 ahora traen número; la columna Difference de FollowerHistory se ha reescrito (sigue desfasada; no se usa)."
+    "nota": "Comparación celda a celda de los días comunes (05–18/10 Overview) con el export del 20/10. Overview: 0 celdas cambiadas; Viewers: 3; FollowerHistory: 0 (la columna Difference no se usa)."
   }
 }
