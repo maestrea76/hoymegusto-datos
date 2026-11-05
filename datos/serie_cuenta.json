@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-04T23:13:49.037870+00:00",
+  "generado": "2026-11-05T20:10:38.136272+00:00",
   "fuente": "instagram_graph",
   "dias": [
     {
@@ -597,32 +597,30 @@
     {
       "fecha": "2026-11-02",
       "followers_count": null,
-      "profile_views": null,
-      "website_clicks": null,
-      "views": null,
-      "reach": 2,
-      "motivos_null": {
-        "views": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:47 PST.",
-        "website_clicks": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:47 PST.",
-        "profile_views": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:48 PST."
-      }
+      "profile_views": 0,
+      "website_clicks": 0,
+      "views": 9,
+      "reach": 3
     },
     {
       "fecha": "2026-11-03",
       "followers_count": 53,
-      "profile_views": null,
-      "website_clicks": null,
-      "views": null,
-      "reach": null,
-      "motivos_null": {
-        "views": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:47 PST.",
-        "website_clicks": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:47 PST.",
-        "profile_views": "API error code=190 subcode=0: Error validating access token: Session has expired on Tuesday, 03-Nov-26 08:49:44 PST. The current time is Wednesday, 04-Nov-26 15:13:48 PST."
-      }
+      "profile_views": 0,
+      "website_clicks": 0,
+      "views": 215,
+      "reach": 192
     },
     {
       "fecha": "2026-11-04",
       "followers_count": null,
+      "profile_views": 0,
+      "website_clicks": 0,
+      "views": 27,
+      "reach": 12
+    },
+    {
+      "fecha": "2026-11-05",
+      "followers_count": 53,
       "profile_views": null,
       "website_clicks": null,
       "views": null,
@@ -636,9 +634,13 @@
   ],
   "nota": "Seed inicial desde estadisticas.json reach; profile_views/website_clicks diarios se rellenan cuando Meta los dé en serie_perfil_clicks.",
   "metricas_diarias": {
-    "reach": "insights period=day (serie temporal)",
-    "views,website_clicks,profile_views": "insights metric_type=total_value period=day, una llamada por metrica y dia",
+    "reach": "insights period=day (serie temporal) en graph.facebook.com/v26.0",
+    "views": "insights metric_type=total_value period=day, una llamada por dia",
+    "website_clicks,profile_views": "se piden igual, pero graph.facebook.com ya no las lista (v21+, 8 ene 2025). Si no vienen quedan null en motivos_null. profile_links_taps no se copia a website_clicks",
     "convencion_fecha": "fecha D = end_time[:10] de Meta = dia calendario America/Los_Angeles D; el dia PT en curso queda null (motivos_null)",
     "version_tv": 3
-  }
+  },
+  "api": "https://graph.facebook.com/v26.0",
+  "login": "facebook",
+  "ig_user_id": "17841430322145064"
 }
