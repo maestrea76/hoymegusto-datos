@@ -18,10 +18,10 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Leer la API de Instagram
+      - name: Leer la API de Instagram (Facebook Login)
         env:
-          IG_TOKEN: ${{ secrets.IG_TOKEN }}
-          IG_USER: "28152713647716895"
+          FB_PAGE_TOKEN: ${{ secrets.FB_PAGE_TOKEN }}
+          IG_USER: "17841430322145064"
         run: python leer_estadisticas.py
 
       - name: Guardar los datos
