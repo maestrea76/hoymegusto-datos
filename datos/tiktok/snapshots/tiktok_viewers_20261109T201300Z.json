@@ -1,0 +1,181 @@
+{
+  "imported_at": "20261109T201300Z",
+  "account": "@hoymegusto",
+  "source": "TikTok Studio Viewers.csv (official)",
+  "kind": "account_viewers_daily",
+  "schema_note": "Una fila por día (12 oct–08 nov 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil. Ningún 'undefined'. El 02/11, que en el export del 03/11 venía como undefined, ahora es 77/71/6. Va un día por delante de Overview.csv (no se realinea). Sin totales.",
+  "date_range": [
+    "2026-10-12",
+    "2026-11-08"
+  ],
+  "rows": [
+    {
+      "fecha": "2026-10-12",
+      "total_viewers": 299,
+      "new_viewers": 220,
+      "returning_viewers": 79
+    },
+    {
+      "fecha": "2026-10-13",
+      "total_viewers": 21,
+      "new_viewers": 15,
+      "returning_viewers": 6
+    },
+    {
+      "fecha": "2026-10-14",
+      "total_viewers": 21,
+      "new_viewers": 16,
+      "returning_viewers": 5
+    },
+    {
+      "fecha": "2026-10-15",
+      "total_viewers": 20,
+      "new_viewers": 17,
+      "returning_viewers": 3
+    },
+    {
+      "fecha": "2026-10-16",
+      "total_viewers": 18,
+      "new_viewers": 17,
+      "returning_viewers": 1
+    },
+    {
+      "fecha": "2026-10-17",
+      "total_viewers": 474,
+      "new_viewers": 305,
+      "returning_viewers": 169
+    },
+    {
+      "fecha": "2026-10-18",
+      "total_viewers": 462,
+      "new_viewers": 303,
+      "returning_viewers": 159
+    },
+    {
+      "fecha": "2026-10-19",
+      "total_viewers": 380,
+      "new_viewers": 265,
+      "returning_viewers": 115
+    },
+    {
+      "fecha": "2026-10-20",
+      "total_viewers": 25,
+      "new_viewers": 23,
+      "returning_viewers": 2
+    },
+    {
+      "fecha": "2026-10-21",
+      "total_viewers": 268,
+      "new_viewers": 173,
+      "returning_viewers": 95
+    },
+    {
+      "fecha": "2026-10-22",
+      "total_viewers": 262,
+      "new_viewers": 162,
+      "returning_viewers": 100
+    },
+    {
+      "fecha": "2026-10-23",
+      "total_viewers": 277,
+      "new_viewers": 151,
+      "returning_viewers": 126
+    },
+    {
+      "fecha": "2026-10-24",
+      "total_viewers": 283,
+      "new_viewers": 225,
+      "returning_viewers": 58
+    },
+    {
+      "fecha": "2026-10-25",
+      "total_viewers": 274,
+      "new_viewers": 177,
+      "returning_viewers": 97
+    },
+    {
+      "fecha": "2026-10-26",
+      "total_viewers": 307,
+      "new_viewers": 219,
+      "returning_viewers": 88
+    },
+    {
+      "fecha": "2026-10-27",
+      "total_viewers": 39,
+      "new_viewers": 37,
+      "returning_viewers": 2
+    },
+    {
+      "fecha": "2026-10-28",
+      "total_viewers": 276,
+      "new_viewers": 177,
+      "returning_viewers": 99
+    },
+    {
+      "fecha": "2026-10-29",
+      "total_viewers": 279,
+      "new_viewers": 199,
+      "returning_viewers": 80
+    },
+    {
+      "fecha": "2026-10-30",
+      "total_viewers": 307,
+      "new_viewers": 203,
+      "returning_viewers": 104
+    },
+    {
+      "fecha": "2026-10-31",
+      "total_viewers": 212,
+      "new_viewers": 115,
+      "returning_viewers": 97
+    },
+    {
+      "fecha": "2026-11-01",
+      "total_viewers": 131,
+      "new_viewers": 95,
+      "returning_viewers": 36
+    },
+    {
+      "fecha": "2026-11-02",
+      "total_viewers": 77,
+      "new_viewers": 71,
+      "returning_viewers": 6
+    },
+    {
+      "fecha": "2026-11-03",
+      "total_viewers": 82,
+      "new_viewers": 75,
+      "returning_viewers": 7
+    },
+    {
+      "fecha": "2026-11-04",
+      "total_viewers": 283,
+      "new_viewers": 198,
+      "returning_viewers": 85
+    },
+    {
+      "fecha": "2026-11-05",
+      "total_viewers": 179,
+      "new_viewers": 147,
+      "returning_viewers": 32
+    },
+    {
+      "fecha": "2026-11-06",
+      "total_viewers": 326,
+      "new_viewers": 202,
+      "returning_viewers": 124
+    },
+    {
+      "fecha": "2026-11-07",
+      "total_viewers": 335,
+      "new_viewers": 200,
+      "returning_viewers": 135
+    },
+    {
+      "fecha": "2026-11-08",
+      "total_viewers": 87,
+      "new_viewers": 78,
+      "returning_viewers": 9
+    }
+  ]
+}

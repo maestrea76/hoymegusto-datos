@@ -1,50 +1,14 @@
 {
-  "imported_at": "20261103T090338Z",
+  "imported_at": "20261109T201300Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Viewers.csv (official)",
   "kind": "account_viewers_daily",
-  "schema_note": "Una fila por día (06 oct–02 nov 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil. 02 nov Total Viewers=\"undefined\" → null, provisional. Va un día por delante de Overview.csv. Sin totales.",
+  "schema_note": "Una fila por día (12 oct–08 nov 2026). Espectadores únicos: NO sumar entre días. NO usar como visitas al perfil. Ningún 'undefined'. El 02/11, que en el export del 03/11 venía como undefined, ahora es 77/71/6. Va un día por delante de Overview.csv (no se realinea). Sin totales.",
   "date_range": [
-    "2026-10-06",
-    "2026-11-02"
+    "2026-10-12",
+    "2026-11-08"
   ],
   "rows": [
-    {
-      "fecha": "2026-10-06",
-      "total_viewers": 501,
-      "new_viewers": 305,
-      "returning_viewers": 196
-    },
-    {
-      "fecha": "2026-10-07",
-      "total_viewers": 553,
-      "new_viewers": 301,
-      "returning_viewers": 252
-    },
-    {
-      "fecha": "2026-10-08",
-      "total_viewers": 52,
-      "new_viewers": 47,
-      "returning_viewers": 5
-    },
-    {
-      "fecha": "2026-10-09",
-      "total_viewers": 33,
-      "new_viewers": 30,
-      "returning_viewers": 3
-    },
-    {
-      "fecha": "2026-10-10",
-      "total_viewers": 252,
-      "new_viewers": 177,
-      "returning_viewers": 75
-    },
-    {
-      "fecha": "2026-10-11",
-      "total_viewers": 513,
-      "new_viewers": 342,
-      "returning_viewers": 171
-    },
     {
       "fecha": "2026-10-12",
       "total_viewers": 299,
@@ -173,12 +137,45 @@
     },
     {
       "fecha": "2026-11-02",
-      "total_viewers": null,
-      "new_viewers": 0,
-      "returning_viewers": 0,
-      "total_viewers_raw": "undefined",
-      "provisional": true,
-      "provisional_motivo": "Total Viewers=\"undefined\" (New/Returning=0) en export 03/11: día aún sin procesar."
+      "total_viewers": 77,
+      "new_viewers": 71,
+      "returning_viewers": 6
+    },
+    {
+      "fecha": "2026-11-03",
+      "total_viewers": 82,
+      "new_viewers": 75,
+      "returning_viewers": 7
+    },
+    {
+      "fecha": "2026-11-04",
+      "total_viewers": 283,
+      "new_viewers": 198,
+      "returning_viewers": 85
+    },
+    {
+      "fecha": "2026-11-05",
+      "total_viewers": 179,
+      "new_viewers": 147,
+      "returning_viewers": 32
+    },
+    {
+      "fecha": "2026-11-06",
+      "total_viewers": 326,
+      "new_viewers": 202,
+      "returning_viewers": 124
+    },
+    {
+      "fecha": "2026-11-07",
+      "total_viewers": 335,
+      "new_viewers": 200,
+      "returning_viewers": 135
+    },
+    {
+      "fecha": "2026-11-08",
+      "total_viewers": 87,
+      "new_viewers": 78,
+      "returning_viewers": 9
     }
   ]
 }

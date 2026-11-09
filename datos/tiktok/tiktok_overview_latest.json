@@ -1,109 +1,25 @@
 {
-  "imported_at": "20261103T090338Z",
+  "imported_at": "20261109T201300Z",
   "account": "@hoymegusto",
   "source": "TikTok Studio Overview.csv (official)",
   "kind": "account_overview_daily",
-  "schema_note": "Overview.csv (Date, Video Views, Profile Views, Likes, Comments, Shares) del 05 oct al 01 nov 2026, sin video_id, avg_watch ni hora. followers = columna Followers de FollowerHistory.csv del mismo export (stock, fuente de cálculo); followers_net = columna Difference TAL CUAL (desfasada; no se usa). 31/10 y 01/11 provisional (días recientes). Ningún día trae 'undefined'. Viewers.csv va un día por delante de Overview (Viewers d+1 ≈ Overview d); no se realinea ni se suma.",
+  "schema_note": "Overview.csv (Date, Video Views, Profile Views, Likes, Comments, Shares) del 12 oct al 08 nov 2026, sin video_id, avg_watch ni hora. Ventana ~28 días (el export del 03/11 cubría 05/10–01/11; los días 05–11/10 quedan en el snapshot 20261103T090338Z). followers = columna Followers de FollowerHistory.csv del mismo export (stock, fuente de cálculo); el stock del 11/10 (fuera de esta ventana) se toma del FollowerHistory oficial del 03/11 para no perder W42. followers_net = columna Difference TAL CUAL (desfasada; no se usa). 07/11 y 08/11 provisional (días recientes). Ningún día trae 'undefined'. El zip de 7 días (02–08/11) coincide celda a celda con este Overview. Viewers.csv no se realinea ni se suma ni se usa como visitas al perfil.",
   "date_range": [
-    "2026-10-05",
-    "2026-11-01"
+    "2026-10-12",
+    "2026-11-08"
   ],
   "totals": {
-    "views": 7430,
-    "likes": 70,
+    "views": 6439,
+    "likes": 38,
     "comments": 2,
-    "shares": 5,
-    "profile_views": 56
+    "shares": 2,
+    "profile_views": 48
   },
   "dias_provisionales": [
-    "2026-10-31",
-    "2026-11-01"
+    "2026-11-07",
+    "2026-11-08"
   ],
   "nonzero_days": [
-    {
-      "fecha": "2026-10-05",
-      "video_id": null,
-      "views": 556,
-      "likes": 5,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": -2,
-      "profile_views": 2,
-      "followers": 112
-    },
-    {
-      "fecha": "2026-10-06",
-      "video_id": null,
-      "views": 609,
-      "likes": 1,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 3,
-      "profile_views": 0,
-      "followers": 110
-    },
-    {
-      "fecha": "2026-10-07",
-      "video_id": null,
-      "views": 56,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 9,
-      "profile_views": 6,
-      "followers": 113
-    },
-    {
-      "fecha": "2026-10-08",
-      "video_id": null,
-      "views": 69,
-      "likes": 27,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 3,
-      "profile_views": 6,
-      "followers": 122
-    },
-    {
-      "fecha": "2026-10-09",
-      "video_id": null,
-      "views": 325,
-      "likes": 3,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": 2,
-      "profile_views": 1,
-      "followers": 125
-    },
-    {
-      "fecha": "2026-10-10",
-      "video_id": null,
-      "views": 580,
-      "likes": 3,
-      "comments": 0,
-      "shares": 2,
-      "avg_watch": null,
-      "followers_net": -2,
-      "profile_views": 1,
-      "followers": 127
-    },
-    {
-      "fecha": "2026-10-11",
-      "video_id": null,
-      "views": 318,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": -1,
-      "profile_views": 2,
-      "followers": 125
-    },
     {
       "fecha": "2026-10-12",
       "video_id": null,
@@ -112,7 +28,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 5,
+      "followers_net": -1,
       "profile_views": 1,
       "followers": 124
     },
@@ -124,7 +40,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -1,
+      "followers_net": 5,
       "profile_views": 1,
       "followers": 129
     },
@@ -136,7 +52,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -1,
       "profile_views": 1,
       "followers": 128
     },
@@ -160,7 +76,7 @@
       "comments": 1,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 2,
+      "followers_net": 0,
       "profile_views": 2,
       "followers": 128
     },
@@ -172,7 +88,7 @@
       "comments": 0,
       "shares": 1,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": 2,
       "profile_views": 3,
       "followers": 130
     },
@@ -208,7 +124,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -2,
+      "followers_net": 0,
       "profile_views": 0,
       "followers": 130
     },
@@ -220,7 +136,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -2,
       "profile_views": 1,
       "followers": 128
     },
@@ -232,7 +148,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 1,
+      "followers_net": 0,
       "profile_views": 2,
       "followers": 128
     },
@@ -268,7 +184,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": 1,
       "profile_views": 8,
       "followers": 131
     },
@@ -304,7 +220,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -1,
+      "followers_net": 0,
       "profile_views": 1,
       "followers": 131
     },
@@ -316,7 +232,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -1,
       "profile_views": 2,
       "followers": 130
     },
@@ -342,9 +258,7 @@
       "avg_watch": null,
       "followers_net": 0,
       "profile_views": 2,
-      "followers": 130,
-      "provisional": true,
-      "provisional_motivo": "día reciente (≤2 días antes del export 03/11); TikTok puede seguir sumando"
+      "followers": 130
     },
     {
       "fecha": "2026-11-01",
@@ -356,97 +270,99 @@
       "avg_watch": null,
       "followers_net": 0,
       "profile_views": 2,
-      "followers": 130,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-02",
+      "video_id": null,
+      "views": 99,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 0,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-03",
+      "video_id": null,
+      "views": 301,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 1,
+      "profile_views": 1,
+      "followers": 131
+    },
+    {
+      "fecha": "2026-11-04",
+      "video_id": null,
+      "views": 196,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 3,
+      "followers": 131
+    },
+    {
+      "fecha": "2026-11-05",
+      "video_id": null,
+      "views": 360,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": -1,
+      "profile_views": 1,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-06",
+      "video_id": null,
+      "views": 373,
+      "likes": 4,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 2,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-07",
+      "video_id": null,
+      "views": 96,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": -1,
+      "profile_views": 1,
+      "followers": 129,
       "provisional": true,
-      "provisional_motivo": "día reciente (≤2 días antes del export 03/11); TikTok puede seguir sumando"
+      "provisional_motivo": "día reciente (últimos 2 días del rango del export 09/11); TikTok puede seguir sumando"
+    },
+    {
+      "fecha": "2026-11-08",
+      "video_id": null,
+      "views": 97,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 2,
+      "followers": 129,
+      "provisional": true,
+      "provisional_motivo": "día reciente (últimos 2 días del rango del export 09/11); TikTok puede seguir sumando"
     }
   ],
   "rows": [
     {
-      "fecha": "2026-10-05",
-      "video_id": null,
-      "views": 556,
-      "likes": 5,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": -2,
-      "profile_views": 2,
-      "followers": 112
-    },
-    {
-      "fecha": "2026-10-06",
-      "video_id": null,
-      "views": 609,
-      "likes": 1,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 3,
-      "profile_views": 0,
-      "followers": 110
-    },
-    {
-      "fecha": "2026-10-07",
-      "video_id": null,
-      "views": 56,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 9,
-      "profile_views": 6,
-      "followers": 113
-    },
-    {
-      "fecha": "2026-10-08",
-      "video_id": null,
-      "views": 69,
-      "likes": 27,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": 3,
-      "profile_views": 6,
-      "followers": 122
-    },
-    {
-      "fecha": "2026-10-09",
-      "video_id": null,
-      "views": 325,
-      "likes": 3,
-      "comments": 0,
-      "shares": 1,
-      "avg_watch": null,
-      "followers_net": 2,
-      "profile_views": 1,
-      "followers": 125
-    },
-    {
-      "fecha": "2026-10-10",
-      "video_id": null,
-      "views": 580,
-      "likes": 3,
-      "comments": 0,
-      "shares": 2,
-      "avg_watch": null,
-      "followers_net": -2,
-      "profile_views": 1,
-      "followers": 127
-    },
-    {
-      "fecha": "2026-10-11",
-      "video_id": null,
-      "views": 318,
-      "likes": 0,
-      "comments": 0,
-      "shares": 0,
-      "avg_watch": null,
-      "followers_net": -1,
-      "profile_views": 2,
-      "followers": 125
-    },
-    {
       "fecha": "2026-10-12",
       "video_id": null,
       "views": 23,
@@ -454,7 +370,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 5,
+      "followers_net": -1,
       "profile_views": 1,
       "followers": 124
     },
@@ -466,7 +382,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -1,
+      "followers_net": 5,
       "profile_views": 1,
       "followers": 129
     },
@@ -478,7 +394,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -1,
       "profile_views": 1,
       "followers": 128
     },
@@ -502,7 +418,7 @@
       "comments": 1,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 2,
+      "followers_net": 0,
       "profile_views": 2,
       "followers": 128
     },
@@ -514,7 +430,7 @@
       "comments": 0,
       "shares": 1,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": 2,
       "profile_views": 3,
       "followers": 130
     },
@@ -550,7 +466,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -2,
+      "followers_net": 0,
       "profile_views": 0,
       "followers": 130
     },
@@ -562,7 +478,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -2,
       "profile_views": 1,
       "followers": 128
     },
@@ -574,7 +490,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 1,
+      "followers_net": 0,
       "profile_views": 2,
       "followers": 128
     },
@@ -610,7 +526,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": 1,
       "profile_views": 8,
       "followers": 131
     },
@@ -646,7 +562,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": -1,
+      "followers_net": 0,
       "profile_views": 1,
       "followers": 131
     },
@@ -658,7 +574,7 @@
       "comments": 0,
       "shares": 0,
       "avg_watch": null,
-      "followers_net": 0,
+      "followers_net": -1,
       "profile_views": 2,
       "followers": 130
     },
@@ -684,9 +600,7 @@
       "avg_watch": null,
       "followers_net": 0,
       "profile_views": 2,
-      "followers": 130,
-      "provisional": true,
-      "provisional_motivo": "día reciente (≤2 días antes del export 03/11); TikTok puede seguir sumando"
+      "followers": 130
     },
     {
       "fecha": "2026-11-01",
@@ -698,40 +612,204 @@
       "avg_watch": null,
       "followers_net": 0,
       "profile_views": 2,
-      "followers": 130,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-02",
+      "video_id": null,
+      "views": 99,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 0,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-03",
+      "video_id": null,
+      "views": 301,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 1,
+      "profile_views": 1,
+      "followers": 131
+    },
+    {
+      "fecha": "2026-11-04",
+      "video_id": null,
+      "views": 196,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 3,
+      "followers": 131
+    },
+    {
+      "fecha": "2026-11-05",
+      "video_id": null,
+      "views": 360,
+      "likes": 1,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": -1,
+      "profile_views": 1,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-06",
+      "video_id": null,
+      "views": 373,
+      "likes": 4,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 2,
+      "followers": 130
+    },
+    {
+      "fecha": "2026-11-07",
+      "video_id": null,
+      "views": 96,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": -1,
+      "profile_views": 1,
+      "followers": 129,
       "provisional": true,
-      "provisional_motivo": "día reciente (≤2 días antes del export 03/11); TikTok puede seguir sumando"
+      "provisional_motivo": "día reciente (últimos 2 días del rango del export 09/11); TikTok puede seguir sumando"
+    },
+    {
+      "fecha": "2026-11-08",
+      "video_id": null,
+      "views": 97,
+      "likes": 0,
+      "comments": 0,
+      "shares": 0,
+      "avg_watch": null,
+      "followers_net": 0,
+      "profile_views": 2,
+      "followers": 129,
+      "provisional": true,
+      "provisional_motivo": "día reciente (últimos 2 días del rango del export 09/11); TikTok puede seguir sumando"
     }
   ],
-  "followers_source": "FollowerHistory_20261103T090338Z.csv",
-  "solape_vs_20261020": {
-    "comparado_con": "20261020T042226Z",
-    "dias_overview_comparados": 14,
-    "dias_viewers_comparados": 14,
-    "dias_followerhistory_comparados": 14,
+  "followers_source": "FollowerHistory_20261109T201300Z.csv",
+  "solape_vs_20261103": {
+    "comparado_con": "20261103T090338Z",
+    "dias_overview_comparados": 21,
+    "dias_viewers_comparados": 22,
+    "dias_followerhistory_comparados": 21,
     "cambios": [
       {
-        "fecha": "2026-10-19",
+        "fecha": "2026-11-02",
         "fichero": "Viewers",
         "columna": "Total Viewers",
-        "antes_20261020": "undefined",
-        "ahora": "380"
+        "antes_20261103": "undefined",
+        "ahora": "77"
       },
       {
-        "fecha": "2026-10-19",
+        "fecha": "2026-11-02",
         "fichero": "Viewers",
         "columna": "New Viewers",
-        "antes_20261020": "0",
-        "ahora": "265"
+        "antes_20261103": "0",
+        "ahora": "71"
       },
       {
-        "fecha": "2026-10-19",
+        "fecha": "2026-11-02",
         "fichero": "Viewers",
         "columna": "Returning Viewers",
-        "antes_20261020": "0",
-        "ahora": "115"
+        "antes_20261103": "0",
+        "ahora": "6"
+      },
+      {
+        "fecha": "2026-10-12",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "5",
+        "ahora": "-1"
+      },
+      {
+        "fecha": "2026-10-13",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "-1",
+        "ahora": "5"
+      },
+      {
+        "fecha": "2026-10-14",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "0",
+        "ahora": "-1"
+      },
+      {
+        "fecha": "2026-10-16",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "2",
+        "ahora": "0"
+      },
+      {
+        "fecha": "2026-10-17",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "0",
+        "ahora": "2"
+      },
+      {
+        "fecha": "2026-10-20",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "-2",
+        "ahora": "0"
+      },
+      {
+        "fecha": "2026-10-21",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "0",
+        "ahora": "-2"
+      },
+      {
+        "fecha": "2026-10-22",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "1",
+        "ahora": "0"
+      },
+      {
+        "fecha": "2026-10-25",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "0",
+        "ahora": "1"
+      },
+      {
+        "fecha": "2026-10-28",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "-1",
+        "ahora": "0"
+      },
+      {
+        "fecha": "2026-10-29",
+        "fichero": "FollowerHistory",
+        "columna": "Difference in followers from previous day",
+        "antes_20261103": "0",
+        "ahora": "-1"
       }
     ],
-    "nota": "Comparación celda a celda de los días comunes (05–18/10 Overview) con el export del 20/10. Overview: 0 celdas cambiadas; Viewers: 3; FollowerHistory: 0 (la columna Difference no se usa)."
-  }
+    "nota": "Comparación celda a celda de los días comunes (12/10–01/11 Overview) con el export del 03/11. Overview: 0 celdas cambiadas; Viewers: 3; FollowerHistory: 11 (la columna Difference no se usa; el stock Followers no cambia en el solape)."
+  },
+  "overview_7d_source": "Overview_20261109T201300Z_w45.csv"
 }
