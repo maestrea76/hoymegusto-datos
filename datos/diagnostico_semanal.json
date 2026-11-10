@@ -1,13 +1,13 @@
 {
-  "generado": "2026-11-03T03:37:29.866454+01:00",
-  "semana": "2026-W45",
+  "generado": "2026-11-10T03:53:52.986178+01:00",
+  "semana": "2026-W46",
   "revision": {
     "cuando": "martes 10:00 Europe/Madrid",
-    "proxima": "2026-11-03T10:00:00+01:00",
-    "siguiente_ciclo": "2026-11-10T10:00:00+01:00"
+    "proxima": "2026-11-10T10:00:00+01:00",
+    "siguiente_ciclo": "2026-11-17T10:00:00+01:00"
   },
   "headline": "Cero clics al enlace",
-  "lead": "27 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1.",
+  "lead": "18 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1.",
   "sev": "bad",
   "pills": [
     [
@@ -31,37 +31,37 @@
     {
       "sev": "bad",
       "t": "Cero clics al enlace",
-      "d": "27 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1."
+      "d": "18 visitas al perfil y website_clicks = 0. Story con sticker de enlace en cada publicación; CTA de bio en el segundo 1."
     },
     {
       "sev": "bad",
       "t": "TikTok no lleva al perfil",
-      "d": "Views→perfil 0.69% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
+      "d": "Views→perfil 0.70% (meta ≥1%). El núcleo orgánico no pide el follow; las promo inflan views."
     },
     {
       "sev": "warn",
       "t": "No hay bucle viral",
-      "d": "20 guardados y 1 compartidos (0.18% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
+      "d": "19 guardados y 3 compartidos (0.16% save). En belleza manda el save; se guarda y se comparte el dato útil (cómo se usa, para qué piel), no el elogio."
     },
     {
       "sev": "warn",
       "t": "No leas el pico de TikTok como orgánico",
-      "d": "2 piezas promo y 17 de núcleo. Mediana orgánica 277 views. Las decisiones de formato salen del núcleo."
+      "d": "2 piezas promo y 35 de núcleo. Mediana orgánica 279 views. Las decisiones de formato salen del núcleo."
     },
     {
       "sev": "warn",
       "t": "Falta el primer comentario",
-      "d": "17 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
+      "d": "13 de 50 pubs con primer_comentario_ok = false. Es regla de publish Graph, no de métrica."
     }
   ],
   "acciones": [
     {
       "k": "01 · Clics + 1er comentario",
-      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 17 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
+      "t": "Story de enlace en cada pub Y primer comentario obligatorio en Graph. Falta en 13 de 50 (OK = comments_count>0; un GET vacío no cuenta como fallo)."
     },
     {
       "k": "02 · Formato",
-      "t": "Repite el gancho de «¿Qué es el PDRN del que habla todo el mundo?» (1 shares): pregunta en pantalla en el segundo 1–3."
+      "t": "Repite el gancho de «¿Parches de ojos que no se caen?» (2 shares): pregunta en pantalla en el segundo 1–3."
     },
     {
       "k": "03 · Cadencia TT",
@@ -69,53 +69,50 @@
     }
   ],
   "kpis": {
-    "followers_ig": 53.0,
-    "delta_7d": 3.0,
+    "followers_ig": 54.0,
+    "delta_7d": 1.0,
     "delta_7d_nota": null,
-    "delta_30d": 8.0,
+    "delta_30d": 10.0,
     "delta_30d_nota": null,
     "website_clicks": 0.0,
-    "profile_views": 27.0,
-    "views_ig_piezas": 11137.0,
-    "tt_views": 1592.0,
+    "profile_views": 18.0,
+    "views_ig_piezas": 12162.0,
+    "tt_views": 1564.0,
     "tt_profile_views": 11.0,
-    "tt_views_perfil": 0.006909547738693468,
+    "tt_views_perfil": 0.007033248081841432,
     "tt_views_perfil_ventana": [
-      "2026-10-12",
-      "2026-10-18"
+      "2026-10-31",
+      "2026-11-06"
     ],
-    "tt_views_perfil_fuente": "tiktok_overview_latest.json rows (ultimos 7 dias firmes) import 20261020T042226Z",
-    "tt_views_export": 14988.0,
-    "tt_profile_views_export": 95.0,
-    "tt_views_perfil_export": 0.006338404056578597,
-    "ig_bajo_50": "23/50",
-    "primer_comentario_ok": "33/50",
-    "primer_comentario_texto_nota": "33 posts con comments_count>0 cuyo texto no se pudo leer (GET /comments vacío). El OK no depende del texto.",
+    "tt_views_perfil_fuente": "tiktok_overview_latest.json rows (ultimos 7 dias firmes) import 20261109T201300Z",
+    "tt_views_export": 6439.0,
+    "tt_profile_views_export": 48.0,
+    "tt_views_perfil_export": 0.007454573691567014,
+    "ig_bajo_50": "18/50",
+    "primer_comentario_ok": "37/50",
+    "primer_comentario_texto_nota": null,
     "primer_comentario_cc_ausente": 0,
-    "cola_pendientes": 9,
-    "cola_publicados": 28,
-    "tt_cadencia_7d": "3/14",
+    "cola_pendientes": 12,
+    "cola_publicados": 19,
+    "tt_cadencia_7d": "2/14",
     "tt_cadencia_fuente": {
       "fuente": "union dedupe: cola.json publicados (red TT) + notas de cola.fuente + Post time de tiktok.json",
-      "fuente_usada": "publicados",
+      "fuente_usada": "tiktok.json",
       "ventana": "7 dias previos a la run, Europe/Madrid; fecha sin hora = 12:00 Madrid",
-      "desde": "2026-10-27T03:37:29.866454+01:00",
-      "hasta": "2026-11-03T03:37:29.866454+01:00",
+      "desde": "2026-11-03T03:53:52.986178+01:00",
+      "hasta": "2026-11-10T03:53:52.986178+01:00",
       "incluye_carruseles_tt": true,
       "publicados": [
-        "2026-10-27 l-oreal-paris-accord-parfait-serum-con-color (video; publicados)",
-        "2026-10-28 medicube-capsule-cream-pdrn (video; publicados)",
-        "2026-10-29 redken-abc-acondicionador-sin-aclarar (video; publicados)"
+        "2026-11-03 piel-tirante-con-la-calefaccion-wonder-c (video; tiktok.json)",
+        "2026-11-06 pelo-suave-y-sin-encrespar-con-unas-gota (video; tiktok.json)"
       ],
-      "sin_fecha_no_contados": [
-        "remington-keratin-therapy-s8593"
-      ]
+      "sin_fecha_no_contados": []
     },
     "ig_carruseles_7d": 0,
-    "ig_reels_7d": 4,
+    "ig_reels_7d": 5,
     "mejor_reel": {
       "title": "¿Sérum con color en vez de base?",
-      "views": 3942.0,
+      "views": 3947.0,
       "avg": 7.8
     }
   },
@@ -125,8 +122,8 @@
     "cola": true,
     "tiktok": true,
     "overview": true,
-    "tt_generado": "2026-10-20T04:22:26+00:00",
-    "tt_content_import": "20261020T042226Z"
+    "tt_generado": "2026-11-09T20:13:00+00:00",
+    "tt_content_import": "20261109T201300Z"
   },
   "regla": "no inventar nulls; umbrales fijos; promo ≠ orgánico; manda API/CSV no la parrilla"
 }
