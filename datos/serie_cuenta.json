@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-12T00:05:59.958979+00:00",
+  "generado": "2026-11-12T23:15:42.697941+00:00",
   "fuente": "instagram_graph",
   "dias": [
     {
@@ -669,15 +669,10 @@
     {
       "fecha": "2026-11-11",
       "followers_count": null,
-      "profile_views": null,
-      "website_clicks": null,
-      "views": null,
-      "reach": 10,
-      "motivos_null": {
-        "views": "dia en curso en America/Los_Angeles (Meta): se completa en el siguiente run",
-        "website_clicks": "dia en curso en America/Los_Angeles (Meta): se completa en el siguiente run",
-        "profile_views": "dia en curso en America/Los_Angeles (Meta): se completa en el siguiente run"
-      }
+      "profile_views": 0,
+      "website_clicks": 0,
+      "views": 14,
+      "reach": 11
     },
     {
       "fecha": "2026-11-12",
